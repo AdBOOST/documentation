@@ -29,15 +29,11 @@
 
     <div id="content-wrapper">
       <div class="inner clearfix">
-        <section id="main-content">
-          {{ content }}
-        </section>
-
-        <aside id="sidebar">
-          <div>
+        <div class="row">
+          <div class="col-md-12">
             <p>
               <span>Powered by</span>
-              <img src="http://res.cloudinary.com/hilnmyskv/image/upload/v1481643883/algolia-logo-horizontal_yov4e3.svg" alt="Algolia Logo">
+              <img src="http://res.cloudinary.com/hilnmyskv/image/upload/v1481643883/algolia-logo-horizontal_yov4e3.svg" alt="Algolia Logo" width="50">
               <span>
                 <a href="powered-by-algolia.zip" alt="Download Algolia assets">
                   <img src="https://res.cloudinary.com/hilnmyskv/image/upload/v1461179992/icon-download.svg" alt="download" width="19px">
@@ -45,6 +41,12 @@
               </span>
             </p>
           </div>
+        </div>
+        <section id="main-content">
+          {{ content }}
+        </section>
+
+        <aside id="sidebar">
           <label>SITE MAP</label>
           <ul>
             <li>Feed exports</li>
