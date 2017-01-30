@@ -4,5 +4,9 @@
 @import "{{ site.theme }}";
 
 header {
-    background-color: #803f99;
+  h2 {
+    width: 100%;
+    color: #d00465;
+  }
+  background-color: #803f99 !important;
 }
