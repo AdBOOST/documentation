@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## AdBOOST.sk - platform manual
 
 You can use the [editor on GitHub](https://github.com/angolinha/adboost/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -23,7 +23,7 @@ Syntax highlighted code block
 
 **Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+[Link](url) and ![Image](/assets/images/adbLogo.png)
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
