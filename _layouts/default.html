@@ -10,23 +10,31 @@
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
     <title>AdBOOST.sk - platform manual</title>
   </head>
-  <body>
+  <body ng-controller="adbDocsController">
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
           <h1>AdBOOST.sk</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <a href="{{ site.github.repository_url }}" class="button">Log in or <small>Register for free</small></a>
+        <a href="{{ site.github.repository_url }}" class="button header-btn">Log in or <small>Register for free</small></a>
       </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-9">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search all manual pages for any phrases"
+              ng-change="search()"
+              ng-blur="search()">
+          </div>
+          <div class="col-md-3">
             <p>
-              <span>Powered by</span>
+              <span>Search powered by</span>
               <img src="http://res.cloudinary.com/hilnmyskv/image/upload/v1481643883/algolia-logo-horizontal_yov4e3.svg" alt="Algolia Logo" width="50">
               <span>
                 <a href="powered-by-algolia.zip" alt="Download Algolia assets">
@@ -41,12 +49,24 @@
         </section>
 
         <aside id="sidebar">
-          <label>SITE MAP</label>
-          <ul>
-            <li>Feed exports</li>
-            <li>Category mappping</li>
-            <li>Banners as product images</li>
-          </ul>
+          <label>Follow us:</label>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="https://www.facebook.com/adboostapp/" target="_blank"><i class="fa fa-facebook-official">&nbsp;</i></a>
+            </div>
+            <div class="col-md-4">
+            <a href="https://www.linkedin.com/company/adboost" target="_blank"><i class="fa fa-linkedin">&nbsp;</i></a>
+            </div>
+            <div class="col-md-4">
+              <a href="https://twitter.com/AdBoostAPI" target="_blank"><i class="fa fa-twitter">&nbsp;</i></a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <label>SITE MAP</label>
+              [TOC]
+            </div>
+          </div>
         </aside>
       </div>
     </div>
@@ -70,9 +90,14 @@
     <script>
       var client = algoliasearch('CYKKMZUHCD', '8896d1522b51d7552d00318772de81e0');
       var index = client.initIndex('adboost-docs');
-      index.search('export', function searchDone(err, content) {
-        console.log(err, content);
-      });
+
+      function adbDocsController($scope){
+        $scope.search = function(){
+          index.search('export', function searchDone(err, content) {
+            console.log(err, content);
+          });
+        }
+      }
     </script>
   </body>
 </html>
