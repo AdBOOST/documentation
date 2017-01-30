@@ -1109,7 +1109,9 @@ header {
   background: #803f99 url(../images/adb-header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #7d33a4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h3 {
     width: 100%;
     color: #9ddcff;
   }
