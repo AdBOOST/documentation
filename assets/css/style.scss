@@ -1,6 +1,8 @@
 ---
 ---
 
+@import "jekyll-theme-architect";
+
 @mixin calc($property, $expression) {
   #{$property}: -moz-calc(#{$expression});
   #{$property}: -webkit-calc(#{$expression});

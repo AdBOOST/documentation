@@ -5,4 +5,4 @@ gems:
 algolia:
   application_id: 'CYKKMZUHCD'
   index_name:     'adboost-docs'
-  record_css_selector: 'p,ul'
+  record_css_selector: 'p,ul,h1,h2,h3,h4'
