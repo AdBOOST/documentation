@@ -1,1 +1,8 @@
 theme: jekyll-theme-architect
+exclude: [vendor]
+gems:
+  - algoliasearch-jekyll
+algolia:
+  application_id: 'CYKKMZUHCD'
+  index_name:     'adboost-docs'
+  record_css_selector: 'p,ul'
