@@ -3,6 +3,12 @@
 
 @import "{{ site.theme }}";
 
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
 header {
   background: #803f99 url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #7d33a4;
@@ -10,19 +16,34 @@ header {
     width: 100%;
   }
   .header-btn {
+    float: right;
+    margin-top: -100px;
+    color: #fff;
     width: 200px;
     height: 80px;
     border: 2px solid #fff;
     border-radius: 10px;
+    font-size: x-large;
+    .header-logo, .header-login {
+      float: left;
+    }
   }
 }
-
+#main-content {
+  @include calc(width, '100% - 300px');
+}
 #sidebar {
-  ul {
+  width: 300px;
+  label {
     font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
     font-size: 18px;
     font-weight: bold;
     color: #474747;
     text-indent: 3px;
+  }
+  ul {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-weight: 300;
+    font-size: medium;
   }
 }
