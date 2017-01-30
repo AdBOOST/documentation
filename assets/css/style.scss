@@ -4,9 +4,25 @@
 @import "{{ site.theme }}";
 
 header {
+  background: #803f99 url(../images/header-bg.jpg) 0 0 repeat-x;
+  border-bottom: solid 1px #7d33a4;
   h2 {
     width: 100%;
   }
-  background: #803f99 url(../images/header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #7d33a4;
+  .header-btn {
+    width: 200px;
+    height: 80px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+  }
+}
+
+#sidebar {
+  ul {
+    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #474747;
+    text-indent: 3px;
+  }
 }
