@@ -6,3 +6,14 @@ algolia:
   application_id: 'CYKKMZUHCD'
   index_name:     'adboost-docs'
   record_css_selector: 'p,ul,h1,h2,h3,h4'
+  settings:
+    attributesToIndex:
+      - title
+      - h1
+      - h2
+      - h3
+      - h4
+      - h5
+      - h6
+      - unordered(text)
+      - unordered(tags)
