@@ -17,13 +17,7 @@
           <h1>AdBOOST.sk</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-        <a href="https://app.adboost.sk/auth/login/" class="header-btn">
-          <img src="assets/images/adbLogo.png" class="header-logo">
-          <span class="header-login">
-            Log in or
-            <small>Register for free</small>
-          </span>
-        </a>
+        <a href="{{ site.github.repository_url }}" class="button">Log in or <small>Register for free</small></a>
       </div>
     </header>
 
