@@ -67,5 +67,12 @@
         } catch(err) {}
       </script>
     {% endif %}
+    <script>
+      var client = algoliasearch('CYKKMZUHCD', '8896d1522b51d7552d00318772de81e0');
+      var index = client.initIndex('adboost-docs');
+      index.search('export', function searchDone(err, content) {
+        console.log(err, content);
+      });
+    </script>
   </body>
 </html>
