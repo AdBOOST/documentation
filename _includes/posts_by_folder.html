@@ -1,0 +1,9 @@
+<ul>
+{% for post in site.posts %}
+  {% if post.path contains include.path %}
+    <li>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </li>
+  {%endif %}
+{% endfor %}
+</ul>

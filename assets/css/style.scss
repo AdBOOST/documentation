@@ -1105,19 +1105,34 @@ footer a:hover {
   #{$property}: calc(#{$expression});
 }
 
+body {
+  font-family: 'Source Sans Pro';
+}
+
 header {
-  background: #803f99 url(../images/adb-header-bg.jpg) 0 0 repeat-x;
-  border-bottom: solid 1px #7d33a4;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  h2 {
-    color: #fff;
-    font-weight: bold;
+  & {
+    background: #803f99 url(../images/adb-header-bg.jpg) 0 0 repeat-x;
+    border-bottom: solid 1px #7d33a4;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  h3 {
+  h2 {
+    & {
+      color: #fff;
+      font-weight: bold;
+      font-size: -webkit-xxx-large;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  .subtitle {
+    font-size: 20px;
     width: 100%;
-    color: #9ddcff;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
   }
   .header-btn {
     width: 220px;
@@ -1125,20 +1140,24 @@ header {
     padding-left: 90px;
   }
 }
+
 #main-content {
   @include calc(width, '100% - 300px');
 }
+
 #sidebar {
-  width: 300px;
+  & {
+    width: 300px;
+  }
   label {
-    font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Source Sans Pro';
     font-size: 18px;
     font-weight: bold;
     color: #474747;
     text-indent: 3px;
   }
   ul {
-    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+    font-family: 'Source Sans Pro';
     font-weight: 300;
     font-size: medium;
   }
