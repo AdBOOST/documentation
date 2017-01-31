@@ -6,10 +6,10 @@ category: feed_management
 tags: [feed, export]
 ---
 
-## Feed Exports
-
 * TOC
 {:toc}
+
+## Feed Exports
 
 ### Basic setup
 
@@ -72,7 +72,7 @@ Feed exports for Facebook allow you to assign automated banner ads created with 
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookBannerMapping.png" alt="Facebook Banner Mapping" style="" %}
 
-If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual]({% post_url 2017-01-31-banner-generator %}) to create some.
+If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual](/AdBOOST{% post_url 2017-01-31-banner-generator %}) to create some.
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookNoBanners.png" alt="Facebook No Banners" style="" %}
 
@@ -93,10 +93,17 @@ If you have set all required properties and your are satisfied with overall stru
 
 ### Export status
 
-No matter what option you choose, every screen of export setup will contain status label and URL after first schema submit.
+No matter what option you choose, every screen of export setup will contain status label and URL after first schema submit. **URL is persistent. Once it has been generated, it will forever refer to this specific export**. If there are some changes in schema, category mapping, assigned banner templates or in feed data, export will be re-processed and this URL will always contain most up-to-date version.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportStatusLabel.png" alt="Export Status Label" style="" %}
 
 Status label is an indicator of export health and can have following states:
 
 {% include image_tag.html url="/AdBOOST/images/StatusLabelStates.png" alt="Status Label States" style="" %}
+
+It always contains state information and action button. <i class="fa fa-refresh">&nbsp;</i>icon starts re-processing of export and <i class="fa fa-clock-o">&nbsp;</i>icon show dialog displayed below which contains information about export processing history, corresponding issues and recovers.
+
+{% include image_tag.html url="/AdBOOST/images/exports/ExportProcessingLog.png" alt="Export Processing Log" style="" %}
+
+
+
