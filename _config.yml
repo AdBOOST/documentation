@@ -1,4 +1,3 @@
-BASE_PATH : /AdBOOST
 theme: jekyll-theme-architect
 exclude: [vendor]
 gems:

@@ -1,3 +1,8 @@
+---
+layout: default
+title:  "AdBOOST.sk - platform manual"
+---
+
 ## AdBOOST.sk - platform manual
 
 
