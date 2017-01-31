@@ -9,7 +9,7 @@ tags: [feed, export]
 ## Feed Exports
 
 <a href="/AdBOOST/images/exports/LeftMenuExport.png" data-lightbox="LeftMenuExport" data-title="Left Menu Export">
-    ![LeftMenuExport](/AdBOOST/images/exports/LeftMenuExport.png)
+    <img src="/AdBOOST/images/exports/LeftMenuExport.png" alt="Left Menu Export">
 </a>
 In left context menu choose <i class="fa fa-database">&nbsp;</i> Data Management > <i class="fa fa-share">&nbsp;</i> Exports.
 
