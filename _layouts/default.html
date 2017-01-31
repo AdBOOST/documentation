@@ -10,6 +10,7 @@
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+    <link rel="stylesheet" href="{{ '/assets/css/lightbox.min.css' | relative_url }}" media="print" type="text/css">
     <title>AdBOOST.sk - platform manual</title>
   </head>
   <body ng-app="adboostApp" ng-controller="adbDocsController">
@@ -50,7 +51,12 @@
           </div>
         </div>
         <section id="main-content">
+        {% if page.content %}
           {{ page.content }}
+        {% endif %}
+        {% if content %}
+          {{ content }}
+        {% endif %}
         </section>
 
         <aside id="sidebar">
@@ -74,6 +80,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script href="{{ '/assets/js/lightbox.min.js' | relative_url }}"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
     {% if site.google_analytics %}
