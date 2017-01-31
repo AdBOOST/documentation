@@ -163,6 +163,7 @@
 
         $scope.search = function(){
           index.search($scope.search_phrase, function searchDone(err, content) {
+            console.log(content);
             $scope.total_results = 0;
             $scope.search_results = [];
             $scope.no_search = false;
