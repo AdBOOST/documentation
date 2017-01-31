@@ -1230,3 +1230,60 @@ header {
     font-size: medium;
   }
 }
+.search-form-holder {
+  .navbar-form {
+    & {
+      background-color: #fafafa;
+      width: 100%;
+      padding: 0;
+      margin-top: -5px;
+      margin-left: -40px;
+    }
+    .input-group {
+      & {
+        width: 100%;
+      }
+      .input-group-btn {
+        margin-right: 0px;
+        width: 20px;
+      }
+    }
+    .navbar-form {
+      input {
+        border-top-left-radius: 4px;
+      }
+      .btn {
+        border-bottom-right-radius: 0px;
+      }
+      input, .btn {
+        opacity: 1.0;
+        transition: all 0.7s;
+      }
+    }
+    .search_results_box {
+      position: absolute;
+      top: 42px;
+      left: 15px;
+      background-color: white;
+      width: auto;
+      height: auto;
+      max-height: calc(~"100vh - 100px");
+      border-radius-bottom-left: 5px;
+      border-radius-bottom-right: 5px;
+      padding: 10px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      box-shadow: 0px 3px 9px #bbb;
+      transition: all 0.7s;
+    }
+    .products-list {
+      .product-info {
+        margin-left: 20px;
+      }
+    }
+    .results-header {
+      font-size: 80%;
+      margin-bottom: 5px;
+    }
+  }
+}

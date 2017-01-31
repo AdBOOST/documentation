@@ -26,7 +26,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <div class="row">
-          <div class="col-md-9" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()">
+          <div class="col-md-9 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()">
             <form class="navbar-form" role="search" id="search-form">
               <div class="input-group">
                 <input
@@ -169,7 +169,7 @@
             $scope.total_results = content.hits.length;
             if($scope.total_results != 0){
               for(var i in content.hits) {
-                $scope.search_results.append({
+                $scope.search_results.push({
                   'title': content.hits[i].unique_hierarchy,
                   'link': content.hits[i].url,
                   'type': content.hits[i].type
