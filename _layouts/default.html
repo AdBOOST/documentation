@@ -53,8 +53,8 @@
 
         <aside id="sidebar">
           <div class="row">
-            <div class="col-md-12">
-              Follow us:
+            <div class="col-md-12 social">
+              <sapn>Follow us:</sapn>
               <a href="https://www.facebook.com/adboostapp/" target="_blank"><i class="fa fa-facebook">&nbsp;</i></a>
               <a href="https://www.linkedin.com/company/adboost" target="_blank"><i class="fa fa-linkedin">&nbsp;</i></a>
               <a href="https://twitter.com/AdBoostAPI" target="_blank"><i class="fa fa-twitter">&nbsp;</i></a>
@@ -97,7 +97,7 @@
 
       var adboostApp = angular.module('adboostApp', []);
 
-      app.directive('myEnter', function () {
+      adboostApp.directive('myEnter', function () {
         return function (scope, element, attrs) {
           element.bind("keydown keypress", function (event) {
             if(event.which === 13) {
