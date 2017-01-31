@@ -147,9 +147,15 @@
       });
 
       adboostApp.controller('adbDocsController', function($scope){
-        $scope.show_search_box = false;
-        $scope.search_phrase = '';
-        $scope.no_search = true;
+        function init(){
+          $scope.total_results = 0;
+          $scope.search_results = [];
+          $scope.show_search_box = false;
+          $scope.search_phrase = '';
+          $scope.no_search = true;
+        }
+
+        init();
 
         $scope.mouseOver = function() {
           $scope.show_search_box = true;
@@ -162,6 +168,10 @@
         }
 
         $scope.search = function(){
+          if($scope.search_phrase == ""){
+            init();
+            return;
+          }
           index.search($scope.search_phrase, function searchDone(err, content) {
             $scope.total_results = 0;
             $scope.search_results = [];
