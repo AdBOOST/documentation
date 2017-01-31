@@ -1289,23 +1289,39 @@ header {
 }
 a.image {
   & {
-    background-size: cover;
-    overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 200px;
   }
-  #overlay {
-    background: rgba(0,0,0,.75);
-    text-align: center;
-    padding: 45px 0 66px 0;
-    opacity: 0;
-    -webkit-transition: opacity .25s ease;
+  img {
+    width: 100%;
+    vertical-align: top;
   }
-  &:hover #overlay {
-    opacity: 0.7;
+  &:after, &:before {
+    position:absolute;
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
   }
-  #plus {
-    font-family: Helvetica;
-    font-weight: 900;
-    color: rgba(255,255,255,.85);
-    font-size: 96px;
+  &:after {
+    content:'\A';
+    width:100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+  }
+  &:before {
+    content: attr(data-content);
+    width:100%;
+    color:#fff;
+    z-index:1;
+    bottom:0;
+    padding:4px 10px;
+    text-align:center;
+    background:red;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+  }
+  &:hover:after, &:hover:before {
+    opacity:1;
   }
 }
