@@ -58,9 +58,9 @@
               <ul class="products-list product-list-in-box" ng-show="!no_search && total_results > 0">
                 <li class="item" ng-repeat="result in search_results">
                   <div class="product-info">
-                    <a href="#" ng-click="resultClick(result)" class="product-title pointer">
+                    <div ng-click="resultClick(result)" class="product-title pointer">
                       <span ng-bind="result.title"></span>
-                    </a>
+                    </div>
                     <span class="product-description">
                       <span ng-bind="result.type"></span>
                     </span>
@@ -163,7 +163,6 @@
 
         $scope.search = function(){
           index.search($scope.search_phrase, function searchDone(err, content) {
-            console.log(content);
             $scope.total_results = 0;
             $scope.search_results = [];
             $scope.no_search = false;

@@ -1258,15 +1258,6 @@ header {
       opacity: 1.0;
       transition: all 0.7s;
     }
-    .products-list {
-      .product-info {
-        margin-left: 20px;
-      }
-    }
-    .results-header {
-      font-size: 80%;
-      margin-bottom: 5px;
-    }
   }
   .search_results_box {
     position: absolute;
@@ -1286,5 +1277,13 @@ header {
     padding: 4px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+  .products-list {
+    .product-info {
+      margin-left: 15px;
+    }
+  }
+  .results-header {
+    padding-left: 15px;
   }
 }
