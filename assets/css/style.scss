@@ -1294,8 +1294,9 @@ a.image {
     width: auto;
   }
   img {
-    width: 100%;
     vertical-align: top;
+    margin: 0 auto
+    max-width: 100%;
   }
   &:after, &:before {
     position: absolute;

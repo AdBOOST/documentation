@@ -8,6 +8,11 @@ tags: [feed, export]
 
 ## Feed Exports
 
+* TOC
+{:toc}
+
+### Basic setup
+
 In left context menu choose <i class="fa fa-database">&nbsp;</i> Data Management > <i class="fa fa-share">&nbsp;</i> Exports.<br/>
 
 {% include image_tag.html url="/AdBOOST/images/exports/LeftMenuExport.png" alt="Left Menu Export" style="height:200px;" %}
@@ -28,7 +33,7 @@ After you have filled in first two required properties of your export, additiona
 
 You can also provide feed property in combination with static value that will be used in case of missing property value for some of your feed items.
 
-There are also "sets" of properties that require at least one of them to be set. E.g. in case of Facebook, you have to set at least one of Identifier, Brand and MPN properties. These properties are highlighted in yellow but do not have red asterisk next the title.
+There are also "sets" of properties that require at least one of them to be set. E.g. in case of Facebook, you have to set at least one of Identifier, Brand and MPN properties. These properties are highlighted in yellow but do not have red asterisk next to the title.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportFormProgress.png" alt="Export Form Progress" style="" %}
 
@@ -36,10 +41,12 @@ Some export properties can have only certain values supported by target network.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportStaticFieldValid.png" alt="Export Static Field Valid" style="" %}
 
+### Category mapping
+
 AdBOOST allows you to map your item categories to values supported by export's target network. This feature is currently available for:
 
 - <i class="fa fa-google google-icon-color">&nbsp;</i> Google Merchant Center [EN/CZ]
-- <i class="fa fa-facebook-official facebook-icon-color">&nbsp;</i> Facebook [EN]
+- <i class="fa fa-facebook-square facebook-icon-color">&nbsp;</i> Facebook [EN]
 - <i class="network-icon heureka">&nbsp;</i> Heureka [CZ/SK]
 - <i class="network-icon zbozi">&nbsp;</i> Zbozi.cz [CZ]
 
@@ -55,6 +62,8 @@ When you are satisfied with your category mapping, save the content of dialog. *
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportCategoryMappingActive.png" alt="Export Category Mapping Active" style="" %}
 
+### Automated banners as product images
+
 Feed exports for Facebook allow you to assign automated banner ads created with AdBOOST as product images. This feature is available after clicking to <span class="btn btn-sm btn-default"><i class="fa fa-image">&nbsp;</i> Assign banner templates</span> button. Whether you activate it or not, AdBOOST will choose image for your product in this order:
 
 1. Banner templates in your priority order (if there are any)
@@ -63,6 +72,31 @@ Feed exports for Facebook allow you to assign automated banner ads created with 
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookBannerMapping.png" alt="Facebook Banner Mapping" style="" %}
 
-If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual]({% post_url 2017-01-31-banner-generator %}) to create some.
+If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual]({% post_url 2017-01-31-banner-generator | prepend: "/AdBOOST" %}) to create some.
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookNoBanners.png" alt="Facebook No Banners" style="" %}
+
+When you have successfully created at least one banner template, that is eligible for usage in Facebook (ratio 1:1 and minimal width 600px), content of banner template assign dialog will change to version shown on image below.
+
+{% include image_tag.html url="/AdBOOST/images/exports/FacebookBannersModal.png" alt="Facebook Banners Modal" style="" %}
+
+As in case of category mapping, green <i class="glyphicon glyphicon-ok">&nbsp;</i>icon will be displayed in image property row to indicate that banner template assign is active, right after submit of dialog.
+
+{% include image_tag.html url="/AdBOOST/images/exports/FacebookBannerAssignActive.png" alt="Facebook Banners Assign Active" style="" %}
+
+If you have set all required properties and your are satisfied with overall structure of your export, scroll to the bottom of the page and click one of submit buttons:
+
+- Save & export - saves the export schema, creates export itself and refreshes the page
+- Save & go to next step - does same as the first button but navigates to item filtering after successfull save
+
+{% include image_tag.html url="/AdBOOST/images/exports/ExportSubmitBtns.png" alt="Export Submit Buttons" style="" %}
+
+### Export status
+
+No matter what option you choose, every screen of export setup will contain status label and URL after first schema submit.
+
+{% include image_tag.html url="/AdBOOST/images/exports/ExportStatusLabel.png" alt="Export Status Label" style="" %}
+
+Status label is an indicator of export health and can have following states:
+
+{% include image_tag.html url="/AdBOOST/images/StatusLabelStates.png" alt="Status Label States" style="" %}
