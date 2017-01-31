@@ -72,7 +72,7 @@ Feed exports for Facebook allow you to assign automated banner ads created with 
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookBannerMapping.png" alt="Facebook Banner Mapping" style="" %}
 
-If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual]({% post_url 2017-01-31-banner-generator | prepend: "/AdBOOST" %}) to create some.
+If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual]({% post_url 2017-01-31-banner-generator %}) to create some.
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookNoBanners.png" alt="Facebook No Banners" style="" %}
 
