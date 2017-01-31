@@ -9,8 +9,8 @@ tags: [feed, export]
 ## Feed Exports
 
 In left context menu choose <i class="fa fa-database">&nbsp;</i> Data Management > <i class="fa fa-share">&nbsp;</i> Exports.<br/>
-<a href="../images/exports/LeftMenuExport.png" data-lightbox="LeftMenuExport" data-title="Left Menu Export">
-    <img src="../images/exports/LeftMenuExport.png" alt="Left Menu Export" height="200">
+<a href="#" data-featherlight="/AdBOOST/images/exports/LeftMenuExport.png">
+    <img src="/AdBOOST/images/exports/LeftMenuExport.png" alt="Left Menu Export" height="200">
 </a>
 
 If you have not created any export yet, you will be greeted by welcome screen consisting of selection of available target networks.
