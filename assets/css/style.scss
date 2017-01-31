@@ -1117,6 +1117,9 @@ header {
     padding-top: 10px;
     padding-bottom: 0px;
   }
+  a:hover {
+    text-decoration: none;
+  }
   h2 {
     & {
       color: #fff;

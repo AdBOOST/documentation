@@ -8,7 +8,7 @@ tags: [feed, export]
 
 ## Feed Exports
 
-In left context menu choose <i class="fa fa-database">&nbsp;</i> Data Management > <i class="fa fa-share">&nbsp;</i> Exports.
+In left context menu choose <i class="fa fa-database">&nbsp;</i> Data Management > <i class="fa fa-share">&nbsp;</i> Exports.<br/>
 <a href="/AdBOOST/images/exports/LeftMenuExport.png" data-lightbox="LeftMenuExport" data-title="Left Menu Export">
     <img src="/AdBOOST/images/exports/LeftMenuExport.png" alt="Left Menu Export" height="200">
 </a>
@@ -47,3 +47,5 @@ Afterwards, you can click "<i class="fa fa-wrench">&nbsp;</i> Map to {NETWORK} c
 
 When you are satisfied with your category mapping, save the content of dialog. **If you close the dialog without saving, values will be lost**. Otherwise, you will notice that default value of attribute in main form has changed and green <i class="glyphicon glyphicon-ok">&nbsp;</i> icon has appeared in category property row to indicate that mapping is active.
 ![ExportCategoryMappingActive](/AdBOOST/images/exports/ExportCategoryMappingActive.png)
+
+<script href="{{ '/assets/js/lightbox.min.js' | relative_url }}"></script>
