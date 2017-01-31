@@ -19,23 +19,55 @@
           <h2>AdBOOST.sk</h2>
         </a>
         <div class="subtitle">{{ site.description | default: site.github.project_tagline }}</div>
-        <a href="{{ site.github.repository_url }}" class="button header-btn">Log in or <small>Register for free</small></a>
+        <a href="https://app.adboost.sk" class="button header-btn">Log in or <small>Register for free</small></a>
       </div>
     </header>
 
     <div id="content-wrapper">
       <div class="inner clearfix">
         <div class="row">
-          <div class="col-md-9">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Search all manual pages for any phrases"
-              ng-model="search_phrase"
-              ng-change="search()"
-              ng-blur="search()"
-              my-enter="search()"
-              ng-model-options="{debounce: 500}">
+          <div class="col-md-9" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()">
+            <form class="navbar-form" role="search" id="search-form">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="srch-term"
+                  id="srch-term"
+                  ng-model="search_phrase"
+                  placeholder="Search all manual pages for any phrases"
+                  ng-change="search()"
+                  ng-blur="search()"
+                  my-enter="search()"
+                  ng-model-options="{debounce: 500}">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="button" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+              </div>
+            </form>
+            <div class="search_results_box" ng-show="show_search_box" ng-style="results_box_style">
+              <div ng-if="no_search">
+                Type phrase to search
+              </div>
+              <div ng-if="!no_search && total_results == 0">
+                No results found
+              </div>
+              <div ng-show="total_results > 0 && !no_search"  class="results-header">
+                RESULTS: <b>{{ total_results }}</b>
+              </div>
+              <ul class="products-list product-list-in-box" ng-show="!no_search && total_results > 0">
+                <li class="item" ng-repeat="result in search_results">
+                  <div class="product-info">
+                    <a href="{{ result.link }}" class="product-title pointer">
+                      {{ result.title }}
+                    </a>
+                    <span class="product-description">
+                      {{ result.type }}
+                    </span>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
           <div class="col-md-3">
             <p>
@@ -115,9 +147,37 @@
       });
 
       adboostApp.controller('adbDocsController', function($scope){
+        $scope.show_search_box = false;
+        $scope.search_phrase = '';
+        $scope.no_search = true;
+
+        $scope.mouseOver = function() {
+          $scope.show_search_box = true;
+          $scope.results_box_style = {
+            width: $('#search-form .input-group').first().width()-1
+          }
+        }
+        $scope.mouseOut = function() {
+          $scope.show_search_box = false;
+        }
+
         $scope.search = function(){
           index.search($scope.search_phrase, function searchDone(err, content) {
-            console.log(err, content);
+            $scope.total_results = 0;
+            $scope.search_results = [];
+            $scope.no_search = false;
+            $scope.total_results = content.hits.length;
+            if($scope.total_results != 0){
+              for(var i in content.hits) {
+                $scope.search_results.append({
+                  'title': content.hits[i].unique_hierarchy,
+                  'link': content.hits[i].url,
+                  'type': content.hits[i].type
+                });
+              }
+            } else {
+              $scope.no_search = true;
+            }
           });
         }
       });
