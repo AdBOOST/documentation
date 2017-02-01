@@ -67,7 +67,7 @@ OPERAND - OPERATOR - VALUE
 
 {% include image_tag.html url="/AdBOOST/images/rules/RuleOperators.png" alt="Rule Operators" style="" %}
 
-- **VALUE** - value differs with operator because there are three types of them:
+- **VALUE** - **case-insensitive** text value that differs with operator because there are three types of them:
 
     - **Operator without value** - Not empty
 

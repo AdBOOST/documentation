@@ -73,7 +73,7 @@ Feed exports for Facebook allow you to assign automated banner ads created with 
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookBannerMapping.png" alt="Facebook Banner Mapping" style="" %}
 
-If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator manual](/AdBOOST{% post_url 2017-01-31-banner-generator %}) to create some.
+If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator guide](/AdBOOST{% post_url 2017-01-31-banner-generator %}) to create some.
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookNoBanners.png" alt="Facebook No Banners" style="" %}
 
@@ -115,7 +115,7 @@ You can further refine which items will be exported by specifying Export filter 
 3. **Export filter rules** - control which items will be part of the export (you can have more exports bound to one feed that differ only by filter rules)
 4. **Export CPC edit rules** (optional) - currently available only for Heureka and later described in [CPC editor part](#automated-bidding)
 
-On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules manual](/AdBOOST{% post_url 2017-02-01-adboost-rules %})) that filter 746 of 1 581 items in feed.
+On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules guide](/AdBOOST{% post_url 2017-02-01-adboost-rules %})) that filter 746 of 1 581 items in feed.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportItemFiltering.png" alt="Export Item Filtering" style="" %}
 
