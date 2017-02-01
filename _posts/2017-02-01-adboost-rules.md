@@ -38,17 +38,17 @@ There are two types of rules:
 
 **Example 1**: Filter rule with two predicates, first with two conditions, second with one condition
 
-{% include image_tag.html url="/AdBOOST/images/rules/FilterRule.png" alt="Filter Rule" style="" %}
+{% include image_tag.html url="{{site.baseurl}}/images/rules/FilterRule.png" alt="Filter Rule" style="" %}
 
 **Example 2**: Two modifier rules. First with one predicate, two conditions and one actions, second with no predicates and two actions.
 
-{% include image_tag.html url="/AdBOOST/images/rules/ModifierRules.png" alt="Modifier Rules" style="" %}
+{% include image_tag.html url="{{site.baseurl}}/images/rules/ModifierRules.png" alt="Modifier Rules" style="" %}
 
 - **If you leave predicate part of any rule empty, it will match all items**
 - Modifier rules, same as rule actions are orderable - Drag&Drop by <i class="glyphicon glyphicon-resize-vertical">&nbsp;</i>handle
 - **Rules are applied sequentially and order matters**. If you modify some of item properties in one rule, all following rules will show only informative number of covered items but correct result of all previous rule actions applied in sequential order. See the screen below
 
-{% include image_tag.html url="/AdBOOST/images/rules/RulesVariableRewrite.png" alt="Rules Variable Rewrite" style="" %}
+{% include image_tag.html url="{{site.baseurl}}/images/rules/RulesVariableRewrite.png" alt="Rules Variable Rewrite" style="" %}
 
 ## Rule structure
 
@@ -62,11 +62,11 @@ OPERAND - OPERATOR - VALUE
 
 - **OPERAND** - feed property, that can either exist in feed or have been created as a virtual property in Feed Schema Settings. These properties can be **numeric** - properties in numeric1, numeric2 or other_numeric categories, or **generic** - every other feed property
 
-{% include image_tag.html url="/AdBOOST/images/rules/RuleOperand.png" alt="Rule Operand" style="" %}
+{% include image_tag.html url="{{site.baseurl}}/images/rules/RuleOperand.png" alt="Rule Operand" style="" %}
 
 - **OPERATOR** - set of operations that differ for numeric and generic feed properties
 
-{% include image_tag.html url="/AdBOOST/images/rules/RuleOperators.png" alt="Rule Operators" style="" %}
+{% include image_tag.html url="{{site.baseurl}}/images/rules/RuleOperators.png" alt="Rule Operators" style="" %}
 
 - **VALUE** - **case-insensitive** text value that differs with operator because there are three types of them:
 
@@ -74,9 +74,9 @@ OPERAND - OPERATOR - VALUE
 
     - **Basic operators** - =, !=, >, <, >=, <=, Starts with, Ends with, Contains, Does not contain, Regex
 
-    {% include image_tag.html url="/AdBOOST/images/rules/BasicOperator.png" alt="Basic Operator" style="" %}
+    {% include image_tag.html url="{{site.baseurl}}/images/rules/BasicOperator.png" alt="Basic Operator" style="" %}
 
     - **Batch operators** - Contains any, Does not contain any
 
-    {% include image_tag.html url="/AdBOOST/images/rules/BatchOperator.png" alt="Batch Operator" style="" %}
+    {% include image_tag.html url="{{site.baseurl}}/images/rules/BatchOperator.png" alt="Batch Operator" style="" %}
 
