@@ -7,7 +7,7 @@ tags: [banner, generator, automated, template, display]
 ---
 
 # Banner Generator
-
+<br/>
 
 * TOC
 {:toc}
