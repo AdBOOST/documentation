@@ -8,6 +8,7 @@ tags: [banner, generator, automated, template, display]
 
 # Banner Generator
 
+
 * TOC
 {:toc}
 
@@ -176,7 +177,7 @@ In every row of banner set listing, under Actions > Assets download
 Dialog itself is shown on the screen below and provides following services:
 
 - List of templates within this banner set (hidden in case of editor view)
-- <span class="btn btn-sm btn-primary"><i class="fa fa-download"></i> Assets download dialog</span> button which triggers download of **banner ads created from selected template**
+- <span class="btn btn-sm btn-default"><i class="fa fa-download"></i> Assets download dialog</span> button which triggers download of **banner ads created from selected template**
 - "<i class="fa fa-download"></i> Download all (exported {TIME} ago)" link which triggers download of **all banner ads from this banner set**
 - list of persistent banner ad URLs that will always contain most up-to-date version of banner ad created from one banner template for one feed item
 
