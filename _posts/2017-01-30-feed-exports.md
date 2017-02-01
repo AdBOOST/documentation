@@ -110,10 +110,10 @@ It always contains state information and action button. Click to <i class="fa fa
 
 You can further refine which items will be exported by specifying Export filter rules. Your items are then processed by AdBOOST in following order:
 
-1. Feed filter rules - control which items enter AdBOOST
-2. Feed editor rules - modify and purge your items
-3. Export filter rules - control which items will be part of the export (you can have more exports bound to one feed that differ only by filter rules)
-4. Export CPC edit rules (optional) - currently available only for Heureka and later described in [CPC editor part](#automated-bidding)
+1. **Feed filter rules** - control which items enter AdBOOST
+2. **Feed editor rules** - modify and purge your items
+3. **Export filter rules** - control which items will be part of the export (you can have more exports bound to one feed that differ only by filter rules)
+4. **Export CPC edit rules** (optional) - currently available only for Heureka and later described in [CPC editor part](#automated-bidding)
 
 On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules manual](/AdBOOST{% post_url 2017-02-01-adboost-rules %})) that filter 746 of 1 581 items in feed.
 
