@@ -62,10 +62,32 @@ Some formats are suitable for more than one network and are therefore groupped i
 
 ### Banner editor
 
-Banner template can be previewed and modified in AdBOOST's banner editor. It's tool that consists of three main components:
+Banner template can be pre-viewed and modified in AdBOOST's banner editor. It's tool that consists of three main components:
 
-1. **Layers pane** - orderable layers of two types (image/text) with options specific for every type
+1. **Layers pane** - orderable layers of two types (image/text) with type-specific options
 2. **Template with placeholders** - placeholders that can be dragged and resized, which are showed in order that corresponds with order of their layers in layers pane. Image placeholders show informative preview of used image, text placeholders contain only text value
 3. **Preview** - ads that are created in real-time to show you result of current template state processing
 
+{% include image_tag.html url="/AdBOOST/images/banners/BannerEditor.png" alt="Banner Editor" style="" %}
 
+#### Layers
+
+Layers pane contains list of template layers that can be added, removed and re-ordered. Colorpicker at the bottom of this pain sets template's background color. Each layer has it's type displayed as an icon and it's options that can be accessed by clicking on it.
+
+** Text layer**
+
+Type of this layer is determined by value of selectbox at the top of the options pane.
+
+{% include image_tag.html url="/AdBOOST/images/banners/TextLayer.png" alt="Text Layer" style="" %}
+
+Content of the layer can be static, or you can use one of feed variables. You will see list of available feed variables if you hover with mouse pointer over the <i class="glyphicon glyphicon-info-sign">&nbsp;</i>icon
+
+{% include image_tag.html url="/AdBOOST/images/banners/VariablesSuggestions.png" alt="Variables Suggestions" style="" %}
+
+Every element of options pane has a tooltip, that will tell you what action it does (regardless of layer's type)
+
+{% include image_tag.html url="/AdBOOST/images/banners/Tooltips.png" alt="Tooltips" style="" %}
+
+We provide you with variety of Google fonts that you can use for your banners, or you can upload your custom font to preserve your identity accross channels.
+
+{% include image_tag.html url="/AdBOOST/images/banners/FontSelection.png" alt="Font Selection" style="" %}
