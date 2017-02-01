@@ -182,7 +182,7 @@
               for(var i in content.hits) {
                 $scope.search_results.push({
                   'title': content.hits[i].unique_hierarchy,
-                  'link': "/docs" + content.hits[i].url,
+                  'link': content.hits[i].url,
                   'type': content.hits[i].type
                 });
               }
