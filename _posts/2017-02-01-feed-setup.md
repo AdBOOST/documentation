@@ -6,7 +6,7 @@ category: feed_management
 tags: [feed, data, setup, management, source]
 ---
 
-## Feed Setup
+# Feed Setup
 
 * TOC
 {:toc}

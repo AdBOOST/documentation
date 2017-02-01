@@ -6,16 +6,16 @@ category: adboost_core
 tags: [adboost, rules]
 ---
 
-## AdBOOST Rules
+# AdBOOST Rules
 
 * TOC
 {:toc}
 
-### Introduction
+## Introduction
 
 Rule system is an inseparable and core part of AdBOOST, which you will encouter many times during his usage. This page explains what is the reason of our inclination to rules, where you can find them and most important, how to use them and get the most out of them.
 
-### Where to find the rules
+## Where to find the rules
 
 Here is the comprehensive list of all rules locations:
 
@@ -28,7 +28,7 @@ Here is the comprehensive list of all rules locations:
 7. Export CPC edit rules
 8. Notifications setup
 
-### Rule types
+## Rule types
 
 There are two types of rules:
 
@@ -49,11 +49,11 @@ There are two types of rules:
 
 {% include image_tag.html url="/AdBOOST/images/rules/RulesVariableRewrite.png" alt="Rules Variable Rewrite" style="" %}
 
-### Rule structure
+## Rule structure
 
 This section describes individual parts of every rule, starting at top-level and increasing granularity.
 
-#### Predicates
+## Predicates
 
 Every rule predicate has following structure:
 

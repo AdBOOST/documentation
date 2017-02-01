@@ -6,12 +6,12 @@ category: feed_management
 tags: [feed, export]
 ---
 
-## Feed Exports
+# Feed Exports
 
 * TOC
 {:toc}
 
-### Basic setup
+## Basic setup
 
 In left context menu choose <i class="fa fa-database">&nbsp;</i> Data Management > <i class="fa fa-share">&nbsp;</i> Exports.<br/>
 
@@ -41,7 +41,7 @@ Some export properties can have only certain values supported by target network.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportStaticFieldValid.png" alt="Export Static Field Valid" style="" %}
 
-### Category mapping
+## Category mapping
 
 AdBOOST allows you to map your item categories to values supported by export's target network. This feature is currently available for:
 
@@ -62,7 +62,7 @@ When you are satisfied with your category mapping, save the content of dialog. *
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportCategoryMappingActive.png" alt="Export Category Mapping Active" style="" %}
 
-### Automated banners as product images
+## Automated banners as product images
 
 <div class="text-red beta-notice">Feature is available only for Facebook network</div>
 Feed exports for Facebook allow you to assign automated banner ads created with AdBOOST as product images. This feature is available after clicking to <span class="btn btn-sm btn-primary"><i class="fa fa-image">&nbsp;</i> Assign banner templates</span> button. Whether you activate it or not, AdBOOST will choose image for your product in this order:
@@ -92,7 +92,7 @@ If you have set all required properties and your are satisfied with overall stru
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportSubmitBtns.png" alt="Export Submit Buttons" style="" %}
 
-### Export status
+## Export status
 
 No matter what option you choose, every screen of export setup will contain status label and URL after first schema submit. **URL is persistent. Once it has been generated, it will forever refer to this specific export**. If there are some changes in schema, category mapping, assigned banner templates or in feed data, export will be re-processed and this URL will always contain most up-to-date version.
 
@@ -106,7 +106,7 @@ It always contains state information and action button. Click to <i class="fa fa
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportProcessingLog.png" alt="Export Processing Log" style="" %}
 
-### Item filtering
+## Item filtering
 
 You can further refine which items will be exported by specifying Export filter rules. Your items are then processed by AdBOOST in following order:
 
@@ -127,7 +127,7 @@ Last part of this form is preview of filtered item at its bottom. It shows up to
 
 {% include image_tag.html url="/AdBOOST/images/FilteredItemsPreview.png" alt="Filtered Items Preview" style="" %}
 
-### Automated bidding
+## Automated bidding
 
 <div class="text-red beta-notice">Feature is available only for Heureka network</div>
 Last part of export setup, which is currently available only for Heureka network, allows you to automate your CPC values and reflect changes in your feed hourly. Thanks to this feature, you can optimize your advertising spend by covering many cases. Here are just a few most common examples:
