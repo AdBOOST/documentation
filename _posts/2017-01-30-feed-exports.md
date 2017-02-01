@@ -21,7 +21,7 @@ If you have not created any export yet, you will be greeted by welcome screen co
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportGuidedSetup.png" alt="Export Guided Setup" style="" %}
 
-If you have already created any feed exports, you will see them in listing and you will have the option to create new one by clicking either <span class="btn btn-sm btn-default"><i class="fa fa-plus">&nbsp;</i> Export</span> button or <span class="btn btn-sm btn-default"><i class="fa fa-question">&nbsp;</i> Guided setup</span> button
+If you have already created any feed exports, you will see them in listing and you will have the option to create new one by clicking either <span class="btn btn-sm btn-primary"><i class="fa fa-plus">&nbsp;</i> Export</span> button or <span class="btn btn-sm btn-primary"><i class="fa fa-question">&nbsp;</i> Guided setup</span> button
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportListing.png" alt="Export Listing" style="" %}
 
@@ -54,7 +54,7 @@ AdBOOST allows you to map your item categories to values supported by export's t
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportCategoryMappingNotSelected.png" alt="Export Category Mapping Not Selected" style="" %}
 
-Afterwards, you can click <span class="btn btn-sm btn-default"><i class="fa fa-wrench">&nbsp;</i> Map to {NETWORK} categories</span> button and you will see the dialog with values of selected property and inputs with fulltext search next to them. You can refine your searches until you find most suitable category supported by target network. Default value at the top of the modal will be used as a last option in case of missing feed property value, empty or unsuitable selected option.
+Afterwards, you can click <span class="btn btn-sm btn-primary"><i class="fa fa-wrench">&nbsp;</i> Map to {NETWORK} categories</span> button and you will see the dialog with values of selected property and inputs with fulltext search next to them. You can refine your searches until you find most suitable category supported by target network. Default value at the top of the modal will be used as a last option in case of missing feed property value, empty or unsuitable selected option.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportCategoryMapping.png" alt="Export Category Mapping" style="" %}
 
@@ -65,7 +65,7 @@ When you are satisfied with your category mapping, save the content of dialog. *
 ### Automated banners as product images
 
 <div class="text-red beta-notice">Feature is available only for Facebook network</div>
-Feed exports for Facebook allow you to assign automated banner ads created with AdBOOST as product images. This feature is available after clicking to <span class="btn btn-sm btn-default"><i class="fa fa-image">&nbsp;</i> Assign banner templates</span> button. Whether you activate it or not, AdBOOST will choose image for your product in this order:
+Feed exports for Facebook allow you to assign automated banner ads created with AdBOOST as product images. This feature is available after clicking to <span class="btn btn-sm btn-primary"><i class="fa fa-image">&nbsp;</i> Assign banner templates</span> button. Whether you activate it or not, AdBOOST will choose image for your product in this order:
 
 1. Banner templates in your priority order (if there are any)
 2. Feed property selected as image property for export
