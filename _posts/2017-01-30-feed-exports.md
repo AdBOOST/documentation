@@ -6,10 +6,10 @@ category: feed_management
 tags: [feed, export]
 ---
 
+## Feed Exports
+
 * TOC
 {:toc}
-
-## Feed Exports
 
 ### Basic setup
 
@@ -64,6 +64,7 @@ When you are satisfied with your category mapping, save the content of dialog. *
 
 ### Automated banners as product images
 
+<div class="text-red beta-notice">Feature is available only for Facebook network</div>
 Feed exports for Facebook allow you to assign automated banner ads created with AdBOOST as product images. This feature is available after clicking to <span class="btn btn-sm btn-default"><i class="fa fa-image">&nbsp;</i> Assign banner templates</span> button. Whether you activate it or not, AdBOOST will choose image for your product in this order:
 
 1. Banner templates in your priority order (if there are any)
@@ -101,9 +102,42 @@ Status label is an indicator of export health and can have following states:
 
 {% include image_tag.html url="/AdBOOST/images/StatusLabelStates.png" alt="Status Label States" style="" %}
 
-It always contains state information and action button. <i class="fa fa-refresh">&nbsp;</i>icon starts re-processing of export and <i class="fa fa-clock-o">&nbsp;</i>icon show dialog displayed below which contains information about export processing history, corresponding issues and recovers.
+It always contains state information and action button. Click to <i class="fa fa-refresh">&nbsp;</i>icon starts re-processing of export and click to <i class="fa fa-clock-o">&nbsp;</i>icon shows dialog displayed below which contains information about export processing history, corresponding issues and recovers.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportProcessingLog.png" alt="Export Processing Log" style="" %}
 
+### Item filtering
 
+You can further refine which items will be exported by specifying Export filter rules. Your items are then processed by AdBOOST in following order:
+
+1. Feed filter rules - control which items enter AdBOOST
+2. Feed editor rules - modify and purge your items
+3. Export filter rules - control which items will be part of the export (you can have more exports bound to one feed that differ only by filter rules)
+4. Export CPC edit rules (optional) - currently available only for Heureka and later described in [CPC editor part](#automated-bidding)
+
+On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules manual](/AdBOOST{% post_url 2017-02-01-adboost-rules %})) that filter 746 of 1 581 items in feed.
+
+{% include image_tag.html url="/AdBOOST/images/exports/ExportItemFiltering.png" alt="Export Item Filtering" style="" %}
+
+Notice also the counter of item categories that are suitable for provided rules with <i class="glyphicon glyphicon-search pointer">&nbsp;</i>icon next to it. By clicking this icon, you will invoke displaying of dialog with list of these categories, that can be later filtered upon.
+
+{% include image_tag.html url="/AdBOOST/images/FilterRulesCategoryPreview.png" alt="Filter Rules Category Preview" style="" %}
+
+Last part of this form is preview of filtered item at its bottom. It shows up to 100 items and can be filtered upon by item name, id, category or URL.
+
+{% include image_tag.html url="/AdBOOST/images/FilteredItemsPreview.png" alt="Filtered Items Preview" style="" %}
+
+### Automated bidding
+
+<div class="text-red beta-notice">Feature is available only for Heureka network</div>
+Last part of export setup, which is currently available only for Heureka network, allows you to automate your CPC values and reflect changes in your feed hourly. Thanks to this feature, you can optimize your advertising spend by covering many cases. Here are just a few most common samples:
+
+1. Do not set CPC too high for items with low price
+{% include image_tag.html url="/AdBOOST/images/exports/ExportBidding1.png" alt="Export Bidding 1" style="" %}
+
+2. Sell out stock quickly to free your warehouse space for fresh (seasonal) merchandise
+{% include image_tag.html url="/AdBOOST/images/exports/ExportBidding2.png" alt="Export Bidding 2" style="" %}
+
+3. Restrict your maximum CPC to fulfill requirements of target network. If you set CPC to certain fragment of item price, it might be too high for expensive items
+{% include image_tag.html url="/AdBOOST/images/exports/ExportBidding3.png" alt="Export Bidding 3" style="" %}
 

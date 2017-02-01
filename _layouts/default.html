@@ -19,7 +19,7 @@
           <h2>AdBOOST.sk</h2>
         </a>
         <div class="subtitle">{{ site.description | default: site.github.project_tagline }}</div>
-        <a href="https://app.adboost.sk" class="button header-btn">Log in or <small>Register for free</small></a>
+        <a href="https://app.adboost.sk" class="button header-btn" target="_blank">Log in or <small>Register for free</small></a>
       </div>
     </header>
 
@@ -38,7 +38,6 @@
                   placeholder="Search all manual pages for any phrases"
                   ng-change="search()"
                   ng-blur="search()"
-                  my-enter="search()"
                   ng-model-options="{debounce: 500}">
                 <div class="input-group-btn">
                   <button class="btn btn-default" type="button" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
@@ -47,7 +46,7 @@
             </form>
             <div class="search_results_box ng-hide" ng-show="show_search_box" ng-style="results_box_style" ng-cloak>
               <div ng-if="no_search">
-                Type phrase to search
+                Type phrase and press enter to search
               </div>
               <div ng-if="!no_search && total_results == 0">
                 No results found
