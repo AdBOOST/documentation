@@ -53,7 +53,7 @@ There are two types of rules:
 
 This section describes individual parts of every rule, starting at top-level and increasing granularity.
 
-## Predicates
+### Predicates
 
 Every rule predicate has following structure:
 

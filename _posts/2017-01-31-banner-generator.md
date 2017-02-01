@@ -26,13 +26,13 @@ Banner feature of AdBOOST consists of following entities and tools:
 
 Each of these entities can be used differently:
 
-- **Banner set** - can be assigned to <i class="network-icon adwords">&nbsp;</i> Google Display Network campaign
+- **Banner set** - can be assigned to <i class="network-icon adwords"></i> Google Display Network campaign
 - **Banner template** - can be set as a product image for Facebook feed export
 - **Banner ad** - can be downloaded as a PNG file or accessed via its persistent URL and therefore can be used in any display advertising network
 
 ## Banner set
 
-In left context menu choose <i class="fa fa-image">&nbsp;</i> Banners > <i class="fa fa-object-group">&nbsp;</i> Banner sets.<br/>
+In left context menu choose <i class="fa fa-image"></i> Banners > <i class="fa fa-object-group"></i> Banner sets.<br/>
 
 {% include image_tag.html url="/AdBOOST/images/banners/LeftMenuBanners.png" alt="Left Menu Banners" style="height:200px;" %}
 
@@ -40,11 +40,11 @@ If you have not created any banner set yet, you will be greeted by welcome scree
 
 {% include image_tag.html url="/AdBOOST/images/banners/BannersGuidedSetup.png" alt="Banners Guided Setup" style="" %}
 
-If you have already created any banner sets, you will see them in listing and you will have the option to create new one by clicking <span class="btn btn-sm btn-primary"><i class="fa fa-plus">&nbsp;</i> Banner set</span> button
+If you have already created any banner sets, you will see them in listing and you will have the option to create new one by clicking <span class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Banner set</span> button
 
 {% include image_tag.html url="/AdBOOST/images/banners/BannersListing.png" alt="Banners Listing" style="" %}
 
-Click the <span class="btn btn-sm btn-primary"><i class="fa fa-plus">&nbsp;</i> Create your first banner set</span> button and you will be redirected to an empty form with one input for banner set name and another one with selection of your feeds from which you should choose one that will be used as a data source for a banner set. **Both fields are required and you won't be able to change the source feed later in the process**.
+Click the <span class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Create your first banner set</span> button and you will be redirected to an empty form with one input for banner set name and another one with selection of your feeds from which you should choose one that will be used as a data source for a banner set. **Both fields are required and you won't be able to change the source feed later in the process**.
 
 {% include image_tag.html url="/AdBOOST/images/banners/BannersEmptyForm.png" alt="Banners Empty Form" style="" %}
 
@@ -80,7 +80,7 @@ Type of this layer is determined by value of selectbox at the top of the options
 
 {% include image_tag.html url="/AdBOOST/images/banners/TextLayer.png" alt="Text Layer" style="" %}
 
-Content of the layer can be static, or you can use one of feed variables. You will see list of available feed variables if you hover with mouse pointer over the <i class="glyphicon glyphicon-info-sign">&nbsp;</i>icon
+Content of the layer can be static, or you can use one of feed variables. You will see list of available feed variables if you hover with mouse pointer over the <i class="glyphicon glyphicon-info-sign"></i>icon
 
 {% include image_tag.html url="/AdBOOST/images/banners/VariablesSuggestion.png" alt="Variables Suggestion" style="" %}
 
@@ -100,7 +100,7 @@ This layer can get it's content from three sources:
 - Remote URL
 - Feed variable
 
-Either one of them will change layer's title and you will quickly know, what source is active. Source are chosen in order specified before. Simmilar as in case of text layer, you can see the list of available image variables from your feed by hovering over the <i class="glyphicon glyphicon-info-sign">&nbsp;</i>icon
+Either one of them will change layer's title and you will quickly know, what source is active. Source are chosen in order specified before. Simmilar as in case of text layer, you can see the list of available image variables from your feed by hovering over the <i class="glyphicon glyphicon-info-sign"></i>icon
 
 {% include image_tag.html url="/AdBOOST/images/banners/ImageLayer.png" alt="Image Layer" style="" %}
 
@@ -116,7 +116,7 @@ In case of image layers, pay special attention to Fit to/Fill frame option. It c
 
 ## Batch preview
 
-If you click the <i class="glyphicon glyphicon-tasks">&nbsp;</i>icon at the top of the preview container, you will see batch preview of your currently modified banner template.
+If you click the <i class="glyphicon glyphicon-tasks"></i>icon at the top of the preview container, you will see batch preview of your currently modified banner template.
 
 {% include image_tag.html url="/AdBOOST/images/banners/BatchPreview.png" alt="Batch Preview" style="" %}
 
