@@ -159,7 +159,7 @@ If you have not created any AdBOOST's Google display campaign yet, please follow
 
 ### Use them as product images in Facebook export
 
-Follow the instruction in [Feed Export guide](/AdBOOST{% post_url 2017-02-01-feed-exports %}#automated-banners-as-product-images)
+Follow the instruction in [Feed Export guide](/AdBOOST{% post_url 2017-01-30-feed-exports %}#automated-banners-as-product-images)
 
 ### Get list of persistent banner URLs or ZIP archive with banners in PNG
 
