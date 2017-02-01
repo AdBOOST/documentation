@@ -130,17 +130,17 @@ Last part of this form is preview of filtered item at its bottom. It shows up to
 ### Automated bidding
 
 <div class="text-red beta-notice">Feature is available only for Heureka network</div>
-Last part of export setup, which is currently available only for Heureka network, allows you to automate your CPC values and reflect changes in your feed hourly. Thanks to this feature, you can optimize your advertising spend by covering many cases. Here are just a few most common samples:
+Last part of export setup, which is currently available only for Heureka network, allows you to automate your CPC values and reflect changes in your feed hourly. Thanks to this feature, you can optimize your advertising spend by covering many cases. Here are just a few most common examples:
 
-1. Do not set CPC too high for items with low price
+- Do not set CPC too high for items with low price
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportBidding1.png" alt="Export Bidding 1" style="" %}
 
-2. Sell out stock quickly to free your warehouse space for fresh (seasonal) merchandise
+- Sell out stock quickly to free your warehouse space for fresh (seasonal) merchandise
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportBidding2.png" alt="Export Bidding 2" style="" %}
 
-3. Restrict your maximum CPC to fulfill requirements of target network. If you set CPC to certain fragment of item price, it might be too high for expensive items
+- Restrict your maximum CPC to fulfill requirements of target network. If you set CPC to certain fragment of item price, it might be too high for expensive items
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportBidding3.png" alt="Export Bidding 3" style="" %}
 

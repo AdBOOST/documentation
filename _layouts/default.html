@@ -38,6 +38,7 @@
                   placeholder="Search all manual pages for any phrases"
                   ng-change="search()"
                   ng-blur="search()"
+                  my-enter="search()"
                   ng-model-options="{debounce: 500}">
                 <div class="input-group-btn">
                   <button class="btn btn-default" type="button" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
@@ -150,10 +151,10 @@
           $scope.total_results = 0;
           $scope.search_results = [];
           $scope.show_search_box = false;
-          $scope.search_phrase = '';
           $scope.no_search = true;
         }
 
+        $scope.search_phrase = '';
         init();
 
         $scope.mouseOver = function() {
