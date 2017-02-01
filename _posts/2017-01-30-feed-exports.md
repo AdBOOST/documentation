@@ -58,7 +58,7 @@ Afterwards, you can click <span class="btn btn-sm btn-default"><i class="fa fa-w
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportCategoryMapping.png" alt="Export Category Mapping" style="" %}
 
-When you are satisfied with your category mapping, save the content of dialog. **If you close the dialog without saving, values will be lost**. Otherwise, you will notice that default value of attribute in main form has changed and green <i class="glyphicon glyphicon-ok"></i>icon has appeared in category property row to indicate that mapping is active.
+When you are satisfied with your category mapping, save the content of dialog. **If you close the dialog without saving, values will be lost**. Otherwise, you will notice that default value of attribute in main form has changed and green <i class="glyphicon glyphicon-ok"></i> icon has appeared in category property row to indicate that mapping is active.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportCategoryMappingActive.png" alt="Export Category Mapping Active" style="" %}
 
@@ -81,7 +81,7 @@ When you have successfully created at least one banner template, that is eligibl
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookBannersModal.png" alt="Facebook Banners Modal" style="" %}
 
-As in case of category mapping, green <i class="glyphicon glyphicon-ok"></i>icon will be displayed in image property row to indicate that banner template assign is active, right after submit of dialog.
+As in case of category mapping, green <i class="glyphicon glyphicon-ok"></i> icon will be displayed in image property row to indicate that banner template assign is active, right after submit of dialog.
 
 {% include image_tag.html url="/AdBOOST/images/exports/FacebookBannerAssignActive.png" alt="Facebook Banners Assign Active" style="" %}
 
@@ -102,7 +102,7 @@ Status label is an indicator of export health and can have following states:
 
 {% include image_tag.html url="/AdBOOST/images/StatusLabelStates.png" alt="Status Label States" style="" %}
 
-It always contains state information and action button. Click to <i class="fa fa-refresh"></i>icon starts re-processing of export and click to <i class="fa fa-clock-o"></i>icon shows dialog displayed below which contains information about export processing history, corresponding issues and recovers.
+It always contains state information and action button. Click to <i class="fa fa-refresh"></i> icon starts re-processing of export and click to <i class="fa fa-clock-o"></i> icon shows dialog displayed below which contains information about export processing history, corresponding issues and recovers.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportProcessingLog.png" alt="Export Processing Log" style="" %}
 
@@ -113,13 +113,13 @@ You can further refine which items will be exported by specifying Export filter 
 1. **Feed filter rules** - control which items enter AdBOOST
 2. **Feed editor rules** - modify and purge your items
 3. **Export filter rules** - control which items will be part of the export (you can have more exports bound to one feed that differ only by filter rules)
-4. **Export CPC edit rules** (optional) - currently available only for Heureka and later described in [CPC editor part](#automated-bidding)
+4. **Export CPC edit rules** (optional) - currently available only for Heureka and later described in [Automated bidding part](#automated-bidding)
 
 On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules guide](/AdBOOST{% post_url 2017-02-01-adboost-rules %})) that filter 746 of 1 581 items in feed.
 
 {% include image_tag.html url="/AdBOOST/images/exports/ExportItemFiltering.png" alt="Export Item Filtering" style="" %}
 
-Notice also the counter of item categories that are suitable for provided rules with <i class="glyphicon glyphicon-search pointer"></i>icon next to it. By clicking this icon, you will invoke displaying of dialog with list of these categories, that can be later filtered upon.
+Notice also the counter of item categories that are suitable for provided rules with <i class="glyphicon glyphicon-search pointer"></i> icon next to it. By clicking this icon, you will invoke displaying of dialog with list of these categories, that can be later filtered upon.
 
 {% include image_tag.html url="/AdBOOST/images/FilterRulesCategoryPreview.png" alt="Filter Rules Category Preview" style="" %}
 
