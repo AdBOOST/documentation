@@ -14,7 +14,7 @@ tags: [adboost, rules]
 
 ## Introduction
 
-Rule system is an inseparable and core part of AdBOOST, which you will encouter many times during his usage. This page explains what is the reason of our inclination to rules, where you can find them and most important, how to use them and get the most out of them.
+Rule system is an inseparable and core part of AdBOOST, which you will encouter many times during his usage. From the moment, when your items enter the AdBOOST for a first time (as a part of the data feed during its first processing) until they leave it towards target advertising network, they are filtered and modified multiple times. To ensure that you can segment your items and modify them to fit your needs, we use rules. In later parts of this guide, you will find out, where you can find the rules and most important, how to use them and get the most out of them.
 
 ## Where to find the rules
 
@@ -56,9 +56,11 @@ This section describes individual parts of every rule, starting at top-level and
 
 ### Predicates
 
-Every rule predicate has following structure:
+Every rule predicate is a collection of conditions with following structure:
 
 OPERAND - OPERATOR - VALUE
+
+Predicates, same as conditions can be combined by logical operators AND (all conditions are met) and OR (at least one condition is met).
 
 - **OPERAND** - feed property, that can either exist in feed or have been created as a virtual property in Feed Schema Settings. These properties can be **numeric** - properties in numeric1, numeric2 or other_numeric categories, or **generic** - every other feed property
 
@@ -79,4 +81,48 @@ OPERAND - OPERATOR - VALUE
     - **Batch operators** - Contains any, Does not contain any
 
     {% include image_tag.html url="/images/rules/BatchOperator.png" alt="Batch Operator" style="" %}
+
+### Actions
+
+Actions can be found only in modifier rules because they change values of properties for items that fit the conditions of one specific modifier rule.
+
+Structure of actions is very simmilar to the one of predicates:
+
+OPERAND - OPERATOR - VALUE/PARAMETERS
+
+- **OPERAND** - feed property, that can either exist in feed or have been created as a virtual property in Feed Schema Settings.
+
+- **OPERATOR** - set of operations summorted by AdBOOST
+
+{% include image_tag.html url="/images/rules/RuleActions.png" alt="Rule Actions" style="" %}
+
+- **VALUE/PARAMS** - this property differs for every operator:
+
+    - **Replace** - find one string and replace it with another
+
+    {% include image_tag.html url="/images/rules/ReplaceAction.png" alt="Replace Action" style="" %}
+
+    - **Set** - replace property value with static content or with value of other property
+
+    - **Cut** - find string in value and remove everything on its left/right including/without itself
+
+    - **Regex** - same as replace but instead of string to find, you should provide regular expression
+
+    - **Capitalization** - set capitalization policy
+
+    - **Uppercase** - make all letters in property value uppercase
+
+    - **Round** - if the selected property is numeric, round it's value to fixed decimal places (usefull after math operations)
+
+    - **Math expression** - take one property, apply math operation to it and save it as a value of another property
+
+    - **Batch remove** - remove all listed strings from value
+
+    - **Remove colors** - remove color names in selected language
+
+    - **Strip HTML** - remove any HTML tags (enclosed in <> tags)
+
+    - **Hash** - create unique hash from one property value and save it as a value of another property
+
+
 
