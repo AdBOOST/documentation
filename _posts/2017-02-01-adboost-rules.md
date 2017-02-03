@@ -100,29 +100,51 @@ OPERAND - OPERATOR - VALUE/PARAMETERS
 
     - **Replace** - find one string and replace it with another
 
-    {% include image_tag.html url="/images/rules/ReplaceAction.png" alt="Replace Action" style="" %}
+    {% include image_tag.html url="/images/rules/ActionReplace.png" alt="Replace Action" style="" %}
 
     - **Set** - replace property value with static content or with value of other property
 
+    {% include image_tag.html url="/images/rules/ActionSet.png" alt="Set Action" style="" %}
+
     - **Cut** - find string in value and remove everything on its left/right including/without itself
+
+    {% include image_tag.html url="/images/rules/ActionRCut.png" alt="Cut Action" style="" %}
 
     - **Regex** - same as replace but instead of string to find, you should provide regular expression
 
+    {% include image_tag.html url="/images/rules/ActionRegex.png" alt="Regex Action" style="" %}
+
     - **Capitalization** - set capitalization policy
+
+    {% include image_tag.html url="/images/rules/ActionCapitalization.png" alt="Capitalization Action" style="" %}
 
     - **Uppercase** - make all letters in property value uppercase
 
+    {% include image_tag.html url="/images/rules/ActionUppercase.png" alt="Uppercase Action" style="" %}
+
     - **Round** - if the selected property is numeric, round it's value to fixed decimal places (usefull after math operations)
+
+    {% include image_tag.html url="/images/rules/ActionRound.png" alt="Round Action" style="" %}
 
     - **Math expression** - take one property, apply math operation to it and save it as a value of another property
 
+    {% include image_tag.html url="/images/rules/ActionMathExpression.png" alt="MathExpression Action" style="" %}
+
     - **Batch remove** - remove all listed strings from value
+
+    {% include image_tag.html url="/images/rules/ActionBatchRemove.png" alt="BatchRemove Action" style="" %}
 
     - **Remove colors** - remove color names in selected language
 
-    - **Strip HTML** - remove any HTML tags (enclosed in <> tags)
+    {% include image_tag.html url="/images/rules/ActionRemoveColors.png" alt="RemoveColors Action" style="" %}
+
+    - **Strip HTML** - remove any HTML tags (ussualy enclosed in <> tags)
+
+    {% include image_tag.html url="/images/rules/ActionStripHtml.png" alt="StripHtml Action" style="" %}
 
     - **Hash** - create unique hash from one property value and save it as a value of another property
+
+    {% include image_tag.html url="/images/rules/ActionHash.png" alt="Hash Action" style="" %}
 
 
 

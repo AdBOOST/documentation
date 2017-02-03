@@ -23,13 +23,13 @@ Banner feature of AdBOOST consists of following entities and tools:
 - **Banner set** - item catalogs that hold consistent creatives for simmilar items. It's just a container for banner templates
 - **Banner template** - specific creative type (e.g. green banner with badge and product image)
 - **Banner editor** - tool for creation of banner templates in which you can specify text or image layers with remote content or content from your feed that will be transformed into banner ad
-- **Banner ad** - every time, your feed is processed, every banner template, that uses this feed as a data source, will produce PNG image ad for every specific item from this feed
+- **Banner ad** - every time, your feed is processed, every banner template, that uses this feed as a data source, will produce JPG image ad for every specific item from this feed
 
 Each of these entities can be used differently:
 
 - **Banner set** - can be assigned to <i class="network-icon adwords"></i> Google Display Network campaign
 - **Banner template** - can be set as a product image for Facebook feed export
-- **Banner ad** - can be downloaded as a PNG file or accessed via its persistent URL and therefore can be used in any display advertising network
+- **Banner ad** - can be downloaded as a JPG file or accessed via its persistent URL and therefore can be used in any display advertising network
 
 ## Banner set
 
@@ -148,9 +148,9 @@ If you have not created any AdBOOST's Google display campaign yet, please follow
 
 - This action will open a new tab with "Campaign Banner Assign" form, in which you should:
 
-1. Tick the checkbox next to your desired banner set
-2. Click the <i class="glyphicon glyphicon-eye-open"></i> icon to check whether the banners have already been processed and are updated to most recent version
-3. Click the "<i class="fa fa-refresh"></i> Synchronize" button in the top-right corner to upload your GDN campaign to Google AdWords
+    1. Tick the checkbox next to your desired banner set
+    2. Click the <i class="glyphicon glyphicon-eye-open"></i> icon to check whether the banners have already been processed and are updated to most recent version
+    3. Click the "<i class="fa fa-refresh"></i> Synchronize" button in the top-right corner to upload your GDN campaign to Google AdWords
 
 {% include image_tag.html url="/images/banners/CampaignBannerAssign.png" alt="Campaign Banner Assign" style="" %}
 
@@ -162,7 +162,7 @@ If you have not created any AdBOOST's Google display campaign yet, please follow
 
 Follow the instruction in [Feed Export guide]({% post_url 2017-01-30-feed-exports %}#automated-banners-as-product-images)
 
-### Get list of persistent banner URLs or ZIP archive with banners in PNG
+### Get list of persistent banner URLs or ZIP archive with banners in JPG
 
 Banners in this form can be obtained from "<i class="fa fa-download"></i> Assets download dialog", that can be found on two places:
 
