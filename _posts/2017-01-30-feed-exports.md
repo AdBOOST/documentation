@@ -34,7 +34,7 @@ After you have filled in first two required properties of your export, additiona
 
 ### Standard Export
 
-Useful when you need another version of some of your data feeds but with diferent schema. You could have modified your items via Feed Editor or created some virtual variables, that you need for other external tools. If you create standard export, you can have them accessible on persistent URL in your desired format.
+Useful when you need another version of some of your data feeds but with diferent schema. You could have modified your items in Feed Editor or created some virtual feed properties, that you need for other external tools. If you create standard export, you can have them accessible on persistent URL in your desired format.
 
 First of all, click the <span class="btn btn-sm btn-default"><i class="fa fa-plus"></i> Set custom mapping</span> button to add the first property of export schema.
 
