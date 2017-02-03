@@ -30,7 +30,30 @@ Choose your target network and you will be redirected to an empty form with one 
 
 {% include image_tag.html url="/images/exports/ExportEmptyForm.png" alt="Export Empty Form" style="" %}
 
-After you have filled in first two required properties of your export, additional export settings will be shown. Properties marked with red asterisk - <span class="text-red">*</span> are required and will remain highlighted in yellow until you bound them to corresponding feed property or provide static value for them.
+After you have filled in first two required properties of your export, additional export settings will be shown. These setting will differ with export type, yet there are two main categories of exports:
+
+### Standard Export
+
+Useful when you need another version of some of your data feeds but with diferent schema. You could have modified your items via Feed Editor or created some virtual variables, that you need for other external tools. If you create standard export, you can have them accessible on persistent URL in your desired format.
+
+First of all, click the <span class="btn btn-sm btn-default"><i class="fa fa-plus"></i> Set custom mapping</span> button to add the first property of export schema.
+
+{% include image_tag.html url="/images/exports/StandardExportEmpty.png" alt="Standard Export Empty" style="" %}
+
+Afterwards, you can select whether you want to export this schema as an XML, CSV or both. You can add as many fields as you want. Two most common use cases of property addition are:
+
+1. Export property with value of existing feed property
+2. Export property with static value for all items
+
+Default values for properties are optional and used only in case of empty property value.
+
+{% include image_tag.html url="/images/exports/StandardExportSample.png" alt="StandardExportSample" style="" %}
+
+### External Network Export
+
+This type of export is meant to be used in external networks such as Facebook, price comparison engines or as a source of data for dynamic display ads - remarketing.
+
+Properties marked with red asterisk - <span class="text-red">*</span> are required and will remain highlighted in yellow until you bound them to corresponding feed property or provide static value for them.
 
 You can also provide feed property in combination with static value that will be used in case of missing property value for some of your feed items.
 
