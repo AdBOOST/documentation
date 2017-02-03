@@ -108,7 +108,7 @@ OPERAND - OPERATOR - VALUE/PARAMETERS
 
     - **Cut** - find string in value and remove everything on its left/right including/without itself
 
-    {% include image_tag.html url="/images/rules/ActionRCut.png" alt="Cut Action" style="" %}
+    {% include image_tag.html url="/images/rules/ActionCut.png" alt="Cut Action" style="" %}
 
     - **Regex** - same as replace but instead of string to find, you should provide regular expression
 
@@ -128,19 +128,19 @@ OPERAND - OPERATOR - VALUE/PARAMETERS
 
     - **Math expression** - take one property, apply math operation to it and save it as a value of another property
 
-    {% include image_tag.html url="/images/rules/ActionMathExpression.png" alt="MathExpression Action" style="" %}
+    {% include image_tag.html url="/images/rules/ActionMathExpression.png" alt="Math Expression Action" style="" %}
 
     - **Batch remove** - remove all listed strings from value
 
-    {% include image_tag.html url="/images/rules/ActionBatchRemove.png" alt="BatchRemove Action" style="" %}
+    {% include image_tag.html url="/images/rules/ActionBatchRemove.png" alt="Batch Remove Action" style="" %}
 
     - **Remove colors** - remove color names in selected language
 
-    {% include image_tag.html url="/images/rules/ActionRemoveColors.png" alt="RemoveColors Action" style="" %}
+    {% include image_tag.html url="/images/rules/ActionRemoveColors.png" alt="Remove Colors Action" style="" %}
 
     - **Strip HTML** - remove any HTML tags (ussualy enclosed in <> tags)
 
-    {% include image_tag.html url="/images/rules/ActionStripHtml.png" alt="StripHtml Action" style="" %}
+    {% include image_tag.html url="/images/rules/ActionStripHtml.png" alt="Strip Html Action" style="" %}
 
     - **Hash** - create unique hash from one property value and save it as a value of another property
 
