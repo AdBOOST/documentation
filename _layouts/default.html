@@ -107,11 +107,6 @@
     </div>
 
     <script src="//code.jquery.com/jquery-latest.js"></script>
-    <script>
-      $(document).ready(function(){
-        $("#search-box-suggestions").hide();
-      });
-    </script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script href="{{ '/assets/js/lightbox.min.js' | relative_url }}"></script>
@@ -155,6 +150,7 @@
 
       adboostApp.controller('adbDocsController', function($scope){
         function init(){
+          $("#search-box-suggestions").show();
           $scope.total_results = 0;
           $scope.search_results = [];
           $scope.show_search_box = false;
