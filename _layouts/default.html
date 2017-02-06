@@ -46,13 +46,13 @@
               </div>
             </form>
             <div class="search_results_box ng-hide" ng-show="show_search_box" ng-style="results_box_style">
-              <div class="ng-hide" hidden="true" ng-show="no_search">
+              <div class="initially-hidden" ng-show="no_search">
                 Type phrase and press enter to search
               </div>
-              <div class="ng-hide" hidden="true" ng-show="!no_search && total_results == 0">
+              <div class="initially-hidden" ng-show="!no_search && total_results == 0">
                 No results found
               </div>
-              <div class="ng-hide" hidden="true" ng-show="total_results > 0 && !no_search"  class="results-header">
+              <div class="initially-hidden" ng-show="total_results > 0 && !no_search"  class="results-header">
                 RESULTS: <b><span ng-bind="total_results"></span></b>
               </div>
               <ul class="products-list product-list-in-box ng-hide" ng-show="!no_search && total_results > 0">
