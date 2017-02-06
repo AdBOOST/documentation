@@ -57,15 +57,17 @@ Schema itself can be divided into six parts:
 
 ### Required properties
 
-These are properties that will be used to distinguish and identify your product and therefore:
+These are properties that will be used to distinguish and identify your items and therefore:
 
-- ID has to be unique. Please choose property that has lowest probability of duplicit values (EAN, ISBN, etc.)
-- Item name will help you to differentiate your products and will be used as a display property for your Ad Groups or Export items
-- URL has to point to web page with content related to this specific item. Otherwise, it might get rejected by target advertising network
+- **ID** has to be unique. Please choose property that has lowest probability of duplicit values (EAN, ISBN, etc.)
+- **Item name** will help you to differentiate your products and will be used as a display property for your Ad Groups or Export items
+- **URL** has to point to web page with content related to this specific item. Otherwise, it might get rejected by target advertising network
 
 {% include image_tag.html url="/images/feeds/RequiredProps.png" alt="Required Properties" style="" %}
 
 ### Recommended properties
+
+Properties that will be identified by AdBOOST or can be dragged into respective container by you. You will be able to continue in setup process, even if you leave any of them blank. **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-01-30-product-campaigns %}) ads.
 
 {% include image_tag.html url="/images/feeds/RecommendedProps.png" alt="Recommended Properties" style="" %}
 
