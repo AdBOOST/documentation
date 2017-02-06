@@ -84,9 +84,8 @@
     </header>
 
     <div id="content-wrapper">
-      <div class="inner clearfix">
-
-        <aside id="sidebar">
+      <div class="row">
+        <div class="col-md-3">
           <div class="row">
             <div class="col-md-12 social">
               <sapn>Follow us:</sapn>
@@ -105,11 +104,10 @@
               {% include posts_by_folder.html path="/" type="usecase" %}
             </div>
           </div>
-        </aside>
-
-        <section id="main-content">
+        </div>
+        <div class="col-md-9">
           {{ content }}
-        </section>
+        </div>
       </div>
     </div>
 
