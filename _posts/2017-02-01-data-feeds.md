@@ -77,18 +77,20 @@ Properties that will be identified by AdBOOST or can be dragged into respective 
 
 ### Image properties
 
+Here you should place all properties that content some image URL. They are the only ones that can be used in [Banner Generator]({% post_url 2017-01-31-banner-generator %}#image-layer) as a part of the image layer. Images from these URLs will also be pre-fetched and your future work in AdBOOST that will include them will therefore be much faster.
+
 {% include image_tag.html url="/images/feeds/ImageProperties.png" alt="Image Properties" style="" %}
 
 ### Other numerical values
+
+Here you should place all values that you later wish to use in [Modifier rules]({% post_url 2017-01-29-adboost-rules %}#predicates)) as a part of the condition with numeric operators (<, >, =, <=, >=).
 
 {% include image_tag.html url="/images/feeds/OtherNumeric.png" alt="Other Numeric Values" style="" %}
 
 ### Other properties
 
+This is the place for other feed properties that cannot be strictly categorized. This is also the place where you can create your own **virtual variables** that can be later filled in Feed Editor and used in other parts of AdBOOST.
+
 {% include image_tag.html url="/images/feeds/VirtualVariable.png" alt="Other Properties" style="" %}
-
-### Additional settings
-
-{% include image_tag.html url="/images/feeds/ItemElement.png" alt="Additional Settings" style="" %}
 
 
