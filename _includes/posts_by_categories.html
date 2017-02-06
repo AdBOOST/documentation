@@ -1,5 +1,22 @@
 {% for category in site.categories %}
-    <span class="label-sm">{{ category | first }}</span>
+    <span class="label-sm">
+        {% if category == 'AdBOOST Core' %}
+            <i class="network-icon adboost">&nbsp;</i>
+        {% endif %}
+        {% if category == 'Feed Management' %}
+            <i class="fa fa-database">&nbsp;</i>
+        {% endif %}
+        {% if category == 'Product Campaigns' %}
+            <i class="fa fa-bullhorn">&nbsp;</i>
+        {% endif %}
+        {% if category == 'Banner Generator' %}
+            <i class="fa fa-image">&nbsp;</i>
+        {% endif %}
+        {% if category == 'Monitoring Tool' %}
+            <i class="fa fa-area-chart">&nbsp;</i>
+        {% endif %}
+        {{ category | first }}
+    </span>
     <ul>
     {% for posts in category %}
       {% for post in posts %}
