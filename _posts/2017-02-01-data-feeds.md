@@ -2,7 +2,7 @@
 layout: default
 title:  "Data Feeds"
 date:   2017-02-01 10:30:15 -0600
-category: feed_management
+category: "Feed Management"
 type: feature
 trending: true
 tags: [feed, data, setup, management, source]

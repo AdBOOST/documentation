@@ -2,7 +2,7 @@
 layout: default
 title:  "Feed Exports"
 date:   2017-01-30 16:59:30 -0600
-category: feed_management
+category: "Feed Management"
 type: feature
 trending: true
 tags: [feed, export]

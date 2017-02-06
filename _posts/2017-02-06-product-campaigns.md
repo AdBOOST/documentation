@@ -2,7 +2,7 @@
 layout: default
 title:  "Product Campaigns"
 date:   2017-02-06 09:08:41 -0600
-category: product_campaigns
+category: "Product Campaigns"
 type: feature
 tags: [google, adwords, network, campaign, product, ppc, bing, bingads, yahoo, sklik, seznam, ad, keyword]
 ---
