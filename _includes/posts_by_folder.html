@@ -1,9 +1,9 @@
 <ul>
 {% for post in site.posts %}
-  {% if post.path contains include.path %}
+  {% if post.path contains include.path and post.type == include.type %}
     <li>
       <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
-  {%endif %}
+  {% endif %}
 {% endfor %}
 </ul>

@@ -3,6 +3,7 @@ layout: default
 title:  "Banner Generator"
 date:   2017-01-31 14:18:30 -0600
 category: banner_generator
+type: feature
 tags: [banner, generator, automated, template, display]
 ---
 
@@ -14,7 +15,7 @@ tags: [banner, generator, automated, template, display]
 
 ## Getting started
 
-Only pre-requisity of automated banners setup is to have at least one active data feed in AdBOOST. If you do not have one yet, please follow our [Feed setup guide]({% post_url 2017-02-01-feed-setup %})
+Only pre-requisity of automated banners setup is to have at least one active data feed in AdBOOST. If you do not have one yet, please follow our [Feed setup guide]({% post_url 2017-02-01-data-feeds %})
 
 ## Banners structure & usage
 

@@ -12,9 +12,11 @@ Welcome to AdBOOST platform manual. Feel free to browse features displayed in th
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
+    {% if post.type == 'feature' %}
+        <li>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+    {% endif %}
   {% endfor %}
 </ul>
 

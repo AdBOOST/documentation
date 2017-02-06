@@ -3,6 +3,7 @@ layout: default
 title:  "AdBOOST Rules"
 date:   2017-02-01 09:08:30 -0600
 category: adboost_core
+type: feature
 tags: [adboost, rules]
 ---
 
