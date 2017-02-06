@@ -26,7 +26,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <div class="row">
-          <div class="col-md-9 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()">
+          <div class="col-md-9 search-form-holder" ng-mouseover="mouseOver()" ng-mouseleave="mouseOut()">
             <form class="navbar-form" role="search" id="search-form">
               <div class="input-group">
                 <input
@@ -160,6 +160,7 @@
         init();
 
         $scope.mouseOver = function() {
+          console.log('mouse over');
           $scope.show_search_box = true;
           $scope.results_box_style = {
             width: $('#search-form .input-group').first().width()-1
