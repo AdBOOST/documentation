@@ -82,10 +82,8 @@
         </div>
       </div>
     </header>
-
     <div id="content-wrapper">
       <div class="inner clearfix">
-
         <aside id="sidebar">
           <div class="row">
             <div class="col-md-12 social">
@@ -106,7 +104,6 @@
             </div>
           </div>
         </aside>
-
         <section id="main-content">
           {{ content }}
         </section>
@@ -121,22 +118,17 @@
     <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
     {% if site.google_analytics %}
       <script type="text/javascript">
-
         var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
         document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-
       </script>
       <script type="text/javascript">
-
         try {
           var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
         pageTracker._trackPageview();
         } catch(err) {}
-
       </script>
     {% endif %}
     <script>
-
       var client = algoliasearch('CYKKMZUHCD', '8896d1522b51d7552d00318772de81e0');
       var index = client.initIndex('adboost-docs');
 
@@ -206,7 +198,6 @@
           window.location.href = result.link;
         }
       });
-
     </script>
   </body>
 </html>

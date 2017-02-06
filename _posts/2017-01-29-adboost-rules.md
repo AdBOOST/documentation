@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "AdBOOST Rules"
-date:   2017-02-01 09:08:30 -0600
+date:   2017-01-29 09:08:30 -0600
 category: "AdBOOST Core"
 type: feature
 trending: true
