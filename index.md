@@ -10,14 +10,14 @@ Welcome to AdBOOST platform manual. Feel free to browse features displayed in th
 
 ## Most frequent topics
 
-<ol>
-  {% for post in site.posts %}
-    {% if post.trending %}
-        <li>
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </li>
-    {% endif %}
-  {% endfor %}
-</ol>
+    <ol>
+      {% for post in site.posts %}
+        {% if post.trending %}
+            <li>
+              <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </li>
+        {% endif %}
+      {% endfor %}
+    </ol>
 
 

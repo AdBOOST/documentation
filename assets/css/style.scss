@@ -736,16 +736,16 @@ aside#sidebar p.repo-owner a {
 a.button {
   width: 134px;
   height: 58px;
-  padding-top: 22px;
+  padding-top: 13px;
   padding-left: 68px;
   font-family: 'Helvetica neue';
-  font-size: 23px;
+  font-size: 18px;
   line-height: 1.2;
   color: #fff;
 }
 a.button small {
   display: block;
-  font-size: 11px;
+  font-size: 10px;
 }
 header a.button {
   position: absolute;
@@ -1167,12 +1167,13 @@ header {
   .header-btn {
     width: 220px;
     height: 100px;
-    padding-left: 90px;
+    padding-left: 65px;
   }
 }
 
 #main-content {
   @include calc(width, '100% - 350px');
+  padding-right: 40px;
 }
 
 #sidebar {
