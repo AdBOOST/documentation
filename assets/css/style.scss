@@ -699,8 +699,8 @@ header h2 {
 }
 
 #main-content {
-  float: left;
-  width: 690px;
+  float: right;
+  @include calc(width, '100% - 350px');
 }
 
 #main-content img {
