@@ -57,6 +57,12 @@ Schema itself can be divided into six parts:
 
 ### Required properties
 
+These are properties that will be used to distinguish and identify your product and therefore:
+
+- ID has to be unique. Please choose property that has lowest probability of duplicit values (EAN, ISBN, etc.)
+- Item name will help you to differentiate your products and will be used as a display property for your Ad Groups or Export items
+- URL has to point to web page with content related to this specific item. Otherwise, it might get rejected by target advertising network
+
 {% include image_tag.html url="/images/feeds/RequiredProps.png" alt="Required Properties" style="" %}
 
 ### Recommended properties
