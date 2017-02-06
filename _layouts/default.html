@@ -45,14 +45,14 @@
                 </div>
               </div>
             </form>
-            <div class="search_results_box ng-hide" ng-show="show_search_box" ng-style="results_box_style">
-              <div class="initially-hidden" ng-show="no_search">
+            <div class="search_results_box ng-hide" id="search-box-suggestions" ng-show="show_search_box" ng-style="results_box_style">
+              <div ng-show="no_search">
                 Type phrase and press enter to search
               </div>
-              <div class="initially-hidden" ng-show="!no_search && total_results == 0">
+              <div ng-show="!no_search && total_results == 0">
                 No results found
               </div>
-              <div class="initially-hidden" ng-show="total_results > 0 && !no_search"  class="results-header">
+              <div ng-show="total_results > 0 && !no_search"  class="results-header">
                 RESULTS: <b><span ng-bind="total_results"></span></b>
               </div>
               <ul class="products-list product-list-in-box ng-hide" ng-show="!no_search && total_results > 0">
@@ -107,6 +107,11 @@
     </div>
 
     <script src="//code.jquery.com/jquery-latest.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#search-box-suggestions").hide();
+      });
+    </script>
     <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.0/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script href="{{ '/assets/js/lightbox.min.js' | relative_url }}"></script>
