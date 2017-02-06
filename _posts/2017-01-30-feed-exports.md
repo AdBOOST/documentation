@@ -140,7 +140,7 @@ You can further refine which items will be exported by specifying Export filter 
 3. **Export filter rules** - control which items will be part of the export (you can have more exports bound to one feed that differ only by filter rules)
 4. **Export CPC edit rules** (optional) - currently available only for Heureka and later described in [Automated bidding part](#automated-bidding)
 
-On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules guide]({% post_url 2017-02-01-adboost-rules %})) that filter 746 of 1 581 items in feed.
+On the screen below, you can see sample rules (rules are described in detail in [AdBOOST rules guide]({% post_url 2017-01-29-adboost-rules %})) that filter 746 of 1 581 items in feed.
 
 {% include image_tag.html url="/images/exports/ExportItemFiltering.png" alt="Export Item Filtering" style="" %}
 
