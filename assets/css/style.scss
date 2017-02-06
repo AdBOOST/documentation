@@ -1260,6 +1260,7 @@ header {
     }
   }
   .search_results_box {
+    display: none;
     position: absolute;
     z-index: 9999;
     top: 38px;
