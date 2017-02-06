@@ -636,6 +636,13 @@ th {
   background-color: #f8f8f8;
 }
 
+
+@mixin calc($property, $expression) {
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: -webkit-calc(#{$expression});
+  #{$property}: calc(#{$expression});
+}
+
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
@@ -1152,12 +1159,6 @@ footer a:hover {
 /* */
 /* */
 /* */
-
-@mixin calc($property, $expression) {
-  #{$property}: -moz-calc(#{$expression});
-  #{$property}: -webkit-calc(#{$expression});
-  #{$property}: calc(#{$expression});
-}
 
 body {
   font-family: 'Helvetica neue';
