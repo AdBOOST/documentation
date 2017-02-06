@@ -26,7 +26,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <div class="row">
-          <div class="col-md-9 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()">
+          <div class="col-md-9 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()" ng-cloak>
             <form class="navbar-form" role="search" id="search-form">
               <div class="input-group">
                 <input
@@ -39,20 +39,20 @@
                   ng-change="search()"
                   ng-blur="search()"
                   my-enter="search()"
-                  ng-model-options="{debounce: 500}">
+                  ng-model-options="{debounce: 150}">
                 <div class="input-group-btn">
                   <button class="btn btn-default" type="button" ng-click="search()"><i class="glyphicon glyphicon-search"></i></button>
                 </div>
               </div>
             </form>
-            <div class="search_results_box ng-hide" ng-show="show_search_box" ng-style="results_box_style" ng-cloak>
-              <div class="ng-hide" ng-show="no_search">
+            <div class="search_results_box ng-hide" ng-show="show_search_box" ng-style="results_box_style">
+              <div class="ng-hide" hidden="true" ng-show="no_search">
                 Type phrase and press enter to search
               </div>
-              <div class="ng-hide" ng-show="!no_search && total_results == 0">
+              <div class="ng-hide" hidden="true" ng-show="!no_search && total_results == 0">
                 No results found
               </div>
-              <div class="ng-hide" ng-show="total_results > 0 && !no_search"  class="results-header">
+              <div class="ng-hide" hidden="true" ng-show="total_results > 0 && !no_search"  class="results-header">
                 RESULTS: <b><span ng-bind="total_results"></span></b>
               </div>
               <ul class="products-list product-list-in-box ng-hide" ng-show="!no_search && total_results > 0">
