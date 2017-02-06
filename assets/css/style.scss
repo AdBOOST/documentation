@@ -719,6 +719,9 @@ header h2 {
 }
 
 aside#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
   float: left;
   width: 300px;
   min-height: 100%;
