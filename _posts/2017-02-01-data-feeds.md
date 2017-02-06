@@ -67,7 +67,11 @@ These are properties that will be used to distinguish and identify your items an
 
 ### Recommended properties
 
-Properties that will be identified by AdBOOST or can be dragged into respective container by you. You will be able to continue in setup process, even if you leave any of them blank. **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-01-30-product-campaigns %}) ads.
+Properties that will be identified by AdBOOST or can be dragged into respective container by you. You will be able to continue in setup process, even if you leave any of them blank, but every one of these properties has some role:
+
+- **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-01-30-product-campaigns %}) ads
+- **Category** property can later be used to segment your feed and automatically create [Batch of Campaigns]({% post_url 2017-02-06-batch-campaigns %})
+- **Manufacturer** property will be used to create suggestions for your [Keyword Pattern]({% post_url 2017-02-06-keyword-patterns %}) and [Ad Patterns]({% post_url 2017-02-06-ad-patterns %})
 
 {% include image_tag.html url="/images/feeds/RecommendedProps.png" alt="Recommended Properties" style="" %}
 
