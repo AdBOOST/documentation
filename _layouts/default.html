@@ -46,10 +46,10 @@
               </div>
             </form>
             <div class="search_results_box ng-hide" ng-show="show_search_box" ng-style="results_box_style" ng-cloak>
-              <div class="ng-hide" ng-if="no_search">
+              <div class="ng-hide" ng-show="no_search">
                 Type phrase and press enter to search
               </div>
-              <div class="ng-hide" ng-if="!no_search && total_results == 0">
+              <div class="ng-hide" ng-show="!no_search && total_results == 0">
                 No results found
               </div>
               <div class="ng-hide" ng-show="total_results > 0 && !no_search"  class="results-header">
@@ -160,7 +160,6 @@
         init();
 
         $scope.mouseOver = function() {
-          console.log('mouse over');
           $scope.show_search_box = true;
           $scope.results_box_style = {
             width: $('#search-form .input-group').first().width()-1
