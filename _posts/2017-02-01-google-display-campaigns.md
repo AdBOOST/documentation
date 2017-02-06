@@ -8,7 +8,6 @@ tags: [google, display, network, campaign, product, ppc, banner]
 ---
 
 # Google Display Campaigns
-<br/>
 
 * TOC
 {:toc}

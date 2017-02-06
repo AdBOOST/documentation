@@ -8,7 +8,6 @@ tags: [feed, data, setup, management, source]
 ---
 
 # Data Feeds
-<br/>
 
 * TOC
 {:toc}
@@ -47,6 +46,36 @@ When you fill in the feed name and the URL, feed schema will be generated. AdBOO
 
 {% include image_tag.html url="/images/feeds/RequiredFieldsFilled.png" alt="Required Fields Filled" style="" %}
 
-If you do not want any of feed properties to be processed, just drag and drop it on the <i class="glyphicon glyphicon-trash"></i> icon. Do not be afraid to make changes to your feed URL. Anytime you try to do so, dialog with processing options will appear and you will have another chance to change your mind about it.
+If you do not want any of feed properties to be processed, just drag and drop it on the <i class="glyphicon glyphicon-trash"></i> icon.
+
+Do not be afraid to make changes to your feed URL. Anytime you try to do so, dialog with processing options will appear and you will have another chance to change your mind about it. Dialog will be shown after URL change or after click on <i class="fa fa-refresh"></i> icon.
 
 {% include image_tag.html url="/images/feeds/UrlReloadAction.png" alt="Url Reload Action" style="" %}
+
+Schema itself can be divided into six parts:
+
+### Required properties
+
+{% include image_tag.html url="/images/feeds/RequiredProps.png" alt="Required Properties" style="" %}
+
+### Recommended properties
+
+{% include image_tag.html url="/images/feeds/RecommendedProps.png" alt="Recommended Properties" style="" %}
+
+### Image properties
+
+{% include image_tag.html url="/images/feeds/ImageProperties.png" alt="Image Properties" style="" %}
+
+### Other numerical values
+
+{% include image_tag.html url="/images/feeds/OtherNumeric.png" alt="Other Numeric Values" style="" %}
+
+### Other properties
+
+{% include image_tag.html url="/images/feeds/VirtualVariable.png" alt="Other Properties" style="" %}
+
+### Additional settings
+
+{% include image_tag.html url="/images/feeds/ItemElement.png" alt="Additional Settings" style="" %}
+
+

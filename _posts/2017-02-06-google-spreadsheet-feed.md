@@ -8,7 +8,6 @@ tags: [google, docs, spreadsheet, feed]
 ---
 
 # Google Spreadsheet Feed
-<br/>
 
 * TOC
 {:toc}

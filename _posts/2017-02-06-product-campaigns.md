@@ -8,7 +8,6 @@ tags: [google, adwords, network, campaign, product, ppc, bing, bingads, yahoo, s
 ---
 
 # Product Campaigns
-<br/>
 
 * TOC
 {:toc}

@@ -8,7 +8,6 @@ tags: [google, adwords, campaign, monitoring]
 ---
 
 # Monitoring tool
-<br/>
 
 * TOC
 {:toc}
