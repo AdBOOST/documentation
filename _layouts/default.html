@@ -15,18 +15,13 @@
   <body ng-app="adboostApp" ng-controller="adbDocsController">
     <header>
       <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <div id="adboost-logo"></div>
-        </a>
-        <div class="subtitle">{{ site.description | default: site.github.project_tagline }}</div>
-        <a href="https://app.adboost.sk" class="button header-btn" target="_blank">Log in or <small>Register for free</small></a>
-      </div>
-    </header>
-
-    <div id="content-wrapper">
-      <div class="inner clearfix">
         <div class="row">
-          <div class="col-md-9 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()" ng-cloak>
+          <div class="col-md-4">
+            <a href="{{ '/' | absolute_url }}">
+              <div id="adboost-logo"></div>
+            </a>
+          </div>
+          <div class="col-md-8 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()" ng-cloak>
             <form class="navbar-form" role="search" id="search-form">
               <div class="input-group">
                 <input
@@ -68,9 +63,7 @@
                 </li>
               </ul>
             </div>
-          </div>
-          <div class="col-md-3">
-            <p>
+            <div class="algolia-trademark">
               <span>Search powered by</span>
               <img src="https://res.cloudinary.com/hilnmyskv/image/upload/v1481643883/algolia-logo-horizontal_yov4e3.svg" alt="Algolia Logo" width="50">
               <span>
@@ -78,9 +71,20 @@
                   <img src="https://res.cloudinary.com/hilnmyskv/image/upload/v1461179992/icon-download.svg" alt="download" width="19px">
                 </a>
               </span>
-            </p>
+            </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="subtitle">{{ site.description | default: site.github.project_tagline }}</div>
+          </div>
+        </div>
+        <a href="https://app.adboost.sk" class="button header-btn" target="_blank">Log in or <small>Register for free</small></a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
         <section id="main-content">
           {{ content }}
         </section>
