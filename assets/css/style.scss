@@ -1186,7 +1186,7 @@ header {
     font-size: 18px;
     width: 100%;
     color: #fff;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-bottom: 10px;
   }
   .header-btn {
@@ -1452,6 +1452,7 @@ a.image {
   display: none;
 }
 #algolia-trademark {
+  font-size: 11px;
   margin-top: 0;
   float: right;
   color: #1d3657;
