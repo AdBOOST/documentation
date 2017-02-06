@@ -1167,8 +1167,7 @@ header {
     background: #803f99 url(../images/adb-header-bg.jpg) 0 0 repeat-x;
     border-bottom: solid 1px #7d33a4;
     font-family: 'Helvetica neue';
-    padding-top: 10px;
-    padding-bottom: 0px;
+    padding: 10px 40px 0px 40px;
   }
   a:hover {
     text-decoration: none;
@@ -1231,6 +1230,11 @@ header {
   }
 }
 .search-form-holder {
+  & {
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding-left: 50px;
+  }
   .navbar-form {
     & {
       background-color: #fafafa;
@@ -1446,4 +1450,9 @@ a.image {
 }
 #search-box-suggestions {
   display: none;
+}
+#algolia-trademark {
+  margin-top: 0;
+  float: right;
+  color: #1d3657;
 }
