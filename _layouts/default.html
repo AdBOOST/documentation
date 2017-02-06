@@ -20,7 +20,7 @@
             <div id="adboost-logo"></div>
           </a>
         </div>
-        <div class="col-md-9 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()" ng-cloak>
+        <div class="col-md-7 search-form-holder" ng-mouseenter="mouseOver()" ng-mouseleave="mouseOut()" ng-cloak>
           <form class="navbar-form" role="search" id="search-form">
             <div class="input-group">
               <input
@@ -72,13 +72,15 @@
             </span>
           </div>
         </div>
+        <div class="col-md-2">
+          <a href="https://app.adboost.sk" class="button header-btn" target="_blank">Log in or <small>Register for free</small></a>
+        </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <div class="subtitle">{{ site.description | default: site.github.project_tagline }}</div>
         </div>
       </div>
-      <a href="https://app.adboost.sk" class="button header-btn" target="_blank">Log in or <small>Register for free</small></a>
     </header>
 
     <div id="content-wrapper">
