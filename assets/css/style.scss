@@ -708,9 +708,10 @@ header h2 {
 }
 
 aside#sidebar {
-  float: right;
-  width: 200px;
-  min-height: 504px;
+  float: left;
+  width: 350px;
+  min-height: 100%;
+  height: 100%;
   padding-left: 20px;
   font-size: 12px;
   line-height: 1.3;
