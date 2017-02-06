@@ -1,5 +1,5 @@
 {% for category in site.categories %}
-    <label>{{ category | first }}</label>
+    <span class="label-sm">{{ category | first }}</span>
     <ul>
     {% for posts in category %}
       {% for post in posts %}
