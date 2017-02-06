@@ -92,5 +92,3 @@ Here you should place all values that you later wish to use in [Modifier rules](
 This is the place for other feed properties that cannot be strictly categorized. This is also the place where you can create your own **virtual variables** that can be later filled in Feed Editor and used in other parts of AdBOOST.
 
 {% include image_tag.html url="/images/feeds/VirtualVariable.png" alt="Other Properties" style="" %}
-
-
