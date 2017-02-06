@@ -1,5 +1,5 @@
 {% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
+    <label>{{ category | first }}</label>
     <ul>
     {% for posts in category %}
       {% for post in posts %}
@@ -9,5 +9,4 @@
       {% endfor %}
     {% endfor %}
     </ul>
-  </li>
 {% endfor %}
