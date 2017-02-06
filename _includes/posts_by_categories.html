@@ -1,6 +1,6 @@
 {% for category in site.categories %}
   <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ol>
+    <ul>
     {% for posts in category %}
       {% for post in posts %}
         {% if post.type == include.type %}
@@ -8,6 +8,6 @@
         {% endif %}
       {% endfor %}
     {% endfor %}
-    </ol>
+    </ul>
   </li>
 {% endfor %}
