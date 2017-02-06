@@ -4,6 +4,7 @@ title:  "Banner Generator"
 date:   2017-01-31 14:18:30 -0600
 category: banner_generator
 type: feature
+trending: true
 tags: [banner, generator, automated, template, display]
 ---
 
