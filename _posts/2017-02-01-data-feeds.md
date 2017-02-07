@@ -102,7 +102,7 @@ This is the place for other feed properties that cannot be strictly categorized.
 
 ## Schema enhancements
 
-This is the place where you can enrich your items by adding properties from [Heureka sortiment export](https://sluzby.heureka.cz/napoveda/objasneni-polozek-sortimentreportu/) such as number of competitors, popularity, etc. If you already have such an export, just drop it to the grey area in form. Otherwise you can skip this step.
+This is the place where you can enrich your items with properties from [Heureka sortiment export](https://sluzby.heureka.cz/napoveda/objasneni-polozek-sortimentreportu/) such as number of competitors, popularity, etc. If you already have such an export, just drop it to the grey area in form. Otherwise you can skip this step.
 
 {% include image_tag.html url="/images/feeds/SchemaEnhancements.png" alt="Schema Enhancements" style="" %}
 
@@ -116,7 +116,7 @@ On the screen below, you can see sample rules (rules are described in detail in 
 
 Pay special attention to **Available account items quota**. It is the number of items you have left to be imported to AdBOOST. Every trial account starts with 10 000 items quota that can be later enhanced. If you exceed this limit with current filter conditions, you will be presented with warning and AdBOOST will import number of items equal to remaining quota portion (it this case 195 of 1 518)
 
-{% include image_tag.html url="/images/feeds/UnsufficientQuota.png" alt="Unsufficient Quota" style="" %}
+{% include image_tag.html url="/images/feeds/UnsufficientQuota.png" alt="Unsufficient Quota" style="height:300px;" %}
 
 Last part of this form is preview of filtered item at its bottom. It shows up to 100 items and can be filtered upon by item name, id, category or URL.
 
