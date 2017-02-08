@@ -716,14 +716,17 @@ header h2 {
 }
 
 #main-content {
-  position: relative;
+  position: fixed;
   top: 120px;
+  left: 350px;
+  overflow-y: scroll;
   float: right;
   @include calc(width, '100% - 300px');
 }
 
 #main-content img {
   max-width: 80%;
+  max-height: 500px;
 }
 
 aside#sidebar {

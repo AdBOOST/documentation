@@ -58,7 +58,7 @@ If you do not want any of feed properties to be processed, just drag and drop it
 
 Do not be afraid to make changes to your feed URL. Anytime you try to do so, dialog with processing options will appear and you will have another chance to change your mind about it. Dialog will be shown after URL change or after click on <i class="fa fa-refresh"></i> icon.
 
-{% include image_tag.html url="/images/feeds/UrlReloadAction.png" alt="Url Reload Action" style="" %}
+{% include image_tag.html url="/images/feeds/UrlReloadAction.png" alt="Url Reload Action" style="height:300px;" %}
 
 Schema itself can be divided into six parts:
 

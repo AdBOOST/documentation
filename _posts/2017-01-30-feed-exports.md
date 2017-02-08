@@ -100,7 +100,7 @@ Feed exports for Facebook allow you to assign automated banner ads created with 
 
 If you want to assign banner template as a product image and you see dialog below, it means you do not have any banners that are suitable for Facebook advertising network or you have not yet created any banner template at all. In this case follow our [Banner generator guide]({% post_url 2017-01-31-banner-generator %}) to create some.
 
-{% include image_tag.html url="/images/exports/FacebookNoBanners.png" alt="Facebook No Banners" style="" %}
+{% include image_tag.html url="/images/exports/FacebookNoBanners.png" alt="Facebook No Banners" style="height:300px;" %}
 
 When you have successfully created at least one banner template, that is eligible for usage in Facebook (ratio 1:1 and minimal width 600px), content of banner template assign dialog will change to version shown on image below.
 
@@ -121,7 +121,7 @@ If you have set all required properties and your are satisfied with overall stru
 
 No matter what option you choose, every screen of export setup will contain status label and URL after first schema submit. **URL is persistent. Once it has been generated, it will forever refer to this specific export**. If there are some changes in schema, category mapping, assigned banner templates or in feed data, export will be re-processed and this URL will always contain most up-to-date version.
 
-{% include image_tag.html url="/images/exports/ExportStatusLabel.png" alt="Export Status Label" style="" %}
+{% include image_tag.html url="/images/exports/ExportStatusLabel.png" alt="Export Status Label" style="height:300px;" %}
 
 Status label is an indicator of export health and can have following states:
 
@@ -146,7 +146,7 @@ On the screen below, you can see sample rules (rules are described in detail in 
 
 Notice also the counter of item categories that are suitable for provided rules with <i class="glyphicon glyphicon-search pointer"></i> icon next to it. By clicking this icon, you will invoke displaying of dialog with list of these categories, that can be later filtered upon.
 
-{% include image_tag.html url="/images/FilterRulesCategoryPreview.png" alt="Filter Rules Category Preview" style="" %}
+{% include image_tag.html url="/images/FilterRulesCategoryPreview.png" alt="Filter Rules Category Preview" style="height:300px;" %}
 
 Last part of this form is preview of filtered item at its bottom. It shows up to 100 items and can be filtered upon by item name, id, category or URL.
 
