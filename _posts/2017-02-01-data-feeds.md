@@ -118,6 +118,21 @@ Pay special attention to **Available account items quota**. It is the number of 
 
 {% include image_tag.html url="/images/feeds/UnsufficientQuota.png" alt="Unsufficient Quota" style="height:300px;" %}
 
-Last part of this form is preview of filtered item at its bottom. It shows up to 100 items and can be filtered upon by item name, id, category or URL.
+Last part of this form is preview of filtered item at its bottom. It shows up to 100 items and can be filtered by item name, id, category or URL.
 
 {% include image_tag.html url="/images/FilteredItemsPreview.png" alt="Filtered Items Preview" style="" %}
+
+## Edit items
+
+Items from your feed are at this point only pre-fetched and filtered. **Feed editor form** is the last point where you can modify your items before they enter AdBOOST (although whole feed setup process can be repeated and editor form can be saved any time in the future).
+
+Feed editor itself is a set of AdBOOST Rules (described in detail in [AdBOOST rules guide]({% post_url 2017-01-29-adboost-rules %})) that are **sequentially** applied to all items that fit conditions in feed filter rules and of each specific editor rule. Rules can be:
+
+- re-ordered by drag&drop with <i class="glyphicon glyphicon-resize-vertical"></i> icon handle
+- named for better identification
+- quickly examined using coverage in header of rule preview container
+- expanded and examined in detail after click to <i class="glyphicon glyphicon-collapse-down"></i> icon
+
+{% include image_tag.html url="/images/FeedEditor.png" alt="Feed Editor" style="" %}
+
+Please, pay attention also to <i class="glyphicon glyphicon-warning-sign"></i> icons in rule preview container headers that indicate informative character of rule preview. Preview itself will show correct results but some items might be filtered differently compared to final result. This behavior is performance optimization which ensures responsiveness of whole editor.
