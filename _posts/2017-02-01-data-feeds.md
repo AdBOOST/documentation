@@ -139,16 +139,16 @@ Please, pay attention also to <i class="glyphicon glyphicon-warning-sign"></i> i
 
 ## Schedule
 
-First saving of Feed Editor form triggers **Feed processing**. Item descriptions at remote URL provided by you are fetched and transformed into AdBOOST items with up-to-date property values. To get the most out of AdBOOST, you sure want to keep your items in this up-to-date state. To make it so, you have to set synchronisation frequency in Schedule form. Start by clicking to <span class="btn btn-sm btn-primary">Set synchronisation frequency</span> button.
+First saving of Feed Editor form triggers **Feed processing**. Item descriptions at remote URL provided by you are fetched and transformed into AdBOOST items with up-to-date property values. To get the most out of AdBOOST, you sure want to keep your items in this up-to-date state. To make it so, you have to set synchronisation frequency in Schedule form. Start by clicking to <span class="btn btn-sm btn-primary">Set synchronisation frequency now</span> button.
 
 {% include image_tag.html url="/images/feeds/EmptySchedule.png" alt="Empty Schedule" style="" %}
 
 You can choose as many synchronisations per week as you want, but please bare in mind that your own feed might not be updated as frequently. Top limit is synchronisation every hour of every day.This form can be saved by clicking to one of submit buttons. Each of them will take you to the different part of AdBOOST according to your use case:
 
-- <i class="fa fa-puzzle-piece"></i> Save & go to campaigns creation - will proceed to next step of feed setup (Create campaigns) where you can <b>setup all of your campaign in 5 minutes</b>. This functionallity is described in detail in [Batch Campaign Creator guide]({% post_url 2017-02-06-batch-campaigns %})
-- <i class="fa fa-files-o"></i> Save & go feeds listing - will take you to the listing of your feeds where you can decide what is your next action.
-- <i class="fa fa-share"></i> Save & go to Exports - will take you to the listing of your feed exports for external networks and price comparison engines. This functionallity is described in detail in [Feed Exports guide]({% post_url 2017-01-30-feed-exports %})
-- <i class="fa fa-image"></i> Save & go to Banners - will take you to the listing of your banner sets which is a starting point for setup of your automated or personalized product display ads. This functionallity is described in detail in [Banner Generator guide]({% post_url 2017-01-31-banner-generator %})
+- __<i class="fa fa-puzzle-piece"></i> Save & go to campaigns creation__ - will proceed to next step of feed setup (Create campaigns) where you can <b>setup all of your campaign in 5 minutes</b>. This functionallity is described in detail in [Batch Campaign Creator guide]({% post_url 2017-02-06-batch-campaigns %})
+- __<i class="fa fa-files-o"></i> Save & go feeds listing__ - will take you to the listing of your feeds where you can decide what is your next action.
+- __<i class="fa fa-share"></i> Save & go to Exports__ - will take you to the listing of your **feed exports for external networks and price comparison engines**. This functionallity is described in detail in [Feed Exports guide]({% post_url 2017-01-30-feed-exports %})
+- __<i class="fa fa-image"></i> Save & go to Banners__ - will take you to the listing of your banner sets which is a starting point for setup of your **automated or personalized product display ads**. This functionallity is described in detail in [Banner Generator guide]({% post_url 2017-01-31-banner-generator %})
 
 {% include image_tag.html url="/images/feeds/ScheduleBeforeSave.png" alt="Schedule Before Save" style="" %}
 
