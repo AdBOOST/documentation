@@ -133,6 +133,6 @@ Feed editor itself is a set of AdBOOST Rules (described in detail in [AdBOOST ru
 - quickly examined using coverage in header of rule preview container
 - expanded and examined in detail after click to <i class="glyphicon glyphicon-collapse-down"></i> icon
 
-{% include image_tag.html url="/images/FeedEditor.png" alt="Feed Editor" style="" %}
+{% include image_tag.html url="/images/feeds/FeedEditor.png" alt="Feed Editor" style="" %}
 
 Please, pay attention also to <i class="glyphicon glyphicon-warning-sign"></i> icons in rule preview container headers that indicate informative character of rule preview. Preview itself will show correct results but some items might be filtered differently compared to final result. This behavior is performance optimization which ensures responsiveness of whole editor.
