@@ -1202,8 +1202,7 @@ header {
   @include calc(width, '100% - 300px');
   padding-right: 40px;
   padding-left: 20px;
-  height: 100%;
-  min-height: 100%;
+  @include calc(height, '100% - 90px');
 }
 
 #sidebar {
