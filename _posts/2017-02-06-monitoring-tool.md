@@ -43,11 +43,11 @@ Every element in this form has a tooltip, so if you wonder what it does, just ho
 
 Channels setup itself can include another three specific tasks:
 
-- tick checkbox in "Active" column if you wish to PAUSE advertising **channel that has already been saved**. Afterwards, you should confirm your action with click to Save buttton. Otherwise, manipulation with this element will not have any effect
-- if you are a part of an AdBOOST Agency that already has some shared e-mail addresses that have been verified with OAUTH, you will see them listed in dropdown in **Linked Accounts** column. You can still verify your current e-mail by clicking the <i class="fa fa-plus"></i> icon. If you do not wish to do so, you can choose one of available e-mails from dropdown. Only important thing is to **choose the e-mail that is used as an owner in account with provided identifier**
-- if you decide to activate an Analytics channel, you still have to provide account identifier to check account connectivity. After its verification, you will be presented with two dropdowns:
-        1. **Property ID** - segment of your analytics account e.g. language versions of same website
-        2. **View ID** - event set within account segment defined by you. Default value equals to "All website data"
+* tick checkbox in "Active" column if you wish to PAUSE advertising **channel that has already been saved**. Afterwards, you should confirm your action with click to Save buttton. Otherwise, manipulation with this element will not have any effect
+* if you are a part of an AdBOOST Agency that already has some shared e-mail addresses that have been verified with OAUTH, you will see them listed in dropdown in **Linked Accounts** column. You can still verify your current e-mail by clicking the <i class="fa fa-plus"></i> icon. If you do not wish to do so, you can choose one of available e-mails from dropdown. Only important thing is to **choose the e-mail that is used as an owner in account with provided identifier**
+* if you decide to activate an Analytics channel, you still have to provide account identifier to check account connectivity. After its verification, you will be presented with two dropdowns:
+    1. **Property ID** - segment of your analytics account e.g. language versions of same website
+    2. **View ID** - event set within account segment defined by you. Default value equals to "All website data"
 
 {% include image_tag.html url="/images/monitoring/ClientEditModal.png" alt="Client Edit Modal" style="" %}
 
