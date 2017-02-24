@@ -696,7 +696,7 @@ header h2 {
   font-size: 26px;
   font-weight: normal;
   line-height: 1.3;
-  color: #9655af;
+  color: #605ca8;
   letter-spacing: 0;
 }
 
@@ -722,7 +722,7 @@ header h2 {
   overflow-y: scroll;
   float: right;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 40px;
   @include calc(width, '100% - 300px');
 }
 
@@ -1048,7 +1048,7 @@ footer a:hover {
     line-height: 1;
     color: #2879d0;
     text-align: center;
-    background-color: #9655af;
+    background-color: #605ca8;
     background-image: none;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1217,7 +1217,7 @@ header {
       margin-bottom: 20px;
     }
     .fa {
-      color: #7c3992;
+      color: #605ca8;
       font-size: x-large;
     }
     span {
@@ -1332,7 +1332,7 @@ a.image {
     bottom: 0;
     padding: 4px 10px;
     text-align: center;
-    background: #9655af;
+    background: #605ca8;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
   }
