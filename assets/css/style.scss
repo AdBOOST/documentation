@@ -1201,7 +1201,7 @@ header {
 
 #main-content {
   @include calc(width, '100% - 300px');
-  padding-right: 40px;
+  padding-right: 50px;
   padding-left: 20px;
   @include calc(height, '100% - 90px');
 }

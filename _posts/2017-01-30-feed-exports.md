@@ -125,7 +125,9 @@ No matter what option you choose, every screen of export setup will contain stat
 
 Status label is an indicator of export health and can have following states:
 
-{% include image_tag.html url="/images/StatusLabelStates.png" alt="Status Label States" style="" %}
+{% include image_tag.html url="/images/StatusLabelStates.png" alt="Status Label States" style="height:300px;" %}
+
+States are described in detail in [Data Feeds guide]({% post_url 2017-02-01-data-feeds %}#feed-status)
 
 It always contains state information and action button. Click to <i class="fa fa-refresh"></i> icon starts re-processing of export and click to <i class="fa fa-clock-o"></i> icon shows dialog displayed below which contains information about export processing history, corresponding issues and recovers.
 

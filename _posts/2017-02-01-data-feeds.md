@@ -137,6 +137,18 @@ Feed editor itself is a set of AdBOOST Rules (described in detail in [AdBOOST ru
 
 Please, pay attention also to <i class="glyphicon glyphicon-warning-sign"></i> icons in rule preview container headers that indicate informative character of rule preview. Preview itself will show correct results but some items might be filtered differently compared to final result. This behavior is performance optimization which ensures responsiveness of whole editor.
 
+## Feed status
+
+Status label is an indicator of feed health and can be found in every row of feed listing and at the top of Filter, Editor and Create Campaigns forms. It can have following states:
+
+{% include image_tag.html url="/images/StatusLabelStates.png" alt="Status Label States" style="height:300px;" %}
+
+- **Successfully processed** - feed has been parsed by AdBOOST without any errors and all items that match [Filter rules](#filter-items) have been modified according to [Editor rules](#edit-items) and uploaded into it
+- **Processed with warnings** - feed processing raised issues that were not critical (some items might have been skipped). These issues can be examined in processing dialog that can be shown by click to <i class="fa fa-clock-o"></i> icon
+- **Processed with errors** - feed processing raised critical issues and did not finish. None of your changes, that have been made from the previous processing, were applied. These issues can be examined in processing dialog that can be shown by click to <i class="fa fa-clock-o"></i> icon
+- **Not processed yet** - feed has been saved but not processed yet. This means that either every one of processing attempts failed or you have not saved [Edit items form](#edit-items) yet
+- **Re-processing needed** - last feed processing have not been successfully finished. Task failed without any reason that could be listed in logs. This might be accident and re-processing request usually fixes this state.
+
 ## Schedule
 
 First saving of Feed Editor form triggers **Feed processing**. Item descriptions at remote URL provided by you are fetched and transformed into AdBOOST items with up-to-date property values. To get the most out of AdBOOST, you sure want to keep your items in this up-to-date state. To make it so, you have to set synchronisation frequency in Schedule form. Start by clicking to <span class="btn btn-sm btn-primary">Set synchronisation frequency now</span> button.
