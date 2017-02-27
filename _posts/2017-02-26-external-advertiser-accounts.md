@@ -133,6 +133,25 @@ Desired Facebook Ads account number can then be found in the selectbox with your
 
 ## Google Analytics
 
+This type of account can be utilized in process of your Google Analytics site monitoring with our [Monitoring Tool]({% post_url 2017-02-06-monitoring-tool %}). It is interesting mostly for cross-validation of statistics provided by other advertising networks. Monitoring tool provides interface for external channels setup. Here you will need your account identifier to fetch your Analytics account stats.
+
+{% include image_tag.html url="/images/advertiser_accounts/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
+
+This number can be obtained from your <a href="https://analytics.google.com/" target="_blank">Google Analytics interface</a>.
+
+{% include image_tag.html url="/images/advertiser_accounts/AnalyticsCredentials.png" alt="Analytics Credentials" style="" %}
+
+After it has been provided into form, you will be presented with another two fields:
+
+1. **Property ID** - segment of your analytics account e.g. language versions of same website
+2. **View ID** - event set within account segment defined by you. Default value equals to "All website data"
+
+{% include image_tag.html url="/images/advertiser_accounts/AnalyticsProps.png" alt="Analytics Props" style="" %}
+
+These can be found after the click to the selectbox at the top left corner of Google Analytics interface.
+
+{% include image_tag.html url="/images/advertiser_accounts/AnalyticsTriplet.png" alt="Analytics Triplet" style="" %}
+
 ## Heureka
 
 ## Google Merchant Center
