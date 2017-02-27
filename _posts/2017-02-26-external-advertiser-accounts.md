@@ -107,6 +107,30 @@ This is the part where you can find all credentials that are needed to connect A
 
 ## Facebook Ads
 
+This type of account is one of three types that require OAUTH verification. Warning icon at the top of the AdBOOST page will remain red until you connect your current AdBOOST e-mail to these advertising networks or accept these warnings as irrelevant (useful in case when your e-mail is not the one that is used as account owner in target network or when you do not want to manage advertising in all three networks)
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostOauths.png" alt="AdBoost Oauths" style="" %}
+
+If you click to "<i class="fa fa-warning text-red"></i> Facebook not paired with your login", you will be redirected to Facebook's OAUTH page.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostFacebookOauth.png" alt="AdBoost Facebook Oauth" style="" %}
+
+If you submit this form, you will only give AdBOOST access to you public profile and e-mail address. Access to your Facebook Ads account will be requested only after this step.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostFacebookAds.png" alt="AdBoost Facebook Ads" style="" %}
+
+This connection can be utilized in process of your Facebook advertising performance monitoring with our [Monitoring Tool]({% post_url 2017-02-06-monitoring-tool %}). It provides interface for external channels setup. Here you will need your account identifier to fetch your Facebook Ads account stats.
+
+{% include image_tag.html url="/images/advertiser_accounts/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
+
+This number can be obtained from your Facebook Ads interface. This interface is accessed by selecting a "Create Adverts" option in your Facebook account.
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookDashboard.png" alt="Facebook Dashboard" style="" %}
+
+Desired Facebook Ads account number can then be found in the selectbox with your accessible accounts.
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookCredentials.png" alt="Facebook Credentials" style="" %}
+
 ## Google Analytics
 
 ## Heureka
