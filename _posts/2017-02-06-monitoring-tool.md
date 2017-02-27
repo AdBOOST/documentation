@@ -55,4 +55,4 @@ Channels setup itself can include another three specific tasks:
 
 ## Client Identifiers
 
-
+If you want to know how to manage connections of AdBOOST to external advertising networks, please refer to [External Advertiser Accounts guide]({% post_url 2017-02-26-external-advertiser-accounts %})
