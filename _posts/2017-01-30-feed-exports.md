@@ -121,7 +121,7 @@ If you have set all required properties and your are satisfied with overall stru
 
 No matter what option you choose, every screen of export setup will contain status label and URL after first schema submit. **URL is persistent. Once it has been generated, it will forever refer to this specific export**. If there are some changes in schema, category mapping, assigned banner templates or in feed data, export will be re-processed and this URL will always contain most up-to-date version.
 
-{% include image_tag.html url="/images/exports/ExportStatusLabel.png" alt="Export Status Label" style="height:300px;" %}
+{% include image_tag.html url="/images/exports/ExportStatusLabel.png" alt="Export Status Label" style="" %}
 
 Status label is an indicator of export health and can have following states:
 

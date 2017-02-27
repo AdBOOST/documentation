@@ -156,6 +156,30 @@ These can be found after the click to the selectbox at the top left corner of Go
 
 ## Google Merchant Center
 
+This type of account utilizes our [Exports for external networks]({% post_url 2017-01-30-feed-exports %}#export-status). If you export your feed data to AdBOOST URL with schema following rules of Google Merchant Center, you can insert this URL into MCC interface and quickly get your products to be shown in search results and in Google Shopping. To achieve this, navigate to <a href="http://merchants.google.com/" target="_blank">merchants.google.com</a> and to the "Products" part of the dashboard.
+
+{% include image_tag.html url="/images/advertiser_accounts/MerchantCenterDashboard.png" alt="Merchant Center Dashboard" style="" %}
+
+Click the big <i class="fa fa-plus"></i> button to add your Feed. Name it according to your domain and its purpose.
+
+{% include image_tag.html url="/images/advertiser_accounts/MerchantCenterFeedAdd.png" alt="Merchant Center Feed Add" style="" %}
+
+Assign a correct type to it. Since the AdBOOST will update your products on static URL every time when change occurs in your feed, you should point your MCC feed to this URL. Therefore select "Schedule fetch" option and click "Continue".
+
+{% include image_tag.html url="/images/advertiser_accounts/MerchantCenterFeedFetch.png" alt="Merchant Center Feed Fetch" style="" %}
+
+Last part of this form is where you should insert URL of your MCC export.
+
+{% include image_tag.html url="/images/advertiser_accounts/MerchantCenterFeedSave.png" alt="Merchant Center Feed Save" style="" %}
+
+This URL can be found at the top of every [Export form]({% post_url 2017-01-30-feed-exports %}#export-status)
+
+{% include image_tag.html url="/images/advertiser_accounts/ExportURL.png" alt="Export URL" style="" %}
+
+and in the actions column of export listing.
+
+{% include image_tag.html url="/images/advertiser_accounts/MccExportListingURL.png" alt="Mcc Export Listing URL" style="" %}
+
 ## Zboží.cz
 
 ## Najnákup.sk
