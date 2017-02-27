@@ -36,7 +36,7 @@ Every monitoring client account is perceived as a set of **advertising channels*
 - click the <span class="btn btn-sm btn-default"><i class="fa fa-link"></i> Link {NETWORK}</span> button to verify your current AdBOOST e-mail with OAUTH - **only for Google and Facebook**
 - provide your client identifier - to find out where you should look after the client identifier across multiple network interfaces, please refer to chapter [Client Identifiers](#client-identifiers)
 - set currency for your channel. Channels will be later grouped by currency for cummulative statistics reports
-- wait for icon in **Checked** column to turn into the green <i class="glyphicon glyphicon-ok"></i> mark and click the Save button. It will also turn green after successful channel save
+- wait for icon in **Checked** column to turn into the green <i class="glyphicon glyphicon-ok text-green"></i> mark and click the Save button. It will also turn green after successful channel save
 
 Every element in this form has a tooltip, so if you wonder what it does, just hover over it with mouse cursor.
 

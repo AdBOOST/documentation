@@ -31,7 +31,7 @@ Here you can see what functionality will be accessible to AdBOOST. If you wish t
 
 Now that you have authentificated your current account with Google, you can connect it either to Google AdWords or [Google Analytics](#google-analytics). Let's continue with AdWords. Visit AdBOOST's product campaigns dashboard.
 
-{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboards.png" alt="Left Menu Dashboard" style="height:200px;" %}
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
 
 Here you can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
 
@@ -55,7 +55,7 @@ If you click to "<i class="fa fa-warning text-red"></i> Bing Ads not paired with
 
 Now that you have authentificated your current account with Microsoft, you can connect it to Bing Ads. Visit AdBOOST's product campaigns dashboard.
 
-{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboards.png" alt="Left Menu Dashboard" style="height:200px;" %}
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
 
 ## Sklik.cz
 
@@ -104,3 +104,4 @@ This is the part where you can find all credentials that are needed to connect A
 ## Srovnáme.cz
 
 ## Google Business Data
+

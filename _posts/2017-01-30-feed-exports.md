@@ -83,7 +83,7 @@ Afterwards, you can click <span class="btn btn-sm btn-default"><i class="fa fa-w
 
 {% include image_tag.html url="/images/exports/ExportCategoryMapping.png" alt="Export Category Mapping" style="" %}
 
-When you are satisfied with your category mapping, save the content of dialog. **If you close the dialog without saving, values will be lost**. Otherwise, you will notice that default value of attribute in main form has changed and green <i class="glyphicon glyphicon-ok"></i> icon has appeared in category property row to indicate that mapping is active.
+When you are satisfied with your category mapping, save the content of dialog. **If you close the dialog without saving, values will be lost**. Otherwise, you will notice that default value of attribute in main form has changed and green <i class="glyphicon glyphicon-ok text-green"></i> icon has appeared in category property row to indicate that mapping is active.
 
 {% include image_tag.html url="/images/exports/ExportCategoryMappingActive.png" alt="Export Category Mapping Active" style="" %}
 
@@ -106,7 +106,7 @@ When you have successfully created at least one banner template, that is eligibl
 
 {% include image_tag.html url="/images/exports/FacebookBannersModal.png" alt="Facebook Banners Modal" style="" %}
 
-As in case of category mapping, green <i class="glyphicon glyphicon-ok"></i> icon will be displayed in image property row to indicate that banner template assign is active, right after submit of dialog.
+As in case of category mapping, green <i class="glyphicon glyphicon-ok text-green"></i> icon will be displayed in image property row to indicate that banner template assign is active, right after submit of dialog.
 
 {% include image_tag.html url="/images/exports/FacebookBannerAssignActive.png" alt="Facebook Banners Assign Active" style="" %}
 
