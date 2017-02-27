@@ -49,7 +49,7 @@ Channels setup itself can include another three specific tasks:
 * if you decide to activate an Analytics channel, you still have to provide account identifier to check account connectivity. After its verification, you will be presented with two dropdowns:
 
     1. **Property ID** - segment of your analytics account e.g. language versions of same website
-    2. **View ID** - event set within account segment defined by you. Default value equals to "All website data"
+    2. **View ID** - event set within account segment defined by you. Default value equals to "All Web Site Data"
 
 {% include image_tag.html url="/images/monitoring/ClientEditModal.png" alt="Client Edit Modal" style="" %}
 

@@ -5,7 +5,7 @@ date:   2017-02-26 12:53:14 -0600
 category: "AdBOOST Core"
 type: feature
 trending: true
-tags: [advertiser, adboost, accounts, setup, adwords, bing, bingads, sklik, seznam, heureka, facebook, analytics, merchant, center, shopping, zbozi, najnakup, srovname, business, data]
+tags: [advertiser, adboost, accounts, setup, adwords, bing, bingads, sklik, seznam, heureka, facebook, analytics, merchant, center, shopping, zbozi, najnakup, srovname, business, data, remarketing]
 ---
 
 # External advertiser accounts
@@ -144,7 +144,7 @@ This number can be obtained from your <a href="https://analytics.google.com/" ta
 After it has been provided into form, you will be presented with another two fields:
 
 1. **Property ID** - segment of your analytics account e.g. language versions of same website
-2. **View ID** - event set within account segment defined by you. Default value equals to "All website data"
+2. **View ID** - event set within account segment defined by you. Default value equals to "All Web Site Data"
 
 {% include image_tag.html url="/images/advertiser_accounts/AnalyticsProps.png" alt="Analytics Props" style="" %}
 
@@ -180,11 +180,23 @@ and in the actions column of export listing.
 
 {% include image_tag.html url="/images/advertiser_accounts/MccExportListingURL.png" alt="Mcc Export Listing URL" style="" %}
 
+## Google Business Data
+
+This is only one part of Google AdWords interface, that is designed to provide functionallity related to dynamic display ad data - **remarketing**. You can find it in the left context menu under Shared library. This data combines Google's records of your audience with descriptions of your products obtained from your feed in CSV. To setup your feed, follow steps on the screen below.
+
+{% include image_tag.html url="/images/advertiser_accounts/BusinessData.png" alt="Business Data" style="" %}
+
+When you are done, you can upload CSV file with description of your products
+
+{% include image_tag.html url="/images/advertiser_accounts/BusinessDataFeed.png" alt="Business Data Feed" style="" %}
+
+this file can be downloaded from AdBOOST's feed exports after you have created export of this type following the [Feed Exports guide]({% post_url 2017-01-30-feed-exports %}).
+
+{% include image_tag.html url="/images/advertiser_accounts/BusinessDataURL.png" alt="Business Data URL" style="" %}
+
 ## Zboží.cz
 
 ## Najnákup.sk
 
 ## Srovnáme.cz
-
-## Google Business Data
 
