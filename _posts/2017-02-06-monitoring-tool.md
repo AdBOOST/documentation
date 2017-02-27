@@ -55,4 +55,8 @@ Channels setup itself can include another three specific tasks:
 
 ## Client Identifiers
 
-If you want to know how to manage connections of AdBOOST to external advertising networks, please refer to [External Advertiser Accounts guide]({% post_url 2017-02-26-external-advertiser-accounts %})
+You should provide multiple account identifiers during the setup of your monitoring client.
+
+{% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
+
+To get to know how to manage connections of AdBOOST to external advertising networks and where to find these identifiers, please refer to [External Advertiser Accounts guide]({% post_url 2017-02-26-external-advertiser-accounts %})

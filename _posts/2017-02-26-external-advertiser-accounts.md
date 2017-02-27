@@ -39,7 +39,7 @@ Here you can see three tiles with titles of PPC advertising networks and smiley 
 
 Proceed with click to "<i class="network-icon aw"></i> AdWords". You will be presented with dialog that contains the connection form.
 
-{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnect.png" alt="AdBoost AdWords Connect" style="" %}
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnect.png" alt="AdBoost AdWords Connect" style="height:300px;" %}
 
 **AdWords Account** is a selectbox, where you can choose one of emails that has been connected to your current AdBoost account (you probably want to choose your current email, that you have verified in previous step)
 
@@ -63,7 +63,7 @@ You can see three tiles with titles of PPC advertising networks and smiley face 
 
 Proceed with click to "<i class="network-icon sklik"></i> Sklik". You will be presented with dialog that contains the connection form.
 
-{% include image_tag.html url="/images/advertiser_accounts/AdBoostSklikConnect.png" alt="AdBoost Sklik Connect" style="" %}
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostSklikConnect.png" alt="AdBoost Sklik Connect" style="height:300px;" %}
 
 Sklik Email and Password is the combination that you use to access any of your Sklik accounts.
 
@@ -87,7 +87,7 @@ Here you can see three tiles with titles of PPC advertising networks and smiley 
 
 Proceed with click to "<i class="network-icon bing"></i> Bing Ads". You will be presented with dialog that contains the connection form.
 
-{% include image_tag.html url="/images/advertiser_accounts/AdBoostBingAdsConnect.png" alt="AdBoost BingAds Connect" style="" %}
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostBingAdsConnect.png" alt="AdBoost BingAds Connect" style="height:300px;" %}
 
 All three required identifiers can be found in the "Accounts & Billing" part of your Bing Ads account. To access Bing Ads, you first have to posess the Microsoft account. Afterwars, you can navigate to: <a href="https://ui.bingads.microsoft.com" target="_blank">bingads.microsoft.com/</a> If do not already have a Bing Ads account, create one by providing you Microsoft account info.
 
@@ -121,7 +121,7 @@ If you submit this form, you will only give AdBOOST access to you public profile
 
 This connection can be utilized in process of your Facebook advertising performance monitoring with our [Monitoring Tool]({% post_url 2017-02-06-monitoring-tool %}). It provides interface for external channels setup. Here you will need your account identifier to fetch your Facebook Ads account stats.
 
-{% include image_tag.html url="/images/advertiser_accounts/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
+{% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
 
 This number can be obtained from your Facebook Ads interface. This interface is accessed by selecting a "Create Adverts" option in your Facebook account.
 
@@ -135,7 +135,7 @@ Desired Facebook Ads account number can then be found in the selectbox with your
 
 This type of account can be utilized in process of your Google Analytics site monitoring with our [Monitoring Tool]({% post_url 2017-02-06-monitoring-tool %}). It is interesting mostly for cross-validation of statistics provided by other advertising networks. Monitoring tool provides interface for external channels setup. Here you will need your account identifier to fetch your Analytics account stats.
 
-{% include image_tag.html url="/images/advertiser_accounts/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
+{% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
 
 This number can be obtained from your <a href="https://analytics.google.com/" target="_blank">Google Analytics interface</a>.
 
