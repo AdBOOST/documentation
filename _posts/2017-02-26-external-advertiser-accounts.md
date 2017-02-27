@@ -5,7 +5,7 @@ date:   2017-02-26 12:53:14 -0600
 category: "AdBOOST Core"
 type: feature
 trending: true
-tags: [advertiser, adboost, accounts, setup, adwords, bing, bingads, sklik, seznam, heureka, facebook, analytics, merchant_center, shopping, zbozi, najnakup, srovname, business_data]
+tags: [advertiser, adboost, accounts, setup, adwords, bing, bingads, sklik, seznam, heureka, facebook, analytics, merchant, center, shopping, zbozi, najnakup, srovname, business, data]
 ---
 
 # External advertiser accounts
