@@ -37,7 +37,7 @@ Here you can see three tiles with titles of PPC advertising networks and smiley 
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
 
-Proceed with click to "<i class="network-icon aw"></id> AdWords". You will be presented with dialog that contains the connection form.
+Proceed with click to "<i class="network-icon aw"></i> AdWords". You will be presented with dialog that contains the connection form.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnect.png" alt="AdBoost AdWords Connect" style="" %}
 
@@ -69,7 +69,7 @@ Here you can see three tiles with titles of PPC advertising networks and smiley 
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
 
-Proceed with click to "<i class="network-icon bing"></id> Bing Ads". You will be presented with dialog that contains the connection form.
+Proceed with click to "<i class="network-icon bing"></i> Bing Ads". You will be presented with dialog that contains the connection form.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostBingAdsConnect.png" alt="AdBoost BingAds Connect" style="" %}
 
