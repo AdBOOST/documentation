@@ -43,7 +43,7 @@ Proceed with click to "<i class="network-icon aw"></i> AdWords". You will be pre
 
 **AdWords Account** is a selectbox, where you can choose one of emails that has been connected to your current AdBoost account (you probably want to choose your current email, that you have verified in previous step)
 
-**AdWords ID** is an identifier of your AdWords account. If you do not have one yet, you can create it at: <a href="https://adwords.google.com/" target="_blank">adwords.google.com/</a> Afterwards, you can find your AdWords ID in the part of AdWords interface displayed on the screen below.
+**AdWords ID** is an identifier of your AdWords account. If you do not have one yet, you can create it at: <a href="https://adwords.google.com/" target="_blank">adwords.google.com</a> Afterwards, you can find your AdWords ID in the part of AdWords interface displayed on the screen below.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdWords.png" alt="AdWords" style="" %}
 
@@ -51,19 +51,35 @@ Click the "Verify" button in the dialog and AdWords tile will change status afte
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnected.png" alt="AdBoost AdWords Connected" style="height:200px;" %}
 
-If you click to "<i class="fa fa-warning text-red"></i> Bing Ads not paired with your login", you will be redirected to Microsoft's OAUTH page. Successful authentification will redirect you back to AdBOOST dashboard with notification about successful connection establishment. The number in red badge next to the warning icon will also change to reflect current number of connected network accounts.
+## Sklik.cz
 
-Now that you have authentificated your current account with Microsoft, you can connect it to Bing Ads. Visit AdBOOST's product campaigns dashboard.
+AdBOOST can be connected to Sklik.cz with combination of e-mail and password (since Sklik currently does not provide OAUTH authentification). If you visit AdBOOST's product campaigns dashboard.
 
 {% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
 
-## Sklik.cz
+You can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
+
+Proceed with click to "<i class="network-icon sklik"></i> Sklik". You will be presented with dialog that contains the connection form.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostSklikConnect.png" alt="AdBoost Sklik Connect" style="" %}
+
+Sklik Email and Password is the combination that you use to access any of your Sklik accounts.
+
+{% include image_tag.html url="/images/advertiser_accounts/SklikAccount.png" alt="Sklik Account" style="" %}
 
 ## Bing Ads
 
 This type of account is one of three types that require OAUTH verification. Warning icon at the top of the AdBOOST page will remain red until you connect your current AdBOOST e-mail to these advertising networks or accept these warnings as irrelevant (useful in case when your e-mail is not the one that is used as account owner in target network or when you do not want to manage advertising in all three networks)
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostOauths.png" alt="AdBoost Oauths" style="" %}
+
+If you click to "<i class="fa fa-warning text-red"></i> Bing Ads not paired with your login", you will be redirected to Microsoft's OAUTH page. Successful authentification will redirect you back to AdBOOST dashboard with notification about successful connection establishment. The number in red badge next to the warning icon will also change to reflect current number of connected network accounts.
+
+Now that you have authentificated your current account with Microsoft, you can connect it to Bing Ads. Visit AdBOOST's product campaigns dashboard.
+
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
 
 Here you can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
 
