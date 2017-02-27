@@ -4,6 +4,7 @@ title:  "Monitoring tool"
 date:   2017-02-06 09:28:14 -0600
 category: "Monitoring Tool"
 type: feature
+trending: true
 tags: [google, adwords, facebook, heureka, sklik, analytics, seznam, client, account, performance, report, campaign, monitoring]
 ---
 

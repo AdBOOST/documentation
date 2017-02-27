@@ -1,0 +1,72 @@
+---
+layout: default
+title:  "Advertiser accounts for external networks"
+date:   2017-02-26 12:53:14 -0600
+category: "AdBOOST Core"
+type: feature
+trending: true
+tags: [advertiser, adboost, accounts, setup, adwords, bing, bingads, sklik, seznam, heureka, facebook, analytics, merchant center, shopping, zbozi, najnakup, srovname, business data]
+---
+
+# Advertiser accounts for external networks
+
+* TOC
+{:toc}
+
+## Introduction
+
+AdBOOST as a platform can be connected to multiple advertising channels. Only requirement is that you already have your account set-up in target network. To make this process easier for you, we created this guide. Every part describes one network, how to manage your advertiser account for this network and where to find identifiers for AdBOOST.
+
+## Google AdWords
+
+This type of account is one of three types that require OAUTH verification. Warning icon at the top of the AdBOOST page will remain red until you connect your current AdBOOST e-mail with these advertising networks or accept these warnings as irrelevant (useful in case when your e-mail is not the one that is used as account owner in target network or when you do not want to manage advertising in all three networks)
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostOauths.png" alt="AdBoost Oauths" style="" %}
+
+If you click to "<i class="fa fa-warning text-red"></i> AdWords not paired with your login", you will be redirected to Google's OAUTH page.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsOauth.png" alt="AdBoost AdWords Oauth" style="" %}
+
+Here you can see what functionality will be accessible to AdBOOST. If you wish to continue, accept this form with click to "Allow" button. You will be redirected back to AdBOOST dashboard with notification about successful connection establishment. The number in red badge next to the warning icon will also change to reflect current number of not-connected networks.
+
+Now that you have authentificated your current account against Google, you can connect it either to Google AdWords or [Google Analytics](#google-analytics). Let's continue with AdWords. Visit AdBOOST's product campaigns dashboard.
+
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboards.png" alt="Left Menu Dashboard" style="height:200px;" %}
+
+Here you can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
+
+Proceed with click to "<i class="network-icon aw"></id> AdWords". You will be presented with dialog that contains the connection form.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnect.png" alt="AdBoost AdWords Connect" style="" %}
+
+**AdWords Account** is a selectbox, where you can choose one of emails that has been connected to your current AdBoost account (you probably want to choose your current email, that you have verified in previous step)
+
+**AdWords ID** is an identifier of your AdWords account. If you do not have one yet, you can create it at: <a href="https://adwords.google.com/" target="_blank">adwords.google.com/</a>. Afterwards, you can find your AdWords ID in the part of AdWords interface displayed on the screen below.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdWords.png" alt="AdWords" style="" %}
+
+Click the "Verify" button in the dialog and AdWords tile will change status after successful account pairing.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnected.png" alt="AdBoost AdWords Connected" style="" %}
+
+## Sklik.cz
+
+## Bing Ads
+
+## Facebook Ads
+
+## Google Analytics
+
+## Heureka
+
+## Google Merchant Center
+
+## Zboží.cz
+
+## Najnákup.sk
+
+## Srovnáme.cz
+
+## Google Business Data
