@@ -178,7 +178,7 @@ Here you should be able to change "Url XML Importu"
 
 This URL can be obtained from the top of the Heureka Feed Export form or from the Exports listing.
 
-{% include image_tag.html url="/images/advertiser_accounts/AdboostHeurekaURL.png" alt="Adboost Heureka URL" style="" %}
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostHeurekaURL.png" alt="Adboost Heureka URL" style="" %}
 
 ## Google Merchant Center
 
@@ -236,5 +236,5 @@ After that you should be able to specify URL of your AdBOOST export and request 
 
 This URL can be obtained from the top of the Zboží.cz Feed Export form or from the Exports listing.
 
-{% include image_tag.html url="/images/advertiser_accounts/AdboostZboziURL.png" alt="Adboost Zbozi URL" style="" %}
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostZboziURL.png" alt="Adboost Zbozi URL" style="" %}
 
