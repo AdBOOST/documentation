@@ -69,7 +69,7 @@ All clients you add will be shown in clients listing. As you can observe on the 
 - **Cost Estimate** - estimated cost calculated by AdBOOST. Final number is based on the historical data and this value should warn you before actual cost exceeds your budget
 - **Cost** - actual cost of your advertising
 
-{% include image_tag.html url="/images/monitoring/ClientListing.png" alt="Client Listing" style="" %}
+{% include image_tag.html url="/images/monitoring/ClientsListing.png" alt="Clients Listing" style="" %}
 
 ### Budget management
 
