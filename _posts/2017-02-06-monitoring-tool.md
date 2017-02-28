@@ -44,9 +44,9 @@ Every element in this form has a tooltip, so if you wonder what it does, just ho
 
 Channels setup itself can include another three specific tasks:
 
-* tick checkbox in "Active" column if you wish to PAUSE advertising **channel that has already been saved**. Afterwards, you should confirm your action with click to Save buttton. Otherwise, manipulation with this element will not have any effect
-* if you are a part of an AdBOOST Agency that already has some shared e-mail addresses that have been verified with OAUTH, you will see them listed in dropdown in **Linked Accounts** column. You can still verify your current e-mail by clicking the <i class="fa fa-plus"></i> icon. If you do not wish to do so, you can choose one of available e-mails from dropdown. Only important thing is to **choose the e-mail that is used as an owner in account with provided identifier**
-* if you decide to activate an Analytics channel, you still have to provide account identifier to check account connectivity. After its verification, you will be presented with two dropdowns:
+- tick checkbox in "Active" column if you wish to PAUSE advertising **channel that has already been saved**. Afterwards, you should confirm your action with click to Save buttton. Otherwise, manipulation with this element will not have any effect
+- if you are a part of an AdBOOST Agency that already has some shared e-mail addresses that have been verified with OAUTH, you will see them listed in dropdown in **Linked Accounts** column. You can still verify your current e-mail by clicking the <i class="fa fa-plus"></i> icon. If you do not wish to do so, you can choose one of available e-mails from dropdown. Only important thing is to **choose the e-mail that is used as an owner in account with provided identifier**
+- if you decide to activate an Analytics channel, you still have to provide account identifier to check account connectivity. After its verification, you will be presented with two dropdowns:
 
     1. **Property ID** - segment of your analytics account e.g. language versions of same website
     2. **View ID** - event set within account segment defined by you. Default value equals to "All Web Site Data"
@@ -55,8 +55,34 @@ Channels setup itself can include another three specific tasks:
 
 ## Client Identifiers
 
-You should provide multiple account identifiers during the setup of your monitoring client.
+You should provide at least one account identifier during the setup of your monitoring client.
 
 {% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
 
 To get to know how to manage connections of AdBOOST to external advertising networks and where to find these identifiers, please refer to [External Advertiser Accounts guide]({% post_url 2017-02-26-external-advertiser-accounts %})
+
+## Clients Listing
+
+All clients you add will be shown in clients listing. As you can observe on the screen below, it mainly shows info about budget, cost and cost estimate. These metrics have following meaning:
+
+- **Budget** - constraint set by you at the beginning of the month to have control over your spends. Other two metrics are afterwards validated against this value and columns are highlighted as you can see on the screen below.
+- **Cost Estimate** - estimated cost calculated by AdBOOST. Final number is based on the historical data and this value should warn you before actual cost exceeds your budget
+- **Cost** - actual cost of your advertising
+
+{% include image_tag.html url="/images/monitoring/ClientListing.png" alt="Client Listing" style="" %}
+
+### Budget management
+
+When you click the <i class="fa fa-edit"></i> icon in the budget column, you will be presented with dialog containing the history of your budgets
+
+{% include image_tag.html url="/images/monitoring/BudgetModal.png" alt="Budget Modal" style="" %}
+
+## Clients Charts
+
+{% include image_tag.html url="/images/monitoring/ClientCharts.png" alt="Client Charts" style="" %}
+
+## Access Control
+
+{% include image_tag.html url="/images/monitoring/AccessControlElement.png" alt="Access Control Element" style="" %}
+
+{% include image_tag.html url="/images/monitoring/AccessControl.png" alt="Access Control" style="" %}

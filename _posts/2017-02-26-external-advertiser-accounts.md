@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "External advertiser accounts"
+title:  "External Advertiser Accounts"
 date:   2017-02-26 12:53:14 -0600
 category: "AdBOOST Core"
 type: feature
@@ -8,7 +8,7 @@ trending: true
 tags: [advertiser, adboost, accounts, setup, adwords, bing, bingads, sklik, seznam, heureka, facebook, analytics, merchant, center, shopping, zbozi, najnakup, srovname, business, data, remarketing]
 ---
 
-# External advertiser accounts
+# External Advertiser Accounts
 
 * TOC
 {:toc}
@@ -154,6 +154,32 @@ These can be found after the click to the selectbox at the top left corner of Go
 
 ## Heureka
 
+This type of account can be utilized either as a source in the process of your Heureka account monitoring with our [Monitoring Tool]({% post_url 2017-02-06-monitoring-tool %}) or as a target for your [Heureka Feed Export]({% post_url 2017-01-30-feed-exports %}).
+
+### As a data source
+
+Monitoring tool provides interface for external channels setup. Here you will need your account identifier to fetch your Heureka account stats. In this case account identifier is URL address of your daily conversion report.
+
+{% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
+
+This URL can be obtained from Heureka interface, specifically from part "Prehľad vašich obchodov > Meranie konverzií"
+
+{% include image_tag.html url="/images/advertiser_accounts/HeurekaReport.png" alt="Heureka Report" style="" %}
+
+### As an export target
+
+In this case you want AdBOOST to keep your Heureka feed up-to-date, with correct categories and CPC. You should navigate to "Prehľad vašich obchodov > Prehľad" part of Heureka interface. and choose the option "Upraviť obchod".
+
+{% include image_tag.html url="/images/advertiser_accounts/HeurekaZone.png" alt="Heureka Zone" style="" %}
+
+Here you should be able to change "Url XML Importu"
+
+{% include image_tag.html url="/images/advertiser_accounts/HeurekaURL.png" alt="Heureka URL" style="" %}
+
+This URL can be obtained from the top of the Heureka Feed Export form or from the Exports listing.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdboostHeurekaURL.png" alt="Adboost Heureka URL" style="" %}
+
 ## Google Merchant Center
 
 This type of account utilizes our [Exports for external networks]({% post_url 2017-01-30-feed-exports %}#export-status). If you export your feed data to AdBOOST URL with schema following rules of Google Merchant Center, you can insert this URL into MCC interface and quickly get your products to be shown in search results and in Google Shopping. To achieve this, navigate to <a href="http://merchants.google.com/" target="_blank">merchants.google.com</a> and to the "Products" part of the dashboard.
@@ -196,7 +222,19 @@ this file can be downloaded from AdBOOST's feed exports after you have created e
 
 ## Zboží.cz
 
-## Najnákup.sk
+This type of account utilizes our [Exports for external networks]({% post_url 2017-01-30-feed-exports %}#export-status). If you export your feed data to AdBOOST URL with schema following rules of Zboží.cz, you can insert this URL into Zboží.cz interface and quickly get your products to be shown in product comparisons. To achieve this, navigate to <a href="https://www.zbozi.cz/" target="_blank">www.zbozi.cz</a> and to the "Administrace" part of the page.
 
-## Srovnáme.cz
+{% include image_tag.html url="/images/advertiser_accounts/ZboziLogin.png" alt="Zbozi Login" style="" %}
+
+You should be able to find list of your products feeds where you can manage their URLs after click to "Editace URL feedu"
+
+{% include image_tag.html url="/images/advertiser_accounts/ZboziFeeds.png" alt="Zbozi Feeds" style="" %}
+
+After that you should be able to specify URL of your AdBOOST export and request its periodic processing.
+
+{% include image_tag.html url="/images/advertiser_accounts/ZboziURL.png" alt="Zbozi URL" style="" %}
+
+This URL can be obtained from the top of the Zboží.cz Feed Export form or from the Exports listing.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdboostZboziURL.png" alt="Adboost Zbozi URL" style="" %}
 
