@@ -69,20 +69,34 @@ All clients you add will be shown in clients listing. As you can observe on the 
 - **Cost Estimate** - estimated cost calculated by AdBOOST. Final number is based on the historical data and this value should warn you before actual cost exceeds your budget
 - **Cost** - actual cost of your advertising
 
+All values are summed per currency for every client. Expand the table row to see individual values, shrink the row to see cummulative values (budget is an exemption as if one active channel is missing the budget, n/a will be shown as a cummulative value).
+
 {% include image_tag.html url="/images/monitoring/ClientsListing.png" alt="Clients Listing" style="" %}
 
 ### Budget management
 
-When you click the <i class="fa fa-edit"></i> icon in the budget column, you will be presented with dialog containing the history of your budgets
+When you click the <i class="fa fa-edit"></i> icon in the budget column, you will be presented with dialog containing the history of your budgets and input where you can align your current month budget.
 
 {% include image_tag.html url="/images/monitoring/BudgetModal.png" alt="Budget Modal" style="" %}
 
 ## Clients Charts
 
+This interface allows you to inspect the performance of your client accounts and cross-validate it between multiple channels. You can control what is being fetched into your charts by following means:
+
+- filter your clients by name
+- filter your clients by tags
+- select date range for which you want to inspect your stats. Use either whole number in previous days input or date range from datepicker
+- select combination of channels. If none of them is selected, all of them will be displayed
+- select combination of metrics for selected channels. Metrics with currency will inherit value provided for their channel. Metrics whose values range between 0 and ~2 will be scaled on separate axis to provide you with better comparison
+
 {% include image_tag.html url="/images/monitoring/ClientCharts.png" alt="Client Charts" style="" %}
 
 ## Access Control
 
+If you are the owner of your current AdBOOST Agency, you should see an <i class="fa fa-lock"></i> Access icon at the top of every Monitoring tool screen. This icon opens a dialog where you can manage permissions for your monitoring clients.
+
 {% include image_tag.html url="/images/monitoring/AccessControlElement.png" alt="Access Control Element" style="" %}
+
+In dialog itself, you can choose agency that will be subject to modifications, e-mail of your coleague which you want to be able to monitor performance of some client. When you leave the e-mail input, you will be presented with list of monitoring clients that exist within selected agency. Choose as many clients as you want, and submit your selection with click to the Save button.
 
 {% include image_tag.html url="/images/monitoring/AccessControl.png" alt="Access Control" style="" %}
