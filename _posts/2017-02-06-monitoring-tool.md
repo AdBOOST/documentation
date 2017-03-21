@@ -17,9 +17,9 @@ tags: [google, adwords, facebook, heureka, sklik, analytics, seznam, client, acc
 
 Monitoring tool is a part of AdBOOST that can be used to watch performance of your client accounts across multiple networks. For the sake of simplicity, it consists of two screens which you can use to identify potential performance issues and avoid them before they actually arise.
 
-To explore its functionallity choose <i class="fa fa-area-chart"></i> Monitoring > <i class="fa fa-user"></i> Clients in left context menu<br/>
+To explore its functionallity choose <i class="fa fa-area-chart"></i> Monitoring > <i class="fa fa-user"></i> Clients in left context menu or click to large <i class="fa fa-area-chart"></i> Monitoring icon <br/> in the main dashboard
 
-{% include image_tag.html url="/images/monitoring/LeftMenu.png" alt="Left Menu" style="height:200px;" %}
+{% include image_tag.html url="/images/monitoring/LeftMenu.png" alt="Left Menu" style="" %}
 
 ## Client Form
 
@@ -72,6 +72,13 @@ All clients you add will be shown in clients listing. As you can observe on the 
 All values are summed per currency for every client. Expand the table row to see individual values, shrink the row to see cummulative values (budget is an exemption as if one active channel is missing the budget, n/a will be shown as a cummulative value).
 
 {% include image_tag.html url="/images/monitoring/ClientsListing.png" alt="Clients Listing" style="" %}
+
+Your clients can be sorted by severity of their issues in following order:
+
+1. **Depleted budget** - Budget and Cost estimate columns marked <span class="text-red">red</span>
+2. **Estimated cost lower than 50% of budget** - Cost estimate column marked <span class="text-red">red</span>
+3. **Estimated cost between 50% and 75% of budget** - Cost estimate column marked <span class="text-orange">orange</span>
+4. **Estimated cost between 75% and 100% of budget** - Budget and Cost estimate columns marked <span class="text-green">green</span>
 
 ### Budget management
 
