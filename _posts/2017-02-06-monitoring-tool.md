@@ -17,9 +17,9 @@ tags: [google, adwords, facebook, heureka, sklik, analytics, seznam, client, acc
 
 Monitoring tool is a part of AdBOOST that can be used to watch performance of your client accounts across multiple networks. For the sake of simplicity, it consists of two screens which you can use to identify potential performance issues and avoid them before they actually arise.
 
-To explore its functionallity choose <i class="fa fa-area-chart"></i> Monitoring > <i class="fa fa-user"></i> Clients in left context menu or click to large <i class="fa fa-area-chart"></i> Monitoring icon <br/> in the main dashboard
+To explore its functionallity choose <i class="fa fa-area-chart"></i> Monitoring > <i class="fa fa-user"></i> Clients in left context menu or click to large "<i class="fa fa-area-chart"></i> Monitoring tool" icon <br/> on the main dashboard
 
-{% include image_tag.html url="/images/monitoring/LeftMenu.png" alt="Left Menu" style="" %}
+{% include image_tag.html url="/images/monitoring/LeftMenu.png" alt="Left Menu" style="height:350px;" %}
 
 ## Client Form
 

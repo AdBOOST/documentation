@@ -34,9 +34,9 @@ Each of these entities can be used differently:
 
 ## Banner set
 
-In left context menu choose <i class="fa fa-image"></i> Banners > <i class="fa fa-object-group"></i> Banner sets.<br/>
+In left context menu choose <i class="fa fa-image"></i> Banners > <i class="fa fa-object-group"></i> Banner sets or click to large "<i class="fa fa-image"></i> Banner generator" icon <br/> on the main dashboard<br/>
 
-{% include image_tag.html url="/images/banners/LeftMenuBanners.png" alt="Left Menu Banners" style="height:200px;" %}
+{% include image_tag.html url="/images/banners/LeftMenuBanners.png" alt="Left Menu Banners" style="height:350px;" %}
 
 If you have not created any banner set yet, you will be greeted by welcome screen showing preview of banner setup steps and its example result.
 
