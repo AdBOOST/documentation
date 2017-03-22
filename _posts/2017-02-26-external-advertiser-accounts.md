@@ -23,17 +23,21 @@ This type of account is one of three types that require OAUTH verification. Warn
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostOauths.png" alt="AdBoost Oauths" style="" %}
 
-If you click to "<i class="fa fa-warning text-red"></i> AdWords not paired with your login", you will be redirected to Google's OAUTH page.
+Another place, where you can create Google OAUTH connections for your account at any time is product campaigns dashboard. Here you can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
+
+If you click to "<i class="fa fa-warning text-red"></i> AdWords not paired with your login" or if you use the <i class="fa fa-plus"></i> button inside the dialog invoked by click to the AdWords tile (see [AdWords Account](#adwordsOauth)) on the product campaigns dashboard, you will be redirected to Google's OAUTH page.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsOauth.png" alt="AdBoost AdWords Oauth" style="" %}
 
 Here you can see what functionality will be accessible to AdBOOST. If you wish to continue, accept this form with click to "Allow" button. You will be redirected back to AdBOOST dashboard with notification about successful connection establishment. The number in red badge next to the warning icon will also change to reflect current number of connected network accounts.
 
-Now that you have authentificated your current account with Google, you can connect it either to Google AdWords or [Google Analytics](#google-analytics). Let's continue with AdWords. Visit AdBOOST's product campaigns dashboard.
+Now that you have authenticated your current account with Google, you can connect it either to Google AdWords or [Google Analytics](#google-analytics). Let's continue with AdWords. Return to AdBOOST's product campaigns dashboard.
 
 {% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
 
-Here you can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
+Navigate towards three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
 
@@ -41,7 +45,7 @@ Proceed with click to "<i class="network-icon aw"></i> AdWords". You will be pre
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnect.png" alt="AdBoost AdWords Connect" style="height:300px;" %}
 
-**AdWords Account** is a selectbox, where you can choose one of emails that has been connected to your current AdBoost account (you probably want to choose your current email, that you have verified in previous step)
+**AdWords Account** <a name="adwordsOauth"></a> is a selectbox, where you can choose one of emails that have been connected to your current AdBoost account. You probably want to choose your current email, that you might have verified in the previous steps. If you have not, you can still make so by clicking the <i class="fa fa-plus"></i> icon. This will connect your current e-mail (the one you used to log in) with Google OAUTH.
 
 **AdWords ID** is an identifier of your AdWords account. If you do not have one yet, you can create it at: <a href="https://adwords.google.com/" target="_blank">adwords.google.com</a> Afterwards, you can find your AdWords ID in the part of AdWords interface displayed on the screen below.
 
