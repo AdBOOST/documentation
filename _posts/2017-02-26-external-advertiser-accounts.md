@@ -35,17 +35,17 @@ Here you can see what functionality will be accessible to AdBOOST. If you wish t
 
 Now that you have authenticated your current account with Google, you can connect it either to Google AdWords or [Google Analytics](#google-analytics). Let's continue with AdWords. Return to AdBOOST's product campaigns dashboard.
 
-{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:250px;" %}
 
 Navigate towards three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostDashboardConnections.png" alt="AdBoost Dashboard Connections" style="" %}
 
-Proceed with click to "<i class="network-icon aw"></i> AdWords". You will be presented with dialog that contains the connection form.
+Proceed with click to "<i class="network-icon aw"></i> AdWords". <a name="adwordsOauth"></a> You will be presented with dialog that contains the connection form.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnect.png" alt="AdBoost AdWords Connect" style="height:300px;" %}
 
-**AdWords Account** <a name="adwordsOauth"></a> is a selectbox, where you can choose one of emails that have been connected to your current AdBoost account. You probably want to choose your current email, that you might have verified in the previous steps. If you have not, you can still make so by clicking the <i class="fa fa-plus"></i> icon. This will connect your current e-mail (the one you used to log in) with Google OAUTH.
+**AdWords Account** is a selectbox, where you can choose one of emails that have been connected to your current AdBoost account. You probably want to choose your current email, that you might have verified in the previous steps. If you have not, you can still make so by clicking the <i class="fa fa-plus"></i> icon. This will connect your current e-mail (the one you used to log in) with Google OAUTH.
 
 **AdWords ID** is an identifier of your AdWords account. If you do not have one yet, you can create it at: <a href="https://adwords.google.com/" target="_blank">adwords.google.com</a> Afterwards, you can find your AdWords ID in the part of AdWords interface displayed on the screen below.
 
@@ -53,13 +53,13 @@ Proceed with click to "<i class="network-icon aw"></i> AdWords". You will be pre
 
 Click the "Verify" button in the dialog and AdWords tile will change status after successful account pairing.
 
-{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnected.png" alt="AdBoost AdWords Connected" style="height:200px;" %}
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostAdWordsConnected.png" alt="AdBoost AdWords Connected" style="height:250px;" %}
 
 ## Sklik.cz
 
 AdBOOST can be connected to Sklik.cz with combination of e-mail and password (since Sklik currently does not provide OAUTH authentification). If you visit AdBOOST's product campaigns dashboard.
 
-{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:250px;" %}
 
 You can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
 
@@ -83,7 +83,7 @@ If you click to "<i class="fa fa-warning text-red"></i> Bing Ads not paired with
 
 Now that you have authentificated your current account with Microsoft, you can connect it to Bing Ads. Visit AdBOOST's product campaigns dashboard.
 
-{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:200px;" %}
+{% include image_tag.html url="/images/advertiser_accounts/LeftMenuDashboard.png" alt="Left Menu Dashboard" style="height:250px;" %}
 
 Here you can see three tiles with titles of PPC advertising networks and smiley face describing status of their connection.
 
@@ -111,11 +111,17 @@ This is the part where you can find all credentials that are needed to connect A
 
 ## Facebook Ads
 
+### As a data source
+
 This type of account is one of three types that require OAUTH verification. Warning icon at the top of the AdBOOST page will remain red until you connect your current AdBOOST e-mail to these advertising networks or accept these warnings as irrelevant (useful in case when your e-mail is not the one that is used as account owner in target network or when you do not want to manage advertising in all three networks)
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostOauths.png" alt="AdBoost Oauths" style="" %}
 
-If you click to "<i class="fa fa-warning text-red"></i> Facebook not paired with your login", you will be redirected to Facebook's OAUTH page.
+Another place, where you can create Facebook OAUTH connections for your account at any time is feed management dashboard. Here you can see one tile with Facebook icon and smiley face describing status of your connection with this network.
+
+{% include image_tag.html url="/images/advertiser_accounts/FeedDashboardConnections.png" alt="Feed Dashboard Connections" style="" %}
+
+If you click to "<i class="fa fa-warning text-red"></i> Facebook not paired with your login" or if you use the <i class="fa fa-plus"></i> button inside the dialog invoked by click to the Facebook tile (see [Facebook Account](#facebookOauth)) on the feed management dashboard, you will be redirected to Facebook's OAUTH page.
 
 {% include image_tag.html url="/images/advertiser_accounts/AdBoostFacebookOauth.png" alt="AdBoost Facebook Oauth" style="" %}
 
@@ -134,6 +140,22 @@ This number can be obtained from your Facebook Ads interface. This interface is 
 Desired Facebook Ads account number can then be found in the selectbox with your accessible accounts.
 
 {% include image_tag.html url="/images/advertiser_accounts/FacebookCredentials.png" alt="Facebook Credentials" style="" %}
+
+As mentioned before, another way how you can connect to Facebook at any time is to click the Facebook tile with smiley face on feed management dashboard.
+
+{% include image_tag.html url="/images/advertiser_accounts/FeedDashboardConnections.png" alt="Feed Dashboard Connections" style="" %}
+
+You will be presented with dialog that contains the connection form. <a name="facebookOauth"></a>
+
+{% include image_tag.html url="/images/advertiser_accounts/AdBoostFacebookConnect.png" alt="AdBoost AdWords Connect" style="height:300px;" %}
+
+**Facebook Account Email** is a selectbox, where you can choose one of emails that have been connected to your current AdBoost account. You probably want to choose your current email, that you might have verified in the previous steps. If you have not, you can still make so by clicking the <i class="fa fa-plus"></i> icon. This will connect your current e-mail (the one you used to log in) with Facebook OAUTH.
+
+**Facebook ID** is an identifier of your Facebook account, whose location was described two steps ago.
+
+### As an export target
+
+Second way how to use AdBOOST in combination with Facebook is to create product catalogues.
 
 ## Google Analytics
 
