@@ -133,11 +133,11 @@ This connection can be utilized in process of your Facebook advertising performa
 
 {% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
 
-This number can be obtained from your Facebook Ads interface. This interface is accessed by selecting a <a name="facebookCreateAds"></a> "Create Adverts" option in your Facebook account.
+This number can be obtained from your Facebook Ads interface. This interface is accessed by selecting a "Create Adverts" option in your Facebook account.
 
 {% include image_tag.html url="/images/advertiser_accounts/FacebookDashboard.png" alt="Facebook Dashboard" style="" %}
 
-Desired Facebook Ads account number can then be found in the selectbox with your accessible accounts.
+Desired <a name="facebookCreateAds"></a> Facebook Ads account number can then be found in the selectbox with your accessible accounts.
 
 {% include image_tag.html url="/images/advertiser_accounts/FacebookCredentials.png" alt="Facebook Credentials" style="" %}
 
@@ -155,7 +155,7 @@ You will be presented with dialog that contains the connection form. <a name="fa
 
 ### As an export target
 
-Second way how to use AdBOOST in combination with Facebook is to create product catalogues. These can be found in your advertiser account as mentioned before in [Facebook Create-Ads](#facebookCreateAds). Quickest way how to find this part of Facebook interface is to use searchbar at the top of your advertiser account.
+Second way how to use AdBOOST in combination with Facebook is to create product catalogues. These can be found in your advertiser account that has been previously mentioned in [Facebook Create-Ads](#facebookCreateAds). Quickest way how to find this part of Facebook interface is to use searchbar at the top of your advertiser account.
 
 {% include image_tag.html url="/images/advertiser_accounts/FacebookCataloguesSearch.png" alt="Facebook Catalogues Search" style="" %}
 
