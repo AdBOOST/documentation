@@ -111,9 +111,13 @@ OPERAND - OPERATOR - VALUE/PARAMETERS
 
     {% include image_tag.html url="/images/rules/ActionCut.png" alt="Cut Action" style="" %}
 
-    - **Regex** - same as replace but instead of string to find, you should provide regular expression
+    - **Regex** - same as replace but instead of string to find, you can choose from most frequently used ready-made regular expressions or provide your own
 
     {% include image_tag.html url="/images/rules/ActionRegex.png" alt="Regex Action" style="" %}
+
+    - **Remove units** - you can choose from most frequently used ready-made regular expressions that remove some kind of value-unit pairs from your product properties or provide your own
+
+    {% include image_tag.html url="/images/rules/ActionRemoveUnits.png" alt="Remove Units Action" style="" %}
 
     - **Capitalization** - set capitalization policy
 
