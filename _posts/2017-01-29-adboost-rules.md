@@ -99,57 +99,83 @@ OPERAND - OPERATOR - VALUE/PARAMETERS
 
 - **VALUE/PARAMS** - this property differs for every operator:
 
-#### **Replace** - find one string and replace it with another
+#### Replace
 
-    {% include image_tag.html url="/images/rules/ActionReplace.png" alt="Replace Action" style="" %}
+Find one string and replace it with another
 
-#### **Set** - replace property value with static content or with value of other property
+{% include image_tag.html url="/images/rules/ActionReplace.png" alt="Replace Action" style="" %}
 
-    {% include image_tag.html url="/images/rules/ActionSet.png" alt="Set Action" style="" %}
+#### Set
 
-#### **Cut** - find string in value and remove everything on its left/right including/without itself
+Replace property value with static content or with value of other property
 
-    {% include image_tag.html url="/images/rules/ActionCut.png" alt="Cut Action" style="" %}
+{% include image_tag.html url="/images/rules/ActionSet.png" alt="Set Action" style="" %}
 
-#### **Regex** - same as replace but instead of string to find, you can choose from most frequently used ready-made regular expressions or provide your own
+#### Cut
 
-    {% include image_tag.html url="/images/rules/ActionRegex.png" alt="Regex Action" style="" %}
+Find string in value and remove everything on its left/right including/without itself
 
-#### **Remove units** - you can choose from most frequently used ready-made regular expressions that remove some kind of value-unit pairs from your product properties or provide your own
+{% include image_tag.html url="/images/rules/ActionCut.png" alt="Cut Action" style="" %}
 
-    {% include image_tag.html url="/images/rules/ActionRemoveUnits.png" alt="Remove Units Action" style="" %}
+#### Regex
 
-#### **Capitalization** - set capitalization policy
+Same as replace but instead of string to find, you can choose from most frequently used ready-made regular expressions or provide your own
 
-    {% include image_tag.html url="/images/rules/ActionCapitalization.png" alt="Capitalization Action" style="" %}
+{% include image_tag.html url="/images/rules/ActionRegex.png" alt="Regex Action" style="" %}
 
-#### **Uppercase** - make all letters in property value uppercase
+#### Remove units
 
-    {% include image_tag.html url="/images/rules/ActionUppercase.png" alt="Uppercase Action" style="" %}
+You can choose from most frequently used ready-made regular expressions that remove some kind of value-unit pairs from your product properties or provide your own
 
-#### **Round** - if the selected property is numeric, round it's value to fixed decimal places (usefull after math operations)
+{% include image_tag.html url="/images/rules/ActionRemoveUnits.png" alt="Remove Units Action" style="" %}
 
-    {% include image_tag.html url="/images/rules/ActionRound.png" alt="Round Action" style="" %}
+#### Capitalization
 
-#### **Math expression** - take one property, apply math operation to it and save it as a value of another property
+Set capitalization policy
 
-    {% include image_tag.html url="/images/rules/ActionMathExpression.png" alt="Math Expression Action" style="" %}
+{% include image_tag.html url="/images/rules/ActionCapitalization.png" alt="Capitalization Action" style="" %}
 
-#### **Batch remove** - remove all listed strings from value
+#### Uppercase
 
-    {% include image_tag.html url="/images/rules/ActionBatchRemove.png" alt="Batch Remove Action" style="" %}
+Make all letters in property value uppercase
 
-#### **Remove colors** - remove color names in selected language
+{% include image_tag.html url="/images/rules/ActionUppercase.png" alt="Uppercase Action" style="" %}
 
-    {% include image_tag.html url="/images/rules/ActionRemoveColors.png" alt="Remove Colors Action" style="" %}
+#### Round
 
-#### **Strip HTML** - remove any HTML tags (ussualy enclosed in <> tags)
+If the selected property is numeric, round it's value to fixed decimal places (usefull after math operations)
 
-    {% include image_tag.html url="/images/rules/ActionStripHtml.png" alt="Strip Html Action" style="" %}
+{% include image_tag.html url="/images/rules/ActionRound.png" alt="Round Action" style="" %}
 
-#### **Hash** - create unique hash from one property value and save it as a value of another property
+#### Math expression
 
-    {% include image_tag.html url="/images/rules/ActionHash.png" alt="Hash Action" style="" %}
+Take one property, apply math operation to it and save it as a value of another property
+
+{% include image_tag.html url="/images/rules/ActionMathExpression.png" alt="Math Expression Action" style="" %}
+
+#### Batch remove
+
+Remove all listed strings from value
+
+{% include image_tag.html url="/images/rules/ActionBatchRemove.png" alt="Batch Remove Action" style="" %}
+
+#### Remove colors
+
+Remove color names in selected language
+
+{% include image_tag.html url="/images/rules/ActionRemoveColors.png" alt="Remove Colors Action" style="" %}
+
+#### Strip HTML
+
+Remove any HTML tags (ussualy enclosed in <> tags)
+
+{% include image_tag.html url="/images/rules/ActionStripHtml.png" alt="Strip Html Action" style="" %}
+
+#### Hash
+
+Create unique hash from one property value and save it as a value of another property
+
+{% include image_tag.html url="/images/rules/ActionHash.png" alt="Hash Action" style="" %}
 
 
 
