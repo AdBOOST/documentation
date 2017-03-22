@@ -133,7 +133,7 @@ This connection can be utilized in process of your Facebook advertising performa
 
 {% include image_tag.html url="/images/MonitoringAccounts.png" alt="Monitoring Accounts" style="" %}
 
-This number can be obtained from your Facebook Ads interface. This interface is accessed by selecting a "Create Adverts" option in your Facebook account.
+This number can be obtained from your Facebook Ads interface. This interface is accessed by selecting a <a name="facebookCreateAds"></a> "Create Adverts" option in your Facebook account.
 
 {% include image_tag.html url="/images/advertiser_accounts/FacebookDashboard.png" alt="Facebook Dashboard" style="" %}
 
@@ -155,7 +155,29 @@ You will be presented with dialog that contains the connection form. <a name="fa
 
 ### As an export target
 
-Second way how to use AdBOOST in combination with Facebook is to create product catalogues.
+Second way how to use AdBOOST in combination with Facebook is to create product catalogues. These can be found in your advertiser account as mentioned before in [Facebook Create-Ads](#facebookCreateAds). Quickest way how to find this part of Facebook interface is to use searchbar at the top of your advertiser account.
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookCataloguesSearch.png" alt="Facebook Catalogues Search" style="" %}
+
+Afterwards, continue with clicks to **Product Feeds** tab and **<i class="fa fa-plus"></i> Add Product Feed** button
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookAddFeed.png" alt="Facebook Add Feed" style="" %}
+
+Name your feed and keep the **Scheduled recurring uploads** option selected. Contiue with click to the **Next** button
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookFeedCreate.png" alt="Facebook Feed Create" style="" %}
+
+This is when AdBOOST comes into the play. Feed URL that has to be set-up in the next step can be obtained from any one of your Facebook feed exports in your AdBOOST account. In Facebook:
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookFeedSave.png" alt="Facebook Feed Save" style="" %}
+
+And in AdBOOST:
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookExportURL.png" alt="Facebook Export URL" style="" %}
+
+Result of this procedure is your own product catalog that is ready to be released and shown in form of ads to your customers.
+
+{% include image_tag.html url="/images/advertiser_accounts/FacebookProductCatalog.png" alt="Facebook Product Catalog" style="" %}
 
 ## Google Analytics
 
