@@ -19,7 +19,7 @@ In left context menu choose <i class="fa fa-database"></i> Feed Management > <i 
 
 {% include image_tag.html url="/images/exports/LeftMenuExport.png" alt="Left Menu Export" style="height:350px;" %}
 
-If you have not created any export yet, you will be greeted by exports dashboard with empty statistics and button that will redirect you to export form. Same applies to <i class="fa fa-plus"></i> icon next to "Exports" in left menu.
+If you have not created any export yet, you will be greeted by exports dashboard with empty statistics. As you can notice, there are two <i class="fa fa-plus"></i> buttons that will redirect you to export form. One next to the Exports link and second next to "Exports" in left menu.
 
 {% include image_tag.html url="/images/exports/EmptyDashboard.png" alt="Exports Empty Dashboard" style="" %}
 
