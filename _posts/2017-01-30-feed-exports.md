@@ -15,15 +15,19 @@ tags: [feed, export]
 
 ## Basic setup
 
-In left context menu choose <i class="fa fa-database"></i> Data Management > <i class="fa fa-share"></i> Exports.<br/>
+In left context menu choose <i class="fa fa-database"></i> Feed Management > <i class="fa fa-dashboard"></i> Dashboard or click to large "<i class="fa fa-database"></i> Feed management" icon <br/> on the main dashboard<br/>
 
-{% include image_tag.html url="/images/exports/LeftMenuExport.png" alt="Left Menu Export" style="height:200px;" %}
+{% include image_tag.html url="/images/exports/LeftMenuExport.png" alt="Left Menu Export" style="height:350px;" %}
 
-If you have not created any export yet, you will be greeted by welcome screen consisting of selection of available target networks.
+If you have not created any export yet, you will be greeted by exports dashboard with empty statistics and button that will redirect you to export form. Same applies to <i class="fa fa-plus"></i> icon next to "Exports" in left menu.
+
+{% include image_tag.html url="/images/exports/EmptyDashboard.png" alt="Exports Empty Dashboard" style="" %}
+
+If you click directly to "Exports" in left menu instead, you will be greeted by welcome screen consisting of selection of available target networks.
 
 {% include image_tag.html url="/images/exports/ExportGuidedSetup.png" alt="Export Guided Setup" style="" %}
 
-If you have already created any feed exports, you will see them in listing and you will have the option to create new one by clicking either <span class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Export</span> button or <span class="btn btn-sm btn-primary"><i class="fa fa-question"></i> Guided setup</span> button
+If you have already created any feed exports, this part will show them to you in form of listing and you will have the option to create new one by clicking either <span class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Export</span> button or <span class="btn btn-sm btn-primary"><i class="fa fa-question"></i> Guided setup</span> button
 
 {% include image_tag.html url="/images/exports/ExportListing.png" alt="Export Listing" style="" %}
 
