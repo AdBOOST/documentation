@@ -34,15 +34,19 @@ Each of these entities can be used differently:
 
 ## Banner set
 
-In left context menu choose <i class="fa fa-image"></i> Banners > <i class="fa fa-object-group"></i> Banner sets or click to large "<i class="fa fa-image"></i> Banner generator" icon <br/> on the main dashboard<br/>
+In left context menu choose <i class="fa fa-image"></i> Banner Generator > <i class="fa fa-dashboard"></i> Dashboard or click to large "<i class="fa fa-image"></i> Banner generator" icon <br/> on the main dashboard<br/>
 
 {% include image_tag.html url="/images/banners/LeftMenuBanners.png" alt="Left Menu Banners" style="height:350px;" %}
 
-If you have not created any banner set yet, you will be greeted by welcome screen showing preview of banner setup steps and its example result.
+If you have not created any banner set yet, you will be greeted by banners dashboard with empty statistics and button that will redirect you to banner set form. Same applies to <i class="fa fa-plus"></i> icon next to "Banner sets" in left menu.
+
+{% include image_tag.html url="/images/banners/EmptyDashboard.png" alt="Banners Empty Dashboard" style="" %}
+
+If you click directly to "Banner sets" in left menu instead, you will be greeted by welcome screen showing preview of banner setup steps and its example result.
 
 {% include image_tag.html url="/images/banners/BannersGuidedSetup.png" alt="Banners Guided Setup" style="" %}
 
-If you have already created any banner sets, you will see them in listing and you will have the option to create new one by clicking <span class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Banner set</span> button
+If you have already created any banner sets, this part will show them to you in form of listing and you will have the option to create new one by clicking <span class="btn btn-sm btn-primary"><i class="fa fa-plus"></i> Banner set</span> button
 
 {% include image_tag.html url="/images/banners/BannersListing.png" alt="Banners Listing" style="" %}
 
@@ -184,5 +188,23 @@ Dialog itself is shown on the screen below and provides following services:
 
 {% include image_tag.html url="/images/banners/AssetsDownloadModal.png" alt="Assets Download Modal" style="" %}
 
+## Banners Dashboard
 
+When you finish the setup of your banners, it's good to have constant overview of their state. You can get it by navigating to <i class="fa fa-image"></i> Banner Generator > <i class="fa fa-dashboard"></i> Dashboard in left context menu as in the begining of this tutorial. What will be different is the content of the dashboard.
+
+### Generated banners per network
+
+You will see the number of generated banners per network and number of banners that could have been generated. If numbers do not match, it can be due to incorrect product property values, too long titles that could not fit into placeholders or other processing issues.
+
+Non-zero values have <i class="fa fa-info-circle"></i> icon next to them. Click this icon to examine numbers of generated banners per banner set and find out which ones are causing the error state. You can then click to the title of these banner sets to examine this state in banner editor (batch preview is really helpful in such situations).
+
+### Banner templates states
+
+Below the network overview is the list of your banner templates with labels describing its state. There are 3 possible states that banner template can attain:
+
+- **Unused state** - banner template has been created but you cannot obtain final product banners in any form (marked <span class="text-red">red</span>)
+- **Partially used state** - banner template is used in **one** way - it can be obtained as a ZIP archive or it is used in export or in GDN campaign (marked <span class="text-orange">orange</span>)
+- **Fully utilized state** - banner template is used in **multiple** ways - not only it can be obtained as ZIP archive, but it is also used as a part of a Facebook export or in GDN campaign (marked <span class="text-green">green</span>)
+
+{% include image_tag.html url="/images/banners/BannersDashboardStats.png" alt="Banners Dashboard Stats" style="" %}
 
