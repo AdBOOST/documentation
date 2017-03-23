@@ -4,6 +4,7 @@ title:  "Batch Campaign Creator"
 date:   2017-03-23 17:11:14 -0600
 category: "Product Campaigns"
 type: feature
+trending: true
 tags: [google, adwords, sklik, seznam, batch, automated, campaign, create, pattern, target, bid, budget, sync]
 ---
 
@@ -113,5 +114,5 @@ Use the filter at the top of the listing to find the feed that you have used as 
 
 ## Additional changes
 
-If the structure, that you have created with our batch campaign creator is not good enough from the performance perspective (you need additional targeting, set more shared budgets, UTM tagging, ...), you can still change settings of specific campaign in its own form. To find out how to manage campaign settings for campaigns in multiple networks, check our [Product Campaigns Guide]({% post_url 2017-01-30-product-campaigns %}).
+If the structure, that you have created with our batch campaign creator is not good enough from the performance perspective (you need additional targeting, set more shared budgets, UTM tagging, ...), you can still change settings of specific campaign in its own form. To find out how to manage campaign settings for campaigns in multiple networks, check our [Product Campaigns Guide]({% post_url 2017-03-22-product-campaigns %}).
 

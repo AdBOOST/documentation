@@ -15,7 +15,7 @@ tags: [feed, data, setup, management, source]
 
 ## Getting started
 
-Data feed is the core element of AdBOOST that is used to create [Product Campaigns]({% post_url 2017-01-30-product-campaigns %}), [Automated banners]({% post_url 2017-01-31-banner-generator %}) or [Exports for external networks]({% post_url 2017-01-30-feed-exports %}). It is AdBOOST's internal entity that represents data source. This entity can obtain it's data from sources in various formats:
+Data feed is the core element of AdBOOST that is used to create [Product Campaigns]({% post_url 2017-03-22-product-campaigns %}), [Automated banners]({% post_url 2017-01-31-banner-generator %}) or [Exports for external networks]({% post_url 2017-01-30-feed-exports %}). It is AdBOOST's internal entity that represents data source. This entity can obtain it's data from sources in various formats:
 
 - CSV
 - TSV
@@ -76,7 +76,7 @@ These are properties that will be used to distinguish and identify your items an
 
 Properties that will be identified by AdBOOST or can be dragged into respective container by you. You will be able to continue in setup process, even if you leave any of them blank, but every one of these properties has some role:
 
-- **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-01-30-product-campaigns %}) ads
+- **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-03-22-product-campaigns %}) ads
 - **Category** property can later be used to segment your feed and automatically create [Batch of Campaigns]({% post_url 2017-03-23-batch-campaigns %})
 - **Manufacturer** property will be used to create suggestions for your [Keyword Pattern]({% post_url 2017-02-06-keyword-patterns %}) and [Ad Patterns]({% post_url 2017-02-06-ad-patterns %})
 
