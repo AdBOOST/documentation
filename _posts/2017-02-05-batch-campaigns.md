@@ -64,9 +64,9 @@ You can play with the segmentation depth and when you click the <span class="btn
 
 You will not be able to save this form until it is not in the valid state. As you can see on the screen below, there are different types of validations that will guide you through the setup process without any mistake:
 
-- if you choose to select at least one campaign for one of the target networks (AdWords, Sklik), their default values will be cross-validated
-- cross-validation means that default bid has to be lower that the default budget and they both have to follow the rules of the network for min/max values. Same applies to the specific campaign bids and budgets and if your decide to provide only one of specific values, it will be validated against its default equivalent (specific bid & default budget and so on)
-- campaign name pattern has to contain %NW% and %CATEGORY%/%FULL_CATEGORY% placeholders to ensure that final campaign names will be **unique**
+- if you choose to select at least one campaign for one of the target networks (AdWords, Sklik), their default values will be **cross-validated**
+- cross-validation means that **default bid** has to be lower that the **default budget** and they both have to follow the rules of the network for min/max values. Same applies to the specific campaign bids and budgets and if your decide to provide only one of specific values, it will be validated against its default equivalent (specific bid & default budget and so on)
+- campaign name pattern has to contain **%NW%** and **%CATEGORY%/%FULL_CATEGORY% placeholders** to ensure that final campaign names will be **unique**
 
 {% include image_tag.html url="/images/batch_campaigns/FormValidation.png" alt="Form Validation" style="" %}
 
@@ -110,6 +110,8 @@ For now, select <span class="btn btn-sm btn-default"><i class="fa fa-bullhorn"><
 Use the filter at the top of the listing to find the feed that you have used as a data source for your campaigns. You can then use the checkbox at the top of the table to select all campaigns. Campaigns can then be synchronized with remote advertising network by click to the <span class="btn btn-sm btn-default"><i class="fa fa-refresh"></i> Synchronize</span> action.
 
 {% include image_tag.html url="/images/batch_campaigns/BatchResultCampaigns.png" alt="Batch Result Campaigns" style="" %}
+
+## Additional changes
 
 If the structure, that you have created with our batch campaign creator is not good enough from the performance perspective (you need additional targeting, set more shared budgets, UTM tagging, ...), you can still change settings of specific campaign in its own form. To find out how to manage campaign settings for campaigns in multiple networks, check our [Product Campaigns Guide]({% post_url 2017-01-30-product-campaigns %}).
 
