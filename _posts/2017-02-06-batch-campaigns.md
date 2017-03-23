@@ -62,10 +62,22 @@ You can play with the segmentation depth and when you click the <span class="btn
 
 {% include image_tag.html url="/images/batch_campaigns/SegmentationDepth.png" alt="Segmentation Depth" style="" %}
 
+You will not be able to save this form until it is not in the valid state. As you can see on the screen below, there are different types of validations that will guide you through the setup process without any mistake:
+
+- if you choose to select at least one campaign for one of the target networks (AdWords, Sklik), their default values will be cross-validated
+- cross-validation means that default bid has to be lower that the default budget and they both have to follow the rules of the network for min/max values. Same applies to the specific campaign bids and budgets and if your decide to provide only one of specific values, it will be validated against its default equivalent (specific bid & default budget and so on)
+- campaign name pattern has to contain %NW% and %CATEGORY%/%FULL_CATEGORY% placeholders to ensure that final campaign names will be **unique**
+
 {% include image_tag.html url="/images/batch_campaigns/FormValidation.png" alt="Form Validation" style="" %}
+
+In case of AdWords defaults, inputs for target languages and locations work as auto-complete fields, so just start typing any country and language you wish to display your ads for and choose one of the suggestions. All values are in english.
 
 {% include image_tag.html url="/images/batch_campaigns/Targeting.png" alt="Targeting" style="height:300px;" %}
 
+Below you can see an example of the valid campaigns structure form. Submit button is enabled, targetings are provided and all bid/budget pairs are cross-valid for each of selected networks.
+
 {% include image_tag.html url="/images/batch_campaigns/ValidForm.png" alt="Valid Form" style="" %}
+
+If you proceed with click to the <span class="btn btn-sm btn-primary"><i class="fa fa-save"></i> Check summarization & go to pattern setup</span> button, you will be presented with summarization of your campaigns structure.
 
 {% include image_tag.html url="/images/batch_campaigns/CampaignsReceipt.png" alt="Campaigns Receipt" style="" %}
