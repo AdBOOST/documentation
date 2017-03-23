@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Batch Campaign Creator"
-date:   2017-02-06 17:11:14 -0600
+date:   2017-02-05 17:11:14 -0600
 category: "Product Campaigns"
 type: feature
 tags: [google, adwords, sklik, seznam, batch, automated, campaign, create, pattern, target, bid, budget, sync]
@@ -78,6 +78,12 @@ Below you can see an example of the valid campaigns structure form. Submit butto
 
 {% include image_tag.html url="/images/batch_campaigns/ValidForm.png" alt="Valid Form" style="" %}
 
-If you proceed with click to the <span class="btn btn-sm btn-primary"><i class="fa fa-save"></i> Check summarization & go to pattern setup</span> button, you will be presented with summarization of your campaigns structure.
+If you proceed with click to the <span class="btn btn-sm btn-primary"><i class="fa fa-save"></i> Check summarization & go to pattern setup</span> button, you will be presented with summarization of your campaigns structure. You can either accept it and procced to the patterns setup form or go back to the campaigns structure form and refine your setup.
 
 {% include image_tag.html url="/images/batch_campaigns/CampaignsReceipt.png" alt="Campaigns Receipt" style="" %}
+
+## Patterns setup
+
+Right after you continue to the patterns form, you will be presented with basic suggestions for your patterns. Default language of suggestions is english but you can play around and switch it by click to the national flag of your desired language at any time. You can stil drag & drop variables from the left panel or start typing into the inputs in ad and keyword patterns.
+
+As you can see, in this case, we have decided to create 6 campaigns, 3 for AdWords and 3 for Sklik. Together, we will cover 15 items with ads, from which 11 will be for AdWords and 9 for Sklik (5 overlapping items). Sklik Ad pattern is empty only because of english suggestion language (so you will not display english ads in czech republic), but can be provided at any time.
