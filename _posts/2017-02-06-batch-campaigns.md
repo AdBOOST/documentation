@@ -49,3 +49,15 @@ Next step is to choose the source feed in selectbox in guided setup dialog and c
 {% include image_tag.html url="/images/batch_campaigns/ScheduleLinks.png" alt="Schedule Links" style="" %}
 
 ## Campaigns structure
+
+{% include image_tag.html url="/images/batch_campaigns/EmptyCampaignForm.png" alt="Empty Campaign Form" style="" %}
+
+{% include image_tag.html url="/images/batch_campaigns/SegmentationDepth.png" alt="Segmentation Depth" style="" %}
+
+{% include image_tag.html url="/images/batch_campaigns/FormValidation.png" alt="Form Validation" style="" %}
+
+{% include image_tag.html url="/images/batch_campaigns/Targeting.png" alt="Targeting" style="" %}
+
+{% include image_tag.html url="/images/batch_campaigns/ValidForm.png" alt="Valid Form" style="" %}
+
+{% include image_tag.html url="/images/batch_campaigns/CampaignsReceipt.png" alt="Campaigns Receipt" style="" %}
