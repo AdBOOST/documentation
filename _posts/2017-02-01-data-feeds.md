@@ -77,7 +77,7 @@ These are properties that will be used to distinguish and identify your items an
 Properties that will be identified by AdBOOST or can be dragged into respective container by you. You will be able to continue in setup process, even if you leave any of them blank, but every one of these properties has some role:
 
 - **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-01-30-product-campaigns %}) ads
-- **Category** property can later be used to segment your feed and automatically create [Batch of Campaigns]({% post_url 2017-02-05-batch-campaigns %})
+- **Category** property can later be used to segment your feed and automatically create [Batch of Campaigns]({% post_url 2017-03-23-batch-campaigns %})
 - **Manufacturer** property will be used to create suggestions for your [Keyword Pattern]({% post_url 2017-02-06-keyword-patterns %}) and [Ad Patterns]({% post_url 2017-02-06-ad-patterns %})
 
 {% include image_tag.html url="/images/feeds/RecommendedProps.png" alt="Recommended Properties" style="" %}
@@ -157,7 +157,7 @@ First saving of Feed Editor form triggers **Feed processing**. Item descriptions
 
 You can choose as many synchronisations per week as you want, but please bare in mind that your own feed might not be updated as frequently. Top limit is synchronisation every hour of every day.This form can be saved by clicking to one of submit buttons. Each of them will take you to the different part of AdBOOST according to your use case:
 
-- __<i class="fa fa-puzzle-piece"></i> Save & go to campaigns creation__ - will proceed to next step of feed setup (Create campaigns) where you can <b>setup all of your campaign in 5 minutes</b>. This functionallity is described in detail in [Batch Campaign Creator guide]({% post_url 2017-02-05-batch-campaigns %})
+- __<i class="fa fa-puzzle-piece"></i> Save & go to campaigns creation__ - will proceed to next step of feed setup (Create campaigns) where you can <b>setup all of your campaign in 5 minutes</b>. This functionallity is described in detail in [Batch Campaign Creator guide]({% post_url 2017-03-23-batch-campaigns %})
 - __<i class="fa fa-files-o"></i> Save & go feeds listing__ - will take you to the listing of your feeds where you can decide what is your next action.
 - __<i class="fa fa-share"></i> Save & go to Exports__ - will take you to the listing of your **feed exports for external networks and price comparison engines**. This functionallity is described in detail in [Feed Exports guide]({% post_url 2017-01-30-feed-exports %})
 - __<i class="fa fa-image"></i> Save & go to Banners__ - will take you to the listing of your banner sets which is a starting point for setup of your **automated or personalized product display ads**. This functionallity is described in detail in [Banner Generator guide]({% post_url 2017-01-31-banner-generator %})
