@@ -102,13 +102,14 @@ Accept the summarization and wait for the processing to finish.
 
 {% include image_tag.html url="/images/batch_campaigns/BatchLoader.png" alt="Batch Loader" style="" %}
 
-You will be then presented with success dialog that provides you three options you can use as a next action. For now, select <span class="btn btn-sm btn-default"><i class="fa fa-bullhorn"></i> Go to campaigns listing</span>
+You will be then presented with success dialog that provides you three options you can use as a next action.
+For now, select <span class="btn btn-sm btn-default"><i class="fa fa-bullhorn"></i> Go to campaigns listing</span>
 
 {% include image_tag.html url="/images/batch_campaigns/BatchCreateSuccess.png" alt="Batch Create Success" style="" %}
 
-Use the filter at the top of the listing to find the feed that you have used as a data source for your campaigns. You can then use the checkbox at the top of the table to select all campaigns. Campaigns can then be synchronized with remote advertising network by click to the <span class="btn btn-sm btn-primary"><i class="fa fa-refresh"></i> Synchronize</span> action.
+Use the filter at the top of the listing to find the feed that you have used as a data source for your campaigns. You can then use the checkbox at the top of the table to select all campaigns. Campaigns can then be synchronized with remote advertising network by click to the <span class="btn btn-sm btn-default"><i class="fa fa-refresh"></i> Synchronize</span> action.
 
 {% include image_tag.html url="/images/batch_campaigns/BatchResultCampaigns.png" alt="Batch Result Campaigns" style="" %}
 
-If the structure, that you have created with our batch campaign creator is not specific enough, you can still change settings of specific campaign in its own form. To find out how to manage campaign settings for campaigns in multiple networks, check our [Product Campaigns Guide]({% post_url 2017-01-30-product-campaigns %}).
+If the structure, that you have created with our batch campaign creator is not good enough from the performance perspective (you need additional targeting, set more shared budgets, UTM tagging, ...), you can still change settings of specific campaign in its own form. To find out how to manage campaign settings for campaigns in multiple networks, check our [Product Campaigns Guide]({% post_url 2017-01-30-product-campaigns %}).
 
