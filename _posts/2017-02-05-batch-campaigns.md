@@ -87,3 +87,28 @@ If you proceed with click to the <span class="btn btn-sm btn-primary"><i class="
 Right after you continue to the patterns form, you will be presented with basic suggestions for your patterns. Default language of suggestions is english but you can play around and switch it by click to the national flag of your desired language at any time. You can stil drag & drop variables from the left panel or start typing into the inputs in ad and keyword patterns.
 
 As you can see, in this case, we have decided to create 6 campaigns, 3 for AdWords and 3 for Sklik. Together, we will cover 15 items with ads, from which 11 will be for AdWords and 9 for Sklik (5 overlapping items). Sklik Ad pattern is empty only because of english suggestion language (so you will not display english ads in czech republic), but can be provided at any time.
+
+{% include image_tag.html url="/images/batch_campaigns/EmptyPatternsForm.png" alt="Empty Patterns Form" style="" %}
+
+Refine your patterns to fit your needs and you may come up to something simmilar to setup shown on the image below.
+
+{% include image_tag.html url="/images/batch_campaigns/ValidPatternForm.png" alt="Valid Pattern Form" style="" %}
+
+Submit your setup with one of <span class="btn btn-sm btn-primary"><i class="fa fa-save"></i> Check summarization & create campaigns</span> buttons and you will be presented with the last summarization before you actually create your campaigns.
+
+{% include image_tag.html url="/images/batch_campaigns/PatternsReceipt.png" alt="Patterns Receipt" style="" %}
+
+Accept the summarization and wait for the processing to finish.
+
+{% include image_tag.html url="/images/batch_campaigns/BatchLoader.png" alt="Batch Loader" style="" %}
+
+You will be then presented with success dialog that provides you three options you can use as a next action. For now, select <span class="btn btn-sm btn-default"><i class="fa fa-bullhorn"></i> Go to campaigns listing</span>
+
+{% include image_tag.html url="/images/batch_campaigns/BatchCreateSuccess.png" alt="Batch Create Success" style="" %}
+
+Use the filter at the top of the listing to find the feed that you have used as a data source for your campaigns. You can then use the checkbox at the top of the table to select all campaigns. Campaigns can then be synchronized with remote advertising network by click to the <span class="btn btn-sm btn-primary"><i class="fa fa-refresh"></i> Synchronize</span> action.
+
+{% include image_tag.html url="/images/batch_campaigns/BatchResultCampaigns.png" alt="Batch Result Campaigns" style="" %}
+
+If the structure, that you have created with our batch campaign creator is not specific enough, you can still change settings of specific campaign in its own form. To find out how to manage campaign settings for campaigns in multiple networks, check our [Product Campaigns Guide]({% post_url 2017-01-30-product-campaigns %}).
+
