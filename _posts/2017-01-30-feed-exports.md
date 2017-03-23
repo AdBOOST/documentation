@@ -13,6 +13,10 @@ tags: [feed, export]
 * TOC
 {:toc}
 
+## Getting started
+
+Only pre-requisity of feed exports setup is to have at least one active data feed in AdBOOST. If you do not have one yet, please follow our [Feed setup guide]({% post_url 2017-02-01-data-feeds %})
+
 ## Basic setup
 
 In left context menu choose <i class="fa fa-database"></i> Feed Management > <i class="fa fa-dashboard"></i> Dashboard or click to large "<i class="fa fa-database"></i> Feed management" icon <br/> on the main dashboard<br/>
