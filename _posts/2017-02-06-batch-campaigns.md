@@ -50,13 +50,21 @@ Next step is to choose the source feed in selectbox in guided setup dialog and c
 
 ## Campaigns structure
 
+First thing to set up is how your product will be segmented into the campaigns. Setup process will not progress until you choose at least one campaign to create.
+
 {% include image_tag.html url="/images/batch_campaigns/EmptyCampaignForm.png" alt="Empty Campaign Form" style="" %}
+
+Tree of your categories that you could see on the previous screen has been based on the values of your **Category** property in your feed schema settings. If you do not see your categories, assign correct feed variable into this property.
+
+{% include image_tag.html url="/images/batch_campaigns/FeedCategory.png" alt="Feed Category" style="height:350px;" %}
+
+You can play with the segmentation depth and when you click the <span class="btn btn-sm btn-default"><i class="fa fa-sitemap"></i> Examine</span> button, your categories will be segmented into the selected depth. Below you can see two examples. First takes all unique category values as categories itself and second one descends to depth of three and allows you to wrap products from categories like "Board games" into the single campaign.
 
 {% include image_tag.html url="/images/batch_campaigns/SegmentationDepth.png" alt="Segmentation Depth" style="" %}
 
 {% include image_tag.html url="/images/batch_campaigns/FormValidation.png" alt="Form Validation" style="" %}
 
-{% include image_tag.html url="/images/batch_campaigns/Targeting.png" alt="Targeting" style="" %}
+{% include image_tag.html url="/images/batch_campaigns/Targeting.png" alt="Targeting" style="height:300px;" %}
 
 {% include image_tag.html url="/images/batch_campaigns/ValidForm.png" alt="Valid Form" style="" %}
 
