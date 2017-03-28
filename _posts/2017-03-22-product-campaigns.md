@@ -41,21 +41,45 @@ These settings might consist of 1-2 steps and differ slightly for each target ad
 
 #### General settings
 
-First thing to choose is the name of your campaign and the feed that will be used as a data source for campaign ads.
+First thing to choose is the name of your campaign and the feed that will be used as a data source for campaign ads and keywords.
 
 {% include image_tag.html url="/images/campaigns/AwGeneralSettings.png" alt="Aw General Settings" style="" %}
 
+Later you will be prompted to provide campaign budget to limit amount of money available to this campaign. You can choose from two options:
+
+- **Dedicated budget** that will be available only to this specific campaign and can be managed only in this form,
+- **Shared budget** that could be re-used accross your campaigns and can also be managed in Shared library
+
 {% include image_tag.html url="/images/campaigns/AwBudgetSettings.png" alt="Aw Budget Settings" style="" %}
+
+If you find out that none of your existing shared budgets fits needs of this campaign, you can create new one in the dialog shown after click to <span class="btn btn-sm btn-default"><i class="glyphicon glyphicon-plus-sign"></i> Create new</span> button next to the shared budgets selectbox.
 
 {% include image_tag.html url="/images/campaigns/AwCreateBudget.png" alt="Aw Create Budget" style="" %}
 
+As mentioned before, all shared budgets can also be managed in **Shared library** that can be examined in left context menu under Product Campaigns after click to the caret next to the Shared Library label.
+
 {% include image_tag.html url="/images/campaigns/LeftMenuBudgets.png" alt="Left Menu Budgets" style="" %}
+
+Next thing to set-up are campaign's bidding options. In case of AdWords campaigns, you can control your bidding in three ways:
+
+- set **default campaign bid**. This value can later be overriden on keyword pattern level,
+- choose the manner in which your bidding will progress - your **bidding schema**. Default value resolves to Manual CPC
+- fallback that can be used in case that you want to make manual modification to the bidding setup of your specific adgroups. Normally, these are overriden but you can ommit this behavior be ticking this checkbox
 
 {% include image_tag.html url="/images/campaigns/AwBiddingSettings.png" alt="Aw Bidding Settings" style="" %}
 
+Again, you can create new bidding schemas in the dialog shown after click to <span class="btn btn-sm btn-default"><i class="glyphicon glyphicon-plus-sign"></i> Create new</span> button next to the bidding schemas selectbox and all your account bidding schemas can be managed in Shared library.
+
 {% include image_tag.html url="/images/campaigns/AwCreateSchema.png" alt="Aw Create Schema" style="" %}
 
+Ad settings section of this form has only two parts:
+
+- **ad rotation** determines way how your ads are shown to your customers. Options speak for themselves
+- you can also **request trademark exemption** in case you know that your ads will contain trademarks that you are eligible to use in AdWords advertising
+
 {% include image_tag.html url="/images/campaigns/AwAdSettings.png" alt="Aw Ad Settings" style="" %}
+
+Last part of General settings is UTM tagging setup. UTM tagger is generic, re-usable component of AdBOOST and you can find it on multiple levels. To find out more about how UTM tagging works and where it can be set, please refer to our [UTM tagger guide]({% post_url 2017-03-20-utm-tagger %})
 
 #### Targeting
 
@@ -68,7 +92,7 @@ First thing to choose is the name of your campaign and the feed that will be use
 ### Sklik.cz
 
 
-## Item assign
+## Item assignment
 
 
 ## Keyword patterns
