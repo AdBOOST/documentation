@@ -33,3 +33,45 @@ Here you can choose which way do you want to go:
 
 {% include image_tag.html url="/images/campaigns/GuidedSetup.png" alt="Guided Setup" style="" %}
 
+## Campaign Settings
+
+These settings might consist of 1-2 steps and differ slightly for each target advertising network.
+
+### AdWords
+
+#### General settings
+
+First thing to choose is the name of your campaign and the feed that will be used as a data source for campaign ads.
+
+{% include image_tag.html url="/images/campaigns/AwGeneralSettings.png" alt="Aw General Settings" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwBudgetSettings.png" alt="Aw Budget Settings" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwCreateBudget.png" alt="Aw Create Budget" style="" %}
+
+{% include image_tag.html url="/images/campaigns/LeftMenuBudgets.png" alt="Left Menu Budgets" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwBiddingSettings.png" alt="Aw Bidding Settings" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwCreateSchema.png" alt="Aw Create Schema" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwAdSettings.png" alt="Aw Ad Settings" style="" %}
+
+#### Targeting
+
+### Bing Ads
+
+#### General settings
+
+#### Targeting
+
+### Sklik.cz
+
+
+## Item assign
+
+
+## Keyword patterns
+
+
+## Ad patterns

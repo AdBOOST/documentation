@@ -78,7 +78,7 @@ Properties that will be identified by AdBOOST or can be dragged into respective 
 
 - **Numerical values** will be used as a replacements of {param1} and {param2} placeholders in your [Product Campaigns]({% post_url 2017-03-22-product-campaigns %}) ads
 - **Category** property can later be used to segment your feed and automatically create [Batch of Campaigns]({% post_url 2017-03-23-batch-campaigns %})
-- **Manufacturer** property will be used to create suggestions for your [Keyword Pattern]({% post_url 2017-02-06-keyword-patterns %}) and [Ad Patterns]({% post_url 2017-02-06-ad-patterns %})
+- **Manufacturer** property will be used to create suggestions for your [Keyword Patterns]({% post_url 2017-03-22-product-campaigns %}#keyword-patterns) and [Ad Patterns]({% post_url 2017-03-22-product-campaigns %}#ad-patterns)
 
 {% include image_tag.html url="/images/feeds/RecommendedProps.png" alt="Recommended Properties" style="" %}
 
