@@ -45,6 +45,10 @@ First thing to choose is the name of your campaign and the feed that will be use
 
 {% include image_tag.html url="/images/campaigns/AwGeneralSettings.png" alt="Aw General Settings" style="" %}
 
+Please pay attention to the label next to the campaign name input. Name you choose for your campaign won't be final as it will be used according to naming conventions set in account settings form.
+
+{% include image_tag.html url="/images/campaigns/NamingConventions.png" alt="Naming Conventions" style="" %}
+
 Later you will be prompted to provide campaign budget to limit amount of money available to this campaign. You can choose from two options:
 
 - **Dedicated budget** that will be available only to this specific campaign and can be managed only in this form,
@@ -82,6 +86,16 @@ Ad settings section of this form has only two parts:
 Last part of General settings is UTM tagging setup. UTM tagger is generic, re-usable component of AdBOOST and you can find it on multiple levels. To find out more about how UTM tagging works and where it can be set, please refer to our [UTM tagger guide]({% post_url 2017-03-20-utm-tagger %})
 
 #### Targeting
+
+You can refine targeting of your AdWords campaigns in three ways:
+
+**Preserve AdWords settings**
+
+{% include image_tag.html url="/images/campaigns/AwPreserveTargeting.png" alt="Aw Preserve Targeting" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwTargetLangauge.png" alt="Aw Target Langauge" style="" %}
+
+{% include image_tag.html url="/images/campaigns/AwTargetLocation.png" alt="Aw Target Location" style="" %}
 
 ### Bing Ads
 
