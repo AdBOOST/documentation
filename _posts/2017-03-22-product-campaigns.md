@@ -89,11 +89,15 @@ Last part of General settings is UTM tagging setup. UTM tagger is generic, re-us
 
 You can refine targeting of your AdWords campaigns in three ways:
 
-**Preserve AdWords settings**
+**Preserve AdWords settings** - as you can see on the screen below, you can leave AdBOOST out of your targeting setting flow and manage this part of your campaigns in AdWords alone. Use this option at your own risk.
 
 {% include image_tag.html url="/images/campaigns/AwPreserveTargeting.png" alt="Aw Preserve Targeting" style="" %}
 
-{% include image_tag.html url="/images/campaigns/AwTargetLangauge.png" alt="Aw Target Langauge" style="" %}
+**Target specific languages** - choose one or more languages supported by AdWords. Input works as a fulltext search and language names are in english.
+
+{% include image_tag.html url="/images/campaigns/AwTargetLanguage.png" alt="Aw Target Language" style="" %}
+
+**Target specific locations** - not only you can target specific country, district or city, you can also modify bidding in these areas according to your needs. This way you can bid more in locations where you have to deal with local competitor or less in locations that are not so popular etc.
 
 {% include image_tag.html url="/images/campaigns/AwTargetLocation.png" alt="Aw Target Location" style="" %}
 
