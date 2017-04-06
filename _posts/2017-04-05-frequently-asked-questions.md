@@ -15,6 +15,7 @@ tags: [faq, questions, billing, ordering, price, login, registration, campaigns,
 
 ## Ordering & Registration
 
+
 **Q: How can I try AdBoost?**<br/>
 A: Just navigate to [app.adboost.sk](https://app.adboost.sk)
 
@@ -28,6 +29,7 @@ A: Just your e-mail address and password. No credit card info or your personal d
 A: No, you can try  AdBOOST  during your 30 day trial, free of charge. All your campaigns will be paused at the end of this period and no additional fees will be applied to you.
 
 ## Platform
+
 
 **Q: Do I have to use all of the AdBOOST features?**<br/>
 A: No, you can use one, all or any combination of them that suits you best
@@ -48,6 +50,7 @@ A: We will ask you to fill in your billing information in the AdBoost interface 
 A: First of all, visit [manual.adboost.sk](https://manual.adboost.sk). Use the searchbar at the top of the page and you should find answers to most of the platform-related questions. If you haven’t found what you were looking for, ask us at [support@adboost.sk](mailto:support@adboost.sk)
 
 ## Product Campaigns
+
 
 **Q: I am satisfied with my AdWords/Bing campaigns. How will AdBOOST help me?**<br/>
 A: As opposed to a regular campaign which you are likely to have, AdBOOST advertises separately for each particular product (or in general, for each item in your xml feed). This enables you to have large long-tail campaigns for thousands or even hundreds of thousands products with an easy to optimize structure
@@ -71,6 +74,7 @@ A: Yes, you will see your campaigns in the same way as you have always seen them
 A: You can edit bids, add new keywords and generally do any edits with one exception. You should not create new ads manually in campaigns generated with AdBOOST, because those ads will not be automatically updated by AdBOOST
 
 ## The Agency Account
+
 
 **Q: What is the Agency Account?**<br/>
 A: The Agency account is equivalent to AdWords MCC account. It allows you to manage multiple AdBOOST accounts with one login email and password. Agency account also consists of detailed user management, so if you have more campaign managers, they will be able to access all AdBOOST accounts they manage. Moreover agency has one master login email with access to all accounts
