@@ -8,7 +8,7 @@ title:  "AdBOOST.sk - platform manual"
 
 Welcome to AdBOOST platform manual. Feel free to browse features displayed in the right sidebar or if you know exactly what you are looking for, use search bar on top of the page to quickly navigate towards most accurate results and quickly fulfill your needs.
 
-**Most frequent topics**
+<div id="frequent-topics">Most frequent topics</div>
 
 <ol class="most-frequent-ol">
   {% for post in site.posts %}
