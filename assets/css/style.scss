@@ -742,7 +742,8 @@ aside#sidebar {
   float: left;
   width: 300px;
   @include calc(height, '100% - 90px');
-  overflow-y: scroll;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
   overflow-x: hidden;
   padding-left: 5px;
   font-size: 12px;
@@ -1483,7 +1484,7 @@ a.image {
   font-size: 12px;
 }
 .btn-primary {
-  background-color: #9655af;
+  background-color: #605ca8;
   border-color: #555299;
 }
 
