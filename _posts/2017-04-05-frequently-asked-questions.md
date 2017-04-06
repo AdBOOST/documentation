@@ -4,6 +4,7 @@ title:  "FAQ"
 date:   2017-04-05 09:40:41 -0600
 category: "AdBOOST Core"
 type: feature
+trending: true
 tags: [faq, questions, billing, ordering, price, login, registration, campaigns, account, agency]
 ---
 
