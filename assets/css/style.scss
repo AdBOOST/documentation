@@ -1523,6 +1523,9 @@ a.image {
 
 .register-links {
   & {
+    color: #fff;
+  }
+  & {
     padding-top: 25px;
   }
   a {
@@ -1530,5 +1533,9 @@ a.image {
   }
   button {
     margin-left: 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
   }
 }
