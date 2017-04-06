@@ -1519,3 +1519,15 @@ a.image {
 .sidebar-label-top {
   margin-bottom: 10px;
 }
+
+.register-links {
+  & {
+    padding-top: 25px;
+  }
+  a {
+    color: #fff !important;
+  }
+  button {
+    margin-left: 10px;
+  }
+}
