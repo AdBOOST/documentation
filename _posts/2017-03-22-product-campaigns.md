@@ -105,7 +105,39 @@ You can refine targeting of your AdWords campaigns in three ways:
 
 #### General settings
 
+First thing to choose is the name of your campaign and the feed that will be used as a data source for campaign ads and keywords.
+
+{% include image_tag.html url="/images/campaigns/BingGeneralSettings.png" alt="Bing General Settings" style="" %}
+
+Please pay attention to the label next to the campaign name input. Name you choose for your campaign won't be final as it will be used according to naming conventions set in account settings form.
+
+{% include image_tag.html url="/images/campaigns/NamingConventions.png" alt="Naming Conventions" style="" %}
+
+Other campaign settings include setting of budget amount and type, default campaign bid, you timezone (for the synchronisation timing purposes) and required campaign description field.
+
+{% include image_tag.html url="/images/campaigns/BingCampaignSettings.png" alt="Bing Campaign Settings" style="" %}
+
+You can request exemption for displaying of trademarks you own in advertising policies part of the form.
+
+{% include image_tag.html url="/images/campaigns/BingAdvertisingPolicies.png" alt="Bing Advertising Policies" style="" %}
+
+Last part of General settings is UTM tagging setup. UTM tagger is generic, re-usable component of AdBOOST and you can find it on multiple levels. To find out more about how UTM tagging works and where it can be set, please refer to our [UTM tagger guide]({% post_url 2017-03-20-utm-tagger %})
+
 #### Targeting
+
+You can refine targeting of your BingAds campaigns in three ways:
+
+**Preserve BingAds settings** - as you can see on the screen below, you can leave AdBOOST out of your targeting setting flow and manage this part of your campaigns in BingAds alone. Use this option at your own risk.
+
+{% include image_tag.html url="/images/campaigns/BingPreserveTargeting.png" alt="Bing Preserve Targeting" style="" %}
+
+**Target specific languages** - choose **exactly one** language supported by BingAds. Input works as a fulltext search and language names are in english.
+
+{% include image_tag.html url="/images/campaigns/BingTargetLanguage.png" alt="Bing Target Language" style="" %}
+
+**Target specific locations** - not only you can target specific country, district or city, you can also modify bidding in these areas according to your needs. This way you can bid more in locations where you have to deal with local competitor or less in locations that are not so popular etc.
+
+{% include image_tag.html url="/images/campaigns/BingTargetLocation.png" alt="Bing Target Location" style="" %}
 
 ### Sklik.cz
 
