@@ -119,7 +119,7 @@ Other campaign settings include setting of budget amount and type, default campa
 
 You can request exemption for displaying of trademarks you own in advertising policies part of the form.
 
-{% include image_tag.html url="/images/campaigns/BingAdvertisingPolicies.png" alt="Bing Advertising Policies" style="" %}
+{% include image_tag.html url="/images/campaigns/BingAdvertisingPolicies.png" alt="Bing Advertising Policies" style="height:100px;" %}
 
 Last part of General settings is UTM tagging setup. UTM tagger is generic, re-usable component of AdBOOST and you can find it on multiple levels. To find out more about how UTM tagging works and where it can be set, please refer to our [UTM tagger guide]({% post_url 2017-03-20-utm-tagger %})
 
@@ -141,9 +141,43 @@ You can refine targeting of your BingAds campaigns in three ways:
 
 ### Sklik.cz
 
+#### General settings
+
+First thing to choose is the name of your campaign and the feed that will be used as a data source for campaign ads and keywords.
+
+{% include image_tag.html url="/images/campaigns/SklikGeneralSettings.png" alt="Sklik General Settings" style="" %}
+
+Please pay attention to the label next to the campaign name input. Name you choose for your campaign won't be final as it will be used according to naming conventions set in account settings form.
+
+{% include image_tag.html url="/images/campaigns/NamingConventions.png" alt="Naming Conventions" style="" %}
+
+Other campaign settings include setting of daily budget and default campaign bid. Ticking of "Ignore item bid update" checkbox leaves bid management to you and won't override values provided in Sklik interface with those set in AdBOOST.
+
+{% include image_tag.html url="/images/campaigns/SklikCampaignSettings.png" alt="Sklik Campaign Settings" style="" %}
+
+Advertising policies part of the form is the place where you can set autocorrect rules for punctuation and font case in ads. You can also set the ad selection policy, so they will be rotated the way that suits you best.
+
+{% include image_tag.html url="/images/campaigns/SklikAdvertisingPolicies.png" alt="Sklik Advertising Policies" style="height:100px;" %}
 
 ## Item assignment
 
+Campaign assign items form determines which items from the campaign's source data feed will be used to create ads and keywords. This form consist of following parts.
+
+First of all, you can examine categories of products in source data feed in tree structure placed in "Item categories" container.
+
+{% include image_tag.html url="/images/campaigns/AssignCategoryTree.png" alt="Assign Category Tree" style="" %}
+
+Core part of the form consists of rule container where you can specify your predicates and conditions for item filtering. To find out more about AdBOOST rules, please refer to our [AdBOOST rules guide]({% post_url 2017-01-29-adboost-rules %}). To see how many items from feed you have selected to fit into this campaign, refer to counters on the right side of form.
+
+{% include image_tag.html url="/images/campaigns/AssignFormCore.png" alt="Assign Form Core" style="" %}
+
+Items can be examined deeper in preview container. Use the input at the top of the container to filter items in preview by name, id or category. You will see up to 100 matched items and counter showing overall number of matched items.
+
+{% include image_tag.html url="/images/campaigns/AssignedItemsPreview.png" alt="Assigned Items Preview" style="" %}
+
+If you are also curious which item categories will be covered by this selection, click the <i class="glyphicon glyphicon-search"></i> icon in the "Number of items assigned from feed" container and you will see filterable view of matched categories.
+
+{% include image_tag.html url="/images/campaigns/AssignedCategoriesPreview.png" alt="Assigned Categories Preview" style="" %}
 
 ## Keyword patterns
 
