@@ -181,5 +181,47 @@ If you are also curious which item categories will be covered by this selection,
 
 ## Keyword patterns
 
+Next step in campaign creation process is the specification of keyword patterns. This part of campaign can be managed either after the click to the "Keyword patterns" action in campaigns listing or after the selection of the "Keyword patterns" tab in the campaign setup process.
+
+{% include image_tag.html url="/images/patterns/KpFormLinks.png" alt="Keyword Pattern Form Links" style="" %}
+
+In case of campaign with some existing keyword patterns, the form can be accessed by click to the <span class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-plus-sign"></i> Keyword pattern</span> button in the keyword patterns listing.
+
+{% include image_tag.html url="/images/patterns/AddKeywordPatternButton.png" alt="Add Keyword Pattern Button" style="" %}
+
+If you haven't created any patterns yet, you will be redirected straight to the new Keyword pattern form.
+
+{% include image_tag.html url="/images/patterns/EmptyKpForm.png" alt="Empty Keyword Pattern Form" style="" %}
+
+You only have to provide patterns for your keywords and match typeof resulting keywords in order to save the form. As you can notice, keywords patterns are inserted in one-per-line manner. Keywords name is optional and will only help you to better recognize your pattern in the listings.
+
+Match type option follows the target network rules. You can therefore choose to create keywords as exact, phrase or broad. Enhancement broad to you by AdBOOST is the possibility to create keywords in all matches at one by selecting the "ALL" option.
+
+{% include image_tag.html url="/images/patterns/KpMatchType.png" alt="Keyword Pattern Match Type" style="" %}
+
+As mentioned previously, in case of new form, patterns are provided one-per-line, what is immediately reflected in the preview
+
+{% include image_tag.html url="/images/patterns/OnePerLinePreview.png" alt="One Per Line Preview" style="" %}
+
+Preview can be also inspected in the batch modal where you can define how many products per size you want to see. Batch preview is accessed by click to the <i class="glyphicon glyphicon-tasks"></i> icon and as displayed on the image below, patterns are ordered as they are on the input.
+
+{% include image_tag.html url="/images/patterns/KpBatchPreview.png" alt="Keyword Pattern Batch Preview" style="" %}
+
+Preview can be later refined by specifying the filter value which will consider product's name, id and category.
+
+{% include image_tag.html url="/images/patterns/KpProductPreview.png" alt="Keyword Pattern Product Preview" style="" %}
+
+Keyword modifiers will allow you to perform following actions:
+
+- generate only keywords of certain length (e.g. from 2 to 5 words)
+- generate all keywords but trim result to max X characters
+- exclude phrases from generated keywords (before the length modifiers are applied)
+
+{% include image_tag.html url="/images/patterns/KeywordModifiers.png" alt="Keyword Modifiers" style="" %}
+
+Last part of the pattern form allows you to one last time refine which products will be subject to this keyword pattern. Right side of this element allows you to choose the action for the products that are suitable for current campaign but do not fulfill provided filter rules.
+
+{% include image_tag.html url="/images/patterns/OnFilterAction.png" alt="On Filter Action" style="" %}
+
 
 ## Ad patterns
