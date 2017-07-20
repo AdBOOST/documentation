@@ -209,7 +209,7 @@ Preview can be also inspected in the batch modal where you can define how many p
 
 Preview can be later refined by specifying the filter value which will consider product's name, id and category.
 
-{% include image_tag.html url="/images/patterns/KpProductPreview.png" alt="Keyword Pattern Product Preview" style="" %}
+{% include image_tag.html url="/images/patterns/KpProductPreview.png" alt="Keyword Pattern Product Preview" style="height:350px;" %}
 
 Keyword modifiers will allow you to perform following actions:
 
@@ -219,9 +219,20 @@ Keyword modifiers will allow you to perform following actions:
 
 {% include image_tag.html url="/images/patterns/KeywordModifiers.png" alt="Keyword Modifiers" style="" %}
 
-Last part of the pattern form allows you to one last time refine which products will be subject to this keyword pattern. Right side of this element allows you to choose the action for the products that are suitable for current campaign but do not fulfill provided filter rules.
+Last part of the pattern form allows you to one last time refine which products will use this keyword pattern to create keywords. Right side of this element allows you to choose the action for the products that are suitable for current campaign but do not fulfill provided filter rules.
 
 {% include image_tag.html url="/images/patterns/OnFilterAction.png" alt="On Filter Action" style="" %}
+
+If you submit the form using the <span class="btn btn-sm btn-default">Submit & Show the listing</span> button, you will be redirected to the keyword pattern listing, where you can examine properties of all keyword patterns available in current campaign. This includes all pattern properties, but these are especially useful:
+
+- keyword pattern structure
+- preview of generated keywords
+- filtered/total product count
+- preview of filter rules
+- minimum/maximum keyword length
+- number of products not covered by the pattern (calculated after the synchronisation)
+
+{% include image_tag.html url="/images/patterns/KeywordPatternSmartFeatures.png" alt="Keyword Pattern Smart Features" style="" %}
 
 
 ## Ad patterns
