@@ -271,3 +271,26 @@ While you are creating your ads, you can see the instant preview of random item.
 - **<i class="glyphicon glyphicon-eye-close"></i> Show not covered items** - shows you the modal with products that do not fit the pattern alternative requirements
 - **<i class="glyphicon glyphicon-trash"></i> Clear pattern inputs** - completely wipes the pattern alternative inputs
 - **<i class="glyphicon glyphicon-tasks"></i> Batch preview** - will show you the modal with preview of multiple ads for different products. You can choose the page size and see other pages.
+
+Ad pattern form also contains the UTM tagging setup component. UTM tagger is generic, re-usable component of AdBOOST and you can find it on multiple levels. To find out more about how UTM tagging works and where it can be set, please refer to our [UTM tagger guide]({% post_url 2017-03-20-utm-tagger %})
+
+Last part of the pattern form allows you to one last time refine which products will use this ad pattern to create ads. Right side of this element allows you to choose the action for the products that are suitable for current campaign but do not fulfill provided filter rules.
+
+{% include image_tag.html url="/images/patterns/OnFilterAction.png" alt="On Filter Action" style="" %}
+
+As you might have noticed, there is one more checkbox at the top of the form saying: "Set as fallback ad pattern". If you tick it, you should compose this pattern as generic as possible because it will be used to create ads for the products from current campaign that were not covered by all other ad patterns in it.
+
+**THIS OPTION SHOULD ONLY BE USED AS A LAST RESORT**
+
+{% include image_tag.html url="/images/patterns/FallbackPatterns.png" alt="Fallback Patterns" style="" %}
+
+If you submit the form using the <span class="btn btn-sm btn-default">Submit & Go to Next Step</span> button, you will be redirected to the ad pattern listing, where you can examine properties of all ad patterns available in current campaign. This includes all pattern properties, but these are especially useful:
+
+- ad pattern structure
+- preview of generated ad
+- filtered/total product count
+- preview of filter rules
+- number of products not covered by the pattern (calculated after the synchronisation)
+
+{% include image_tag.html url="/images/patterns/AdPatternSmartFeatures.png" alt="Ad Pattern Smart Features" style="" %}
+
