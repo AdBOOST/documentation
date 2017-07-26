@@ -248,4 +248,16 @@ If you haven't created any patterns yet, you will be redirected straight to the 
 
 {% include image_tag.html url="/images/patterns/EmptyApForm.png" alt="Empty Ad Pattern Form" style="" %}
 
-Quickest way how you can save the ad pattern is to provide headlines and description for the first ad pattern alternative. This is the required minimum. Other settings will be explained in following sections.
+Quickest way how you can save the ad pattern is to provide headlines and description for the first ad pattern alternative. This is the required minimum. Other settings will be explained in following paragraphs.
+
+{% include image_tag.html url="/images/patterns/AdPatternFormFilled.png" alt="Ad Pattern Form Filled" style="" %}
+
+Choose a name for your ad pattern. This will be displayed in all listings and will help you to identify it.
+
+If your web URLs differ for different devices, you have a possibility to provide final ad URL specific for the mobile devices.
+
+To compose an ad pattern, use the "Feed variables" box at the left side of the form and drag&drop the variables you wish ot show in your adverts. You can also insert some static text. Counters above the inputs are re-calculated in the real-time. They will tell you, whether the items that entered this ad pattern alternative, fit the target network's ad text length requirements.
+
+Arrows with counters will tell you how many of your products are used as an input for the alternative, how many of them are eligible to create an ad and how many of them will have to be examined by the next one.
+
+Easiest way how you can create all alternatives and cover as many products as possible, is to create the first one, click the "Copy" arrow and adjust the next alternative, so it will have no products on the output.
