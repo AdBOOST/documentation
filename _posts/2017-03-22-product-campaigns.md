@@ -4,6 +4,7 @@ title:  "Product Campaigns"
 date:   2017-03-22 17:10:41 -0600
 category: "Product Campaigns"
 type: feature
+trending: true
 tags: [google, adwords, network, campaign, product, ppc, bing, bingads, yahoo, sklik, seznam, ad, keyword]
 ---
 
@@ -294,3 +295,23 @@ If you submit the form using the <span class="btn btn-sm btn-default">Submit & G
 
 {% include image_tag.html url="/images/patterns/AdPatternSmartFeatures.png" alt="Ad Pattern Smart Features" style="" %}
 
+## Synchronisation
+
+Now that you have created your campaign, you are ready to synchronise it with your remote advertising network (AdWords, Sklik.cz, BingAds). It is crucial for your ads to be synchronised. Otherwise they would exist only inside of the AdBOOST and wouldn't be shown to your customers.
+
+If you haven't connected your account with the target advertising network yet, please refer to the [External advertiser accounts guide]({% post_url 2017-02-26-external-advertiser-accounts %}).
+
+If you have done so, your campaigns will be automatically synchronised during the next feed update process. (you have set the feed update schedule in the last step of the feed setup - explained in the [Data feeds guide]({% post_url 2017-02-01-data-feeds %})).
+
+But if you wish to synchronise your campaigns immediately, please navigate to the campaigns listing where you have two options:
+
+- **batch synchronisation** - use selectbox at the left side of the listing, choose campaigns you wish to synchronise and click the <span class="btn btn-sm btn-default"><i class="glyphicon glyphicon-refresh"></i> Synchronise</span> button
+- **simple synchronisation** - find the row with the campaign of your interest, click the actions button at the right side of the row and choose the "<i class="glyphicon glyphicon-refresh"></i> Synchronise" option
+
+{% include image_tag.html url="/images/patterns/CampaignsListingSynchro.png" alt="Campaigns Listing Synchro" style="" %}
+
+After you click either one of the buttons, you will notice pulsing blue circle with number in it, located in the "Jobs" part of the header. After the click to this part, you can examine progress of all running tasks (feed updates, synchronisations, ...).
+
+{% include image_tag.html url="/images/patterns/TasksPercentage.png" alt="Tasks Percentage" style="" %}
+
+After the finishing of this process, you can inspect all settings of your campaigns in the AdWords interface, where they will be available to you.
