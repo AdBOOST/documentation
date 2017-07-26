@@ -234,5 +234,18 @@ If you submit the form using the <span class="btn btn-sm btn-default">Submit & S
 
 {% include image_tag.html url="/images/patterns/KeywordPatternSmartFeatures.png" alt="Keyword Pattern Smart Features" style="" %}
 
+If you submit the form using the <span class="btn btn-sm btn-primary">Submit & Go to Next Step</span> button, you will be redirected to the ad pattern form, which is covered in detail in the next section.
 
 ## Ad patterns
+
+Now that your campaign contains the keywords that will trigger the displaying of an ad, let's create some, so there is something to show to your customers.
+
+In case of campaign with some existing ad patterns, the form can be accessed by click to the <span class="btn btn-sm btn-primary"><i class="glyphicon glyphicon-plus-sign"></i> Ad pattern</span> button in the ad patterns listing.
+
+{% include image_tag.html url="/images/patterns/AddAdPatternButton.png" alt="Add Ad Pattern Button" style="" %}
+
+If you haven't created any patterns yet, you will be redirected straight to the new Ad pattern form.
+
+{% include image_tag.html url="/images/patterns/EmptyApForm.png" alt="Empty Ad Pattern Form" style="" %}
+
+Quickest way how you can save the ad pattern is to provide headlines and description for the first ad pattern alternative. This is the required minimum. Other settings will be explained in following sections.
