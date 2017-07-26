@@ -261,3 +261,13 @@ To compose an ad pattern, use the "Feed variables" box at the left side of the f
 **Arrows with counters** will tell you how many of your products are used as an input for the alternative, how many of them are eligible to create an ad and how many of them will have to be examined by the next one.
 
 Easiest way how you can create all alternatives and cover as many products as possible, is to create the first one, click the **"Copy" arrow** and adjust the next alternative, so it will have no products on the output.
+
+{% include image_tag.html url="/images/patterns/AdPatternControlButtons.png" alt="Ad Pattern Control Buttons" style="" %}
+
+While you are creating your ads, you can see the instant preview of random item. Above this preview, there are some buttons with preview related functionality:
+
+- **Click to expand** - will stretch the preview to its full width, which would be otherwise invisible in smaller monitors
+- **<i class="glyphicon glyphicon-refresh"></i> Reload preview** - will show you the preview of an ad using another products as a data source
+- **<i class="glyphicon glyphicon-eye-close"></i> Show not covered items** - shows you the modal with products that do not fit the pattern alternative requirements
+- **<i class="glyphicon glyphicon-trash"></i> Clear pattern inputs** - completely wipes the pattern alternative inputs
+- **<i class="glyphicon glyphicon-tasks"></i> Batch preview** - will show you the modal with preview of multiple ads for different products. You can choose the page size and see other pages.
