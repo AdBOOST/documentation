@@ -14,4 +14,4 @@ tags: [utm, url, append, set, replace, variable, account, product, group, ad, pa
 
 This tutorial is currently under development. Thank you for your patience.
 
-In the meantime, you can ask any questions regarding this topic at support@adboost.sk
+In the meantime, you can ask any questions regarding this topic at <a href="mailo:support@adboost.sk">support@adboost.sk</a>.
