@@ -11,3 +11,7 @@ tags: [utm, url, append, set, replace, variable, account, product, group, ad, pa
 
 * TOC
 {:toc}
+
+This tutorial is currently under development. Thank you for your patience.
+
+In the meantime, you can ask any questions regarding this topic at support@adboost.sk

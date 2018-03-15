@@ -12,4 +12,6 @@ tags: [google, display, network, campaign, product, ppc, banner]
 * TOC
 {:toc}
 
-Coming soon. Thank you for your patience
+This tutorial is currently under development. Thank you for your patience.
+
+In the meantime, you can ask any questions regarding this topic at support@adboost.sk
